@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from "react";
 import {
   View,
   StyleSheet,
@@ -6,79 +6,104 @@ import {
   Modal,
   Text,
   TouchableOpacity,
-} from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import AppBar from '../components/AppBar';
-import CategoryMenuItem from '../components/CategoryMenuItem';
-import PhraseCard from '../components/PhraseCard';
-import SideMenu from '../components/SideMenu';
-import ThemeSettingsScreen from './ThemeSettingsScreen';
-import NotificationSettingsScreen from './NotificationSettingsScreen';
-import AboutScreen from './AboutScreen';
-import { BUNKER } from '../theme/bunker25logic';
+  BackHandler,
+} from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useFavorites } from "../context/FavoritesContext";
+import AppBar from "../components/AppBar";
+import CategoryMenuItem from "../components/CategoryMenuItem";
+import PhraseCard from "../components/PhraseCard";
+import SideMenu from "../components/SideMenu";
+import ThemeSettingsScreen from "./ThemeSettingsScreen";
+import NotificationSettingsScreen from "./NotificationSettingsScreen";
+import AboutScreen from "./AboutScreen";
+import { BUNKER } from "../theme/bunker25logic";
 
-const FAVORITES_KEY = '@frases_favoritos';
+const FAVORITES_KEY = "@frases_favoritos";
 
 function getAllPhrasesWithCategory(categories) {
   const result = [];
   categories.forEach((cat) => {
     cat.phrases.forEach((p) => {
-      result.push({ ...p, categoryId: cat.id, categoryName: cat.name, categoryColor: cat.color });
+      result.push({
+        ...p,
+        categoryId: cat.id,
+        categoryName: cat.name,
+        categoryColor: cat.color,
+      });
     });
   });
   return result;
 }
 
-export default function HomeScreen({ categories }) {
-  const [screen, setScreen] = useState('home');
+export default function HomeScreen({ categories, onRequestExit }) {
+  const [screen, setScreen] = useState("home");
   const [selectedCategoryId, setSelectedCategoryId] = useState(null);
   const [selectedPhrase, setSelectedPhrase] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [favoritesOpen, setFavoritesOpen] = useState(false);
-  const [favoriteIds, setFavoriteIds] = useState([]);
   const [settingsScreen, setSettingsScreen] = useState(null); // 'theme' | 'notifications' | 'about' | null
 
-  const selectedCategory = categories.find((c) => c.id === selectedCategoryId) ?? null;
+  const { favoriteIds, toggleFavorite } = useFavorites();
+
+  const selectedCategory =
+    categories.find((c) => c.id === selectedCategoryId) ?? null;
   const phrases = selectedCategory?.phrases ?? [];
 
-  const loadFavorites = useCallback(async () => {
-    try {
-      const json = await AsyncStorage.getItem(FAVORITES_KEY);
-      if (json) setFavoriteIds(JSON.parse(json));
-    } catch {}
-  }, []);
-
   useEffect(() => {
-    loadFavorites();
-  }, [loadFavorites]);
+    const backAction = () => {
+      // 1. Fechar modals soltos
+      if (settingsScreen !== null) {
+        setSettingsScreen(null);
+        return true;
+      }
+      if (favoritesOpen) {
+        setFavoritesOpen(false);
+        return true;
+      }
+      if (menuOpen) {
+        setMenuOpen(false);
+        return true;
+      }
+      if (selectedPhrase !== null) {
+        setSelectedPhrase(null);
+        return true;
+      }
+      // 2. Fechar categoria e voltar para listar categorias
+      if (screen === "category") {
+        setScreen("home");
+        setSelectedCategoryId(null);
+        return true;
+      }
+      // 3. Se estiver na home base, exibir modal de saída do App.js
+      if (onRequestExit) {
+        onRequestExit();
+      }
+      return true; // prevent exit from react-native automatically
+    };
 
-  const saveFavorites = async (ids) => {
-    try {
-      await AsyncStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
-    } catch {}
-  };
+    const backHandler = BackHandler.addEventListener(
+      "hardwareBackPress",
+      backAction,
+    );
 
-  const toggleFavorite = useCallback(
-    (phrase) => {
-      setFavoriteIds((prev) => {
-        const next = prev.includes(phrase.id)
-          ? prev.filter((id) => id !== phrase.id)
-          : [...prev, phrase.id];
-        saveFavorites(next);
-        return next;
-      });
-    },
-    []
-  );
+    return () => backHandler.remove();
+  }, [
+    settingsScreen,
+    favoritesOpen,
+    menuOpen,
+    selectedPhrase,
+    screen,
+    onRequestExit,
+  ]);
 
   const handleSelectCategory = (categoryId) => {
     setSelectedCategoryId(categoryId);
-    setScreen('category');
+    setScreen("category");
   };
 
   const handleBack = () => {
-    setScreen('home');
+    setScreen("home");
     setSelectedCategoryId(null);
   };
 
@@ -91,48 +116,46 @@ export default function HomeScreen({ categories }) {
   };
 
   const handleSettingPress = (id) => {
-    if (id === 'theme') {
-      setSettingsScreen('theme');
-    } else if (id === 'notifications') {
-      setSettingsScreen('notifications');
-    } else if (id === 'about') {
-      setSettingsScreen('about');
+    if (id === "theme") {
+      setSettingsScreen("theme");
+    } else if (id === "notifications") {
+      setSettingsScreen("notifications");
+    } else if (id === "about") {
+      setSettingsScreen("about");
     }
   };
 
   const allPhrasesWithCategory = getAllPhrasesWithCategory(categories);
-  const favoritePhrases = allPhrasesWithCategory.filter((p) => favoriteIds.includes(p.id));
+  const favoritePhrases = allPhrasesWithCategory.filter((p) =>
+    favoriteIds.includes(p.id),
+  );
 
-  if (settingsScreen === 'theme') {
-    return (
-      <ThemeSettingsScreen onClose={() => setSettingsScreen(null)} />
-    );
+  if (settingsScreen === "theme") {
+    return <ThemeSettingsScreen onClose={() => setSettingsScreen(null)} />;
   }
 
-  if (settingsScreen === 'notifications') {
+  if (settingsScreen === "notifications") {
     return (
       <NotificationSettingsScreen onClose={() => setSettingsScreen(null)} />
     );
   }
 
-  if (settingsScreen === 'about') {
-    return (
-      <AboutScreen onClose={() => setSettingsScreen(null)} />
-    );
+  if (settingsScreen === "about") {
+    return <AboutScreen onClose={() => setSettingsScreen(null)} />;
   }
 
   return (
     <View style={styles.container}>
       <AppBar
-        title={screen === 'home' ? 'Home' : selectedCategory?.name ?? ''}
+        title={screen === "home" ? "Home" : (selectedCategory?.name ?? "")}
         onMenuPress={() => setMenuOpen(true)}
         onHeartPress={() => setFavoritesOpen(true)}
         onBackPress={handleBack}
-        showBack={screen === 'category'}
+        showBack={screen === "category"}
         favoritesCount={favoriteIds.length}
       />
 
-      {screen === 'home' ? (
+      {screen === "home" ? (
         <FlatList
           data={categories}
           keyExtractor={(item) => item.id}
@@ -185,9 +208,17 @@ export default function HomeScreen({ categories }) {
                 }}
               >
                 <MaterialCommunityIcons
-                  name={favoriteIds.includes(selectedPhrase?.id) ? 'heart' : 'heart-outline'}
+                  name={
+                    favoriteIds.includes(selectedPhrase?.id)
+                      ? "heart"
+                      : "heart-outline"
+                  }
                   size={24}
-                  color={favoriteIds.includes(selectedPhrase?.id) ? '#EC4899' : BUNKER.colors.muted}
+                  color={
+                    favoriteIds.includes(selectedPhrase?.id)
+                      ? "#EC4899"
+                      : BUNKER.colors.muted
+                  }
                 />
               </TouchableOpacity>
               <TouchableOpacity
@@ -224,8 +255,12 @@ export default function HomeScreen({ categories }) {
             </View>
             {favoritePhrases.length === 0 ? (
               <View style={styles.favEmpty}>
-                <Text style={styles.favEmptyText}>Nenhuma frase favoritada ainda.</Text>
-                <Text style={styles.favEmptyHint}>Toque no coração para adicionar.</Text>
+                <Text style={styles.favEmptyText}>
+                  Nenhuma frase favoritada ainda.
+                </Text>
+                <Text style={styles.favEmptyHint}>
+                  Toque no coração para adicionar.
+                </Text>
               </View>
             ) : (
               <FlatList
@@ -239,7 +274,7 @@ export default function HomeScreen({ categories }) {
                       onPress={() => {
                         setFavoritesOpen(false);
                         setSelectedCategoryId(item.categoryId);
-                        setScreen('category');
+                        setScreen("category");
                         setTimeout(() => handleOpenPhrase(item), 300);
                       }}
                     >
@@ -281,15 +316,15 @@ const styles = StyleSheet.create({
   modalOverlay: {
     flex: 1,
     backgroundColor: BUNKER.colors.overlay,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 24,
   },
   modalContent: {
     backgroundColor: BUNKER.colors.surface,
     borderRadius: 20,
     padding: 20,
-    width: '100%',
+    width: "100%",
     borderWidth: 1,
     borderColor: BUNKER.colors.borderStrong,
     shadowColor: BUNKER.colors.accent,
@@ -315,14 +350,14 @@ const styles = StyleSheet.create({
   modalAuthor: {
     color: BUNKER.colors.muted,
     fontSize: 14,
-    textAlign: 'right',
+    textAlign: "right",
     marginBottom: 16,
     fontFamily: BUNKER.fonts.body,
   },
   modalActions: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-end",
   },
   modalFavoriteBtn: {
     padding: 8,
@@ -347,19 +382,19 @@ const styles = StyleSheet.create({
   favOverlay: {
     flex: 1,
     backgroundColor: BUNKER.colors.overlay,
-    justifyContent: 'flex-end',
+    justifyContent: "flex-end",
   },
   favContent: {
     backgroundColor: BUNKER.colors.surface,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
-    maxHeight: '70%',
+    maxHeight: "70%",
     paddingBottom: 24,
   },
   favHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
     padding: 20,
     borderBottomWidth: 1,
     borderBottomColor: BUNKER.colors.border,
@@ -376,7 +411,7 @@ const styles = StyleSheet.create({
   },
   favEmpty: {
     padding: 40,
-    alignItems: 'center',
+    alignItems: "center",
   },
   favEmptyText: {
     color: BUNKER.colors.muted,
@@ -393,8 +428,8 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   favItem: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
+    flexDirection: "row",
+    alignItems: "flex-start",
     backgroundColor: BUNKER.colors.surface2,
     padding: 16,
     borderRadius: BUNKER.radius.md,

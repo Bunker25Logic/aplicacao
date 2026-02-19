@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo } from "react";
 import {
   View,
   StyleSheet,
@@ -6,11 +6,12 @@ import {
   Text,
   TouchableOpacity,
   Modal,
-} from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import AppBar from '../components/AppBar';
-import { useFavorites } from '../context/FavoritesContext';
-import { BUNKER } from '../theme/bunker25logic';
+  BackHandler,
+} from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import AppBar from "../components/AppBar";
+import { useFavorites } from "../context/FavoritesContext";
+import { BUNKER } from "../theme/bunker25logic";
 
 function getAllPhrasesWithCategory(categories) {
   const result = [];
@@ -31,6 +32,23 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
   const { favoriteIds, toggleFavorite, isFavorite } = useFavorites();
   const [selectedPhrase, setSelectedPhrase] = React.useState(null);
 
+  React.useEffect(() => {
+    const backAction = () => {
+      if (selectedPhrase !== null) {
+        setSelectedPhrase(null);
+        return true;
+      }
+      return false; // laisse o App.js lidar e voltar para a Home
+    };
+
+    const backHandler = BackHandler.addEventListener(
+      "hardwareBackPress",
+      backAction,
+    );
+
+    return () => backHandler.remove();
+  }, [selectedPhrase]);
+
   const sections = useMemo(() => {
     const allPhrases = getAllPhrasesWithCategory(categories);
     const favorites = allPhrases.filter((p) => favoriteIds.includes(p.id));
@@ -48,7 +66,7 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
     });
 
     return Object.values(byCategory).sort((a, b) =>
-      a.title.localeCompare(b.title)
+      a.title.localeCompare(b.title),
     );
   }, [categories, favoriteIds]);
 
@@ -93,9 +111,16 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
         contentContainerStyle={styles.listContent}
         stickySectionHeadersEnabled={false}
         renderSectionHeader={({ section }) => (
-          <View style={[styles.sectionHeader, { borderLeftColor: section.color || BUNKER.colors.accent }]}>
+          <View
+            style={[
+              styles.sectionHeader,
+              { borderLeftColor: section.color || BUNKER.colors.accent },
+            ]}
+          >
             <Text style={styles.sectionTitle}>{section.title}</Text>
-            <Text style={styles.sectionCount}>{section.data.length} frase(s)</Text>
+            <Text style={styles.sectionCount}>
+              {section.data.length} frase(s)
+            </Text>
           </View>
         )}
         renderItem={({ item }) => (
@@ -112,11 +137,7 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
               onPress={() => toggleFavorite(item)}
               hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
             >
-              <MaterialCommunityIcons
-                name="heart"
-                size={20}
-                color="#EC4899"
-              />
+              <MaterialCommunityIcons name="heart" size={20} color="#EC4899" />
             </TouchableOpacity>
           </TouchableOpacity>
         )}
@@ -132,10 +153,14 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
           <View style={styles.modalContent}>
             {selectedPhrase && (
               <>
-                <Text style={styles.modalCategory}>{selectedPhrase.categoryName}</Text>
+                <Text style={styles.modalCategory}>
+                  {selectedPhrase.categoryName}
+                </Text>
                 <Text style={styles.modalText}>{selectedPhrase.text}</Text>
                 {selectedPhrase.author ? (
-                  <Text style={styles.modalAuthor}>— {selectedPhrase.author}</Text>
+                  <Text style={styles.modalAuthor}>
+                    — {selectedPhrase.author}
+                  </Text>
                 ) : null}
                 <View style={styles.modalActions}>
                   <TouchableOpacity
@@ -174,9 +199,9 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
   },
   sectionHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     paddingHorizontal: 20,
     paddingVertical: 12,
     marginTop: 16,
@@ -194,8 +219,8 @@ const styles = StyleSheet.create({
     color: BUNKER.colors.muted,
   },
   item: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
+    flexDirection: "row",
+    alignItems: "flex-start",
     backgroundColor: BUNKER.colors.surface2,
     padding: 16,
     marginHorizontal: 20,
@@ -216,8 +241,8 @@ const styles = StyleSheet.create({
   },
   empty: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     padding: 40,
   },
   emptyIcon: {
@@ -229,27 +254,27 @@ const styles = StyleSheet.create({
     fontFamily: BUNKER.fonts.bodyStrong,
     color: BUNKER.colors.text,
     marginBottom: 12,
-    textAlign: 'center',
+    textAlign: "center",
   },
   emptyText: {
     fontSize: 14,
     fontFamily: BUNKER.fonts.body,
     color: BUNKER.colors.muted,
-    textAlign: 'center',
+    textAlign: "center",
     lineHeight: 22,
   },
   modalOverlay: {
     flex: 1,
     backgroundColor: BUNKER.colors.overlay,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     paddingHorizontal: 24,
   },
   modalContent: {
     backgroundColor: BUNKER.colors.surface,
     borderRadius: 20,
     padding: 20,
-    width: '100%',
+    width: "100%",
     borderWidth: 1,
     borderColor: BUNKER.colors.borderStrong,
   },
@@ -269,14 +294,14 @@ const styles = StyleSheet.create({
   modalAuthor: {
     color: BUNKER.colors.muted,
     fontSize: 14,
-    textAlign: 'right',
+    textAlign: "right",
     marginBottom: 16,
     fontFamily: BUNKER.fonts.body,
   },
   modalActions: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-end",
   },
   modalFavoriteBtn: {
     padding: 8,

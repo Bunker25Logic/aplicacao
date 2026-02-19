@@ -1,30 +1,153 @@
-import React from 'react';
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import React, { useEffect, useRef } from "react";
+import {
+  Animated,
+  TouchableWithoutFeedback,
+  Text,
+  StyleSheet,
+  Easing,
+} from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { BUNKER } from "../theme/bunker25logic";
 
 export default function CategoryMenuItem({ category, onPress }) {
+  const scaleValue = useRef(new Animated.Value(1)).current;
+  const glowValue = useRef(new Animated.Value(0)).current;
+  const shakeValueX = useRef(new Animated.Value(0)).current;
+  const shakeValueY = useRef(new Animated.Value(0)).current;
+
+  // Infinite Glitch Animation
+  useEffect(() => {
+    const glitchAnimX = Animated.sequence([
+      Animated.timing(shakeValueX, {
+        toValue: 1,
+        duration: 50,
+        useNativeDriver: true,
+      }),
+      Animated.timing(shakeValueX, {
+        toValue: -1,
+        duration: 50,
+        useNativeDriver: true,
+      }),
+      Animated.timing(shakeValueX, {
+        toValue: 2,
+        duration: 50,
+        useNativeDriver: true,
+      }),
+      Animated.timing(shakeValueX, {
+        toValue: 0,
+        duration: 50,
+        useNativeDriver: true,
+      }),
+      Animated.delay(Math.random() * 2000 + 1000), // Random pause between glitches
+    ]);
+
+    const glitchAnimY = Animated.sequence([
+      Animated.timing(shakeValueY, {
+        toValue: 1,
+        duration: 40,
+        useNativeDriver: true,
+      }),
+      Animated.timing(shakeValueY, {
+        toValue: -1,
+        duration: 40,
+        useNativeDriver: true,
+      }),
+      Animated.timing(shakeValueY, {
+        toValue: 0,
+        duration: 40,
+        useNativeDriver: true,
+      }),
+      Animated.delay(Math.random() * 2000 + 1000),
+    ]);
+
+    Animated.loop(glitchAnimX).start();
+    Animated.loop(glitchAnimY).start();
+  }, [shakeValueX, shakeValueY]);
+
+  const handlePressIn = () => {
+    Animated.parallel([
+      Animated.spring(scaleValue, {
+        toValue: 0.95,
+        useNativeDriver: true,
+      }),
+      Animated.timing(glowValue, {
+        toValue: 1,
+        duration: 150,
+        easing: Easing.out(Easing.ease),
+        useNativeDriver: false, // Color interpolation doesn't support native driver well on all setups
+      }),
+    ]).start();
+  };
+
+  const handlePressOut = () => {
+    Animated.parallel([
+      Animated.spring(scaleValue, {
+        toValue: 1,
+        friction: 3,
+        tension: 40,
+        useNativeDriver: true,
+      }),
+      Animated.timing(glowValue, {
+        toValue: 0,
+        duration: 300,
+        useNativeDriver: false,
+      }),
+    ]).start();
+  };
+
+  const animatedStyle = {
+    transform: [
+      { scale: scaleValue },
+      { translateX: shakeValueX },
+      { translateY: shakeValueY },
+    ],
+    borderColor: glowValue.interpolate({
+      inputRange: [0, 1],
+      outputRange: [
+        BUNKER.colors.border,
+        category.color || BUNKER.colors.accent,
+      ],
+    }),
+    shadowColor: category.color || BUNKER.colors.accent,
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: glowValue.interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, 0.8],
+    }),
+    shadowRadius: glowValue.interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, 15],
+    }),
+    elevation: 3, // Fixed elevation instead of animated to prevent Android crash
+  };
+
   return (
-    <TouchableOpacity
-      style={styles.card}
+    <TouchableWithoutFeedback
+      onPressIn={handlePressIn}
+      onPressOut={handlePressOut}
       onPress={onPress}
-      activeOpacity={0.85}
     >
-      <Text style={styles.name}>{category.name}</Text>
-      <MaterialCommunityIcons
-        name="chevron-right"
-        size={22}
-        color={BUNKER.colors.muted}
-      />
-    </TouchableOpacity>
+      <Animated.View style={[styles.card, animatedStyle]}>
+        <Text
+          style={[styles.name, { color: category.color || BUNKER.colors.text }]}
+        >
+          {category.name}
+        </Text>
+        <MaterialCommunityIcons
+          name="chevron-right"
+          size={22}
+          color={BUNKER.colors.muted}
+        />
+      </Animated.View>
+    </TouchableWithoutFeedback>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     backgroundColor: BUNKER.colors.surface2,
     paddingVertical: 16,
     paddingHorizontal: 20,
@@ -32,12 +155,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     borderRadius: BUNKER.radius.md,
     borderWidth: 1,
-    borderColor: BUNKER.colors.border,
   },
   name: {
-    color: BUNKER.colors.text,
     fontSize: 16,
-    fontFamily: BUNKER.fonts.body,
+    fontFamily: BUNKER.fonts.bodyStrong,
     flex: 1,
+    letterSpacing: 0.5,
   },
 });

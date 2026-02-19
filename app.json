@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "aplicacao",
+    "name": "Frases da Vida",
     "slug": "aplicacao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,14 +16,21 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "minSdkVersion": 21,
+      "targetSdkVersion": 34,
+      "permissions": ["INTERNET"],
+      "usesCleartextTraffic": false,
+      "supportsRtl": true,
+      "buildNumber": 1,
+      "package": "com.wellintonn.aplicacao"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9ca5f8c-6452-4303-887f-85b9d652a264"
+      }
     }
   }
 }

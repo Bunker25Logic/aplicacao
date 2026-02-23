@@ -16,12 +16,10 @@
       "supportsTablet": true
     },
     "android": {
-      "minSdkVersion": 21,
-      "targetSdkVersion": 34,
-      "permissions": ["INTERNET"],
-      "usesCleartextTraffic": false,
-      "supportsRtl": true,
-      "buildNumber": 1,
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET"
+      ],
       "package": "com.wellintonn.aplicacao"
     },
     "web": {

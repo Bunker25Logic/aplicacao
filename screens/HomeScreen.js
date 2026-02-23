@@ -7,6 +7,7 @@ import {
   Text,
   TouchableOpacity,
   BackHandler,
+  Share,
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useFavorites } from "../context/FavoritesContext";
@@ -24,14 +25,29 @@ const FAVORITES_KEY = "@frases_favoritos";
 function getAllPhrasesWithCategory(categories) {
   const result = [];
   categories.forEach((cat) => {
-    cat.phrases.forEach((p) => {
-      result.push({
-        ...p,
-        categoryId: cat.id,
-        categoryName: cat.name,
-        categoryColor: cat.color,
+    if (cat.subcategories) {
+      cat.subcategories.forEach((sub) => {
+        sub.phrases.forEach((p) => {
+          result.push({
+            ...p,
+            categoryId: sub.id,
+            categoryName: `${cat.name} - ${sub.name}`,
+            categoryColor: sub.color || cat.color,
+            parentCategoryId: cat.id,
+          });
+        });
       });
-    });
+    }
+    if (cat.phrases) {
+      cat.phrases.forEach((p) => {
+        result.push({
+          ...p,
+          categoryId: cat.id,
+          categoryName: cat.name,
+          categoryColor: cat.color,
+        });
+      });
+    }
   });
   return result;
 }
@@ -39,6 +55,7 @@ function getAllPhrasesWithCategory(categories) {
 export default function HomeScreen({ categories, onRequestExit }) {
   const [screen, setScreen] = useState("home");
   const [selectedCategoryId, setSelectedCategoryId] = useState(null);
+  const [selectedSubcategoryId, setSelectedSubcategoryId] = useState(null);
   const [selectedPhrase, setSelectedPhrase] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [favoritesOpen, setFavoritesOpen] = useState(false);
@@ -48,7 +65,14 @@ export default function HomeScreen({ categories, onRequestExit }) {
 
   const selectedCategory =
     categories.find((c) => c.id === selectedCategoryId) ?? null;
-  const phrases = selectedCategory?.phrases ?? [];
+  const selectedSubcategory =
+    selectedCategory?.subcategories?.find(
+      (s) => s.id === selectedSubcategoryId,
+    ) ?? null;
+  const phrases =
+    screen === "subcategory"
+      ? (selectedSubcategory?.phrases ?? [])
+      : (selectedCategory?.phrases ?? []);
 
   useEffect(() => {
     const backAction = () => {
@@ -69,7 +93,12 @@ export default function HomeScreen({ categories, onRequestExit }) {
         setSelectedPhrase(null);
         return true;
       }
-      // 2. Fechar categoria e voltar para listar categorias
+      // 2. Fechar categoria/subcategoria
+      if (screen === "subcategory") {
+        setScreen("category");
+        setSelectedSubcategoryId(null);
+        return true;
+      }
       if (screen === "category") {
         setScreen("home");
         setSelectedCategoryId(null);
@@ -105,9 +134,21 @@ export default function HomeScreen({ categories, onRequestExit }) {
     }, 150);
   };
 
+  const handleSelectSubcategory = (subId) => {
+    setTimeout(() => {
+      setSelectedSubcategoryId(subId);
+      setScreen("subcategory");
+    }, 150);
+  };
+
   const handleBack = () => {
-    setScreen("home");
-    setSelectedCategoryId(null);
+    if (screen === "subcategory") {
+      setScreen("category");
+      setSelectedSubcategoryId(null);
+    } else {
+      setScreen("home");
+      setSelectedCategoryId(null);
+    }
   };
 
   const handleOpenPhrase = (phrase) => {
@@ -116,6 +157,17 @@ export default function HomeScreen({ categories, onRequestExit }) {
 
   const handleCloseModal = () => {
     setSelectedPhrase(null);
+  };
+
+  const handleSharePhrase = async () => {
+    if (!selectedPhrase) return;
+    try {
+      await Share.share({
+        message: `"${selectedPhrase.text}"\n— ${selectedPhrase.author || "Autor Desconhecido"}`,
+      });
+    } catch (error) {
+      console.error(error.message);
+    }
   };
 
   const handleSettingPress = (id) => {
@@ -150,11 +202,17 @@ export default function HomeScreen({ categories, onRequestExit }) {
   return (
     <View style={styles.container}>
       <AppBar
-        title={screen === "home" ? "Home" : (selectedCategory?.name ?? "")}
+        title={
+          screen === "home"
+            ? "Home"
+            : screen === "subcategory"
+              ? (selectedSubcategory?.name ?? "")
+              : (selectedCategory?.name ?? "")
+        }
         onMenuPress={() => setMenuOpen(true)}
         onHeartPress={() => setFavoritesOpen(true)}
         onBackPress={handleBack}
-        showBack={screen === "category"}
+        showBack={screen === "category" || screen === "subcategory"}
         favoritesCount={favoriteIds.length}
       />
 
@@ -170,16 +228,29 @@ export default function HomeScreen({ categories, onRequestExit }) {
             />
           )}
         />
+      ) : screen === "category" && selectedCategory?.subcategories ? (
+        <FlatList
+          key={selectedCategory?.id + "-subs"}
+          data={selectedCategory.subcategories}
+          keyExtractor={(item) => item.id}
+          contentContainerStyle={styles.listContent}
+          renderItem={({ item }) => (
+            <CategoryMenuItem
+              category={item}
+              onPress={() => handleSelectSubcategory(item.id)}
+            />
+          )}
+        />
       ) : (
         <FlatList
-          key={selectedCategory?.id}
+          key={selectedSubcategoryId || selectedCategory?.id}
           data={phrases}
           keyExtractor={(item) => item.id}
           contentContainerStyle={styles.listContent}
           renderItem={({ item }) => (
             <PhraseCard
               phrase={item}
-              color={selectedCategory?.color}
+              color={selectedSubcategory?.color || selectedCategory?.color}
               isFavorite={favoriteIds.includes(item.id)}
               onPress={() => handleOpenPhrase(item)}
               onFavoritePress={toggleFavorite}
@@ -204,6 +275,16 @@ export default function HomeScreen({ categories, onRequestExit }) {
               <Text style={styles.modalAuthor}>— {selectedPhrase.author}</Text>
             ) : null}
             <View style={styles.modalActions}>
+              <TouchableOpacity
+                style={styles.modalFavoriteBtn}
+                onPress={handleSharePhrase}
+              >
+                <MaterialCommunityIcons
+                  name="share-variant"
+                  size={24}
+                  color={BUNKER.colors.muted}
+                />
+              </TouchableOpacity>
               <TouchableOpacity
                 style={styles.modalFavoriteBtn}
                 onPress={() => {
@@ -276,8 +357,14 @@ export default function HomeScreen({ categories, onRequestExit }) {
                       style={styles.favItemTouch}
                       onPress={() => {
                         setFavoritesOpen(false);
-                        setSelectedCategoryId(item.categoryId);
-                        setScreen("category");
+                        if (item.parentCategoryId) {
+                          setSelectedCategoryId(item.parentCategoryId);
+                          setSelectedSubcategoryId(item.categoryId);
+                          setScreen("subcategory");
+                        } else {
+                          setSelectedCategoryId(item.categoryId);
+                          setScreen("category");
+                        }
                         setTimeout(() => handleOpenPhrase(item), 300);
                       }}
                     >

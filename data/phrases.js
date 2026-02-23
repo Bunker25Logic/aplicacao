@@ -2439,4 +2439,4877 @@ export const CATEGORIES = [
       },
     ],
   },
+  {
+    id: "aniversario",
+    name: "Aniversário",
+    color: "#FF9800",
+    description: "Mensagens de aniversário para a família.",
+    subcategories: [
+      {
+        id: "aniversario-pai",
+        name: "Para Pai",
+        color: "#FF9800",
+        phrases: [
+          {
+            id: "aniversario-pai-1",
+            text: "Vida longa ao meu querido pai! Você é meu maior exemplo e inspiração. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-2",
+            text: "Ao melhor pai do mundo, feliz aniversário! Estar ao seu lado é um privilégio enorme. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-3",
+            text: "Parabéns, pai querido! Obrigado por tudo que fez e faz por mim. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-4",
+            text: "Hoje é o dia do meu eterno herói. Admiro muito a sua força e caráter. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-5",
+            text: "Feliz aniversário, meu pai! Você é meu maior exemplo e inspiração. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-6",
+            text: "Feliz aniversário ao meu grande amigo e pai. Obrigado por tudo que fez e faz por mim. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-7",
+            text: "Feliz aniversário, meu pai! Você me ensinou o real significado da vida. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-8",
+            text: "Parabéns, pai querido! Sua presença é o meu maior porto seguro. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-9",
+            text: "Parabéns, pai querido! Admiro muito a sua força e caráter. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-10",
+            text: "Feliz aniversário, meu pai! Admiro muito a sua força e caráter. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-11",
+            text: "Hoje é o dia do meu eterno herói. Cada ensinamento seu é um tesouro. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-12",
+            text: "Parabéns, pai querido! Você me ensinou o real significado da vida. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-13",
+            text: "Feliz aniversário ao meu grande amigo e pai. Você me ensinou o real significado da vida. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-14",
+            text: "Feliz aniversário, meu pai! Sua sabedoria e amor me tornam melhor. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-15",
+            text: "Feliz aniversário, meu pai! Tenho muito orgulho de ser o seu filho. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-16",
+            text: "Ao melhor pai do mundo, feliz aniversário! Sua presença é o meu maior porto seguro. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-17",
+            text: "Feliz aniversário, meu pai! Você me ensinou o real significado da vida. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-18",
+            text: "Hoje celebramos o seu dia, pai. Tenho muito orgulho de ser o seu filho. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-19",
+            text: "Hoje é o dia do meu eterno herói. Tenho muito orgulho de ser o seu filho. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-20",
+            text: "Ao melhor pai do mundo, feliz aniversário! Você é meu maior exemplo e inspiração. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-21",
+            text: "Ao melhor pai do mundo, feliz aniversário! Admiro muito a sua força e caráter. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-22",
+            text: "Hoje celebramos o seu dia, pai. Tenho muito orgulho de ser o seu filho. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-23",
+            text: "Hoje é o dia do meu eterno herói. Tenho muito orgulho de ser o seu filho. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-24",
+            text: "Feliz aniversário, meu pai! Obrigado por tudo que fez e faz por mim. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-25",
+            text: "Parabéns, paizão! Cada ensinamento seu é um tesouro. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-26",
+            text: "Feliz aniversário, meu pai! Admiro muito a sua força e caráter. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-27",
+            text: "Hoje celebramos o seu dia, pai. Obrigado por tudo que fez e faz por mim. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-28",
+            text: "Feliz aniversário ao meu grande amigo e pai. Estar ao seu lado é um privilégio enorme. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-29",
+            text: "Parabéns, pai querido! Sem você eu nada seria, obrigado. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-30",
+            text: "Feliz aniversário, meu pai! Você é meu maior exemplo e inspiração. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-31",
+            text: "Parabéns, paizão! Sem você eu nada seria, obrigado. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-32",
+            text: "Ao melhor pai do mundo, feliz aniversário! Sua presença é o meu maior porto seguro. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-33",
+            text: "Feliz aniversário ao meu grande amigo e pai. Estar ao seu lado é um privilégio enorme. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-34",
+            text: "Feliz aniversário, meu pai! Sem você eu nada seria, obrigado. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-35",
+            text: "Feliz aniversário ao meu grande amigo e pai. Cada ensinamento seu é um tesouro. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-36",
+            text: "Ao melhor pai do mundo, feliz aniversário! Sem você eu nada seria, obrigado. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-37",
+            text: "Parabéns, pai querido! Admiro muito a sua força e caráter. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-38",
+            text: "Hoje é o dia do meu eterno herói. Cada ensinamento seu é um tesouro. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-39",
+            text: "Parabéns, paizão! Sem você eu nada seria, obrigado. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-40",
+            text: "Parabéns, paizão! Sua sabedoria e amor me tornam melhor. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-41",
+            text: "Hoje é o dia do meu eterno herói. Admiro muito a sua força e caráter. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-42",
+            text: "Feliz aniversário, meu pai! Sua sabedoria e amor me tornam melhor. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-43",
+            text: "Feliz aniversário, meu pai! Estar ao seu lado é um privilégio enorme. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-44",
+            text: "Feliz aniversário, meu pai! Admiro muito a sua força e caráter. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-45",
+            text: "Parabéns, pai querido! Cada ensinamento seu é um tesouro. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-46",
+            text: "Ao melhor pai do mundo, feliz aniversário! Sua presença é o meu maior porto seguro. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-47",
+            text: "Feliz aniversário, meu pai! Sem você eu nada seria, obrigado. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-48",
+            text: "Feliz aniversário ao meu grande amigo e pai. Sua presença é o meu maior porto seguro. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-49",
+            text: "Vida longa ao meu querido pai! Você é meu maior exemplo e inspiração. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-50",
+            text: "Feliz aniversário, meu pai! Sua sabedoria e amor me tornam melhor. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-51",
+            text: "Feliz aniversário, meu pai! Cada ensinamento seu é um tesouro. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-52",
+            text: "Feliz aniversário ao meu grande amigo e pai. Sua presença é o meu maior porto seguro. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-53",
+            text: "Hoje celebramos o seu dia, pai. Você me ensinou o real significado da vida. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-54",
+            text: "Parabéns, pai querido! Obrigado por tudo que fez e faz por mim. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-55",
+            text: "Parabéns, pai querido! Sem você eu nada seria, obrigado. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-56",
+            text: "Parabéns, paizão! Tenho muito orgulho de ser o seu filho. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-57",
+            text: "Parabéns, paizão! Sua presença é o meu maior porto seguro. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-58",
+            text: "Parabéns, pai querido! Estar ao seu lado é um privilégio enorme. Que o dia seja mágico e especial.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-59",
+            text: "Vida longa ao meu querido pai! Admiro muito a sua força e caráter. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-60",
+            text: "Vida longa ao meu querido pai! Tenho muito orgulho de ser o seu filho. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-61",
+            text: "Feliz aniversário, meu pai! Você é meu maior exemplo e inspiração. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-62",
+            text: "Vida longa ao meu querido pai! Obrigado por tudo que fez e faz por mim. Desejo muitos anos de vida com saúde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-63",
+            text: "Hoje é o dia do meu eterno herói. Tenho muito orgulho de ser o seu filho. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-64",
+            text: "Feliz aniversário, meu pai! Cada ensinamento seu é um tesouro. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-65",
+            text: "Hoje é o dia do meu eterno herói. Admiro muito a sua força e caráter. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-66",
+            text: "Parabéns, pai querido! Você é meu maior exemplo e inspiração. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-67",
+            text: "Parabéns, paizão! Sua presença é o meu maior porto seguro. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-68",
+            text: "Feliz aniversário, meu pai! Sua presença é o meu maior porto seguro. Aproveite bastante o seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-69",
+            text: "Vida longa ao meu querido pai! Você me ensinou o real significado da vida. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-70",
+            text: "Hoje é o dia do meu eterno herói. Você é meu maior exemplo e inspiração. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-71",
+            text: "Hoje é o dia do meu eterno herói. Tenho muito orgulho de ser o seu filho. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-72",
+            text: "Parabéns, pai querido! Admiro muito a sua força e caráter. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-73",
+            text: "Parabéns, paizão! Cada ensinamento seu é um tesouro. Que esse novo ciclo traga paz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-74",
+            text: "Parabéns, pai querido! Sua sabedoria e amor me tornam melhor. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-75",
+            text: "Hoje é o dia do meu eterno herói. Você me ensinou o real significado da vida. Que a alegria faça morada no seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-76",
+            text: "Feliz aniversário ao meu grande amigo e pai. Estar ao seu lado é um privilégio enorme. Que Deus te encha de bênçãos incontáveis.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-77",
+            text: "Hoje celebramos o seu dia, pai. Admiro muito a sua força e caráter. Muita paz, saúde e sucesso sempre!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-78",
+            text: "Hoje celebramos o seu dia, pai. Cada ensinamento seu é um tesouro. Desejo que nunca lhe falte amor nem esperança.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-79",
+            text: "Hoje celebramos o seu dia, pai. Admiro muito a sua força e caráter. Espero que seu dia seja maravilhoso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-pai-80",
+            text: "Ao melhor pai do mundo, feliz aniversário! Sem você eu nada seria, obrigado. Muitas felicidades hoje e para todo o sempre.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      },
+      {
+        id: "aniversario-mae",
+        name: "Para Mãe",
+        color: "#E91E63",
+        phrases: [
+          {
+            id: "aniversario-mae-1",
+            text: "Parabéns, dona do abraço mais quentinho! Nunca vi mulher tão forte e dedicada quanto você. Receba meus melhores votos de paz!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-2",
+            text: "À rainha da casa, um feliz aniversário! Seu exemplo de mulher guerreira é o meu guia. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-3",
+            text: "À rainha da casa, um feliz aniversário! Não há ninguém no mundo que tenha o seu coração. Tenha o aniversário dos sonhos!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-4",
+            text: "À rainha da casa, um feliz aniversário! Seu exemplo de mulher guerreira é o meu guia. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-5",
+            text: "Mãe amada, hoje o dia é todo seu. Sou grato todos os dias por ser o seu filho. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-6",
+            text: "Feliz aniversário, minha mãe! Seu exemplo de mulher guerreira é o meu guia. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-7",
+            text: "Celebro hoje a vida da melhor mãe. Você é a luz que ilumina o meu caminhar. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-8",
+            text: "Parabéns para a mulher da minha vida. Sou grato todos os dias por ser o seu filho. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-9",
+            text: "Parabéns, mamãe querida! Você é a luz que ilumina o meu caminhar. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-10",
+            text: "Celebro hoje a vida da melhor mãe. Sou grato todos os dias por ser o seu filho. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-11",
+            text: "Celebro hoje a vida da melhor mãe. Você é meu refúgio e minha inspiração plena. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-12",
+            text: "Parabéns, mamãe querida! A sua sabedoria transborda e me conforta. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-13",
+            text: "Feliz aniversário, minha mãe! Não há ninguém no mundo que tenha o seu coração. Que seu coração se encha de alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-14",
+            text: "Feliz aniversário, minha mãe! Seu exemplo de mulher guerreira é o meu guia. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-15",
+            text: "Parabéns, mamãe querida! Sou grato todos os dias por ser o seu filho. Tenha o aniversário dos sonhos!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-16",
+            text: "Feliz aniversário, minha mãe! A sua sabedoria transborda e me conforta. Tenha o aniversário dos sonhos!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-17",
+            text: "Mãe amada, hoje o dia é todo seu. Seu exemplo de mulher guerreira é o meu guia. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-18",
+            text: "Celebro hoje a vida da melhor mãe. Sou grato todos os dias por ser o seu filho. Que seu coração se encha de alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-19",
+            text: "Hoje é o dia da mulher que eu mais amo. Seu abraço cura qualquer ferida e seu amor não tem fim. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-20",
+            text: "Parabéns, dona do abraço mais quentinho! Você é meu refúgio e minha inspiração plena. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-21",
+            text: "Parabéns para a mulher da minha vida. Você é a luz que ilumina o meu caminhar. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-22",
+            text: "Feliz aniversário, minha mãe! Seu abraço cura qualquer ferida e seu amor não tem fim. Tenha o aniversário dos sonhos!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-23",
+            text: "Parabéns, mamãe querida! Só você sabe me entender apenas com o olhar. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-24",
+            text: "Feliz aniversário, minha mãe! Só você sabe me entender apenas com o olhar. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-25",
+            text: "Parabéns, mamãe querida! Sou grato todos os dias por ser o seu filho. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-26",
+            text: "Celebro hoje a vida da melhor mãe. Não há ninguém no mundo que tenha o seu coração. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-27",
+            text: "Parabéns, mamãe querida! Você é a luz que ilumina o meu caminhar. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-28",
+            text: "À rainha da casa, um feliz aniversário! Você é meu refúgio e minha inspiração plena. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-29",
+            text: "Feliz aniversário, minha mãe! Sou grato todos os dias por ser o seu filho. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-30",
+            text: "Parabéns, mamãe querida! Nunca vi mulher tão forte e dedicada quanto você. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-31",
+            text: "Parabéns, mamãe querida! Não há ninguém no mundo que tenha o seu coração. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-32",
+            text: "Parabéns, dona do abraço mais quentinho! Nunca vi mulher tão forte e dedicada quanto você. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-33",
+            text: "Celebro hoje a vida da melhor mãe. A sua sabedoria transborda e me conforta. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-34",
+            text: "Parabéns, dona do abraço mais quentinho! Você é a luz que ilumina o meu caminhar. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-35",
+            text: "À rainha da casa, um feliz aniversário! Tudo o que sou devo aos seus ensinamentos. Receba meus melhores votos de paz!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-36",
+            text: "Hoje é o dia da mulher que eu mais amo. Você é meu refúgio e minha inspiração plena. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-37",
+            text: "Hoje é o dia da mulher que eu mais amo. Não há ninguém no mundo que tenha o seu coração. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-38",
+            text: "Parabéns, dona do abraço mais quentinho! Não há ninguém no mundo que tenha o seu coração. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-39",
+            text: "Parabéns para a mulher da minha vida. Sou grato todos os dias por ser o seu filho. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-40",
+            text: "Feliz aniversário, minha mãe! Não há ninguém no mundo que tenha o seu coração. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-41",
+            text: "À rainha da casa, um feliz aniversário! A sua sabedoria transborda e me conforta. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-42",
+            text: "Parabéns, mamãe querida! Seu exemplo de mulher guerreira é o meu guia. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-43",
+            text: "Mãe amada, hoje o dia é todo seu. Sou grato todos os dias por ser o seu filho. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-44",
+            text: "À rainha da casa, um feliz aniversário! Nunca vi mulher tão forte e dedicada quanto você. Que seu coração se encha de alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-45",
+            text: "Celebro hoje a vida da melhor mãe. Não há ninguém no mundo que tenha o seu coração. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-46",
+            text: "Celebro hoje a vida da melhor mãe. Nunca vi mulher tão forte e dedicada quanto você. Que seu coração se encha de alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-47",
+            text: "Mãe amada, hoje o dia é todo seu. Só você sabe me entender apenas com o olhar. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-48",
+            text: "À rainha da casa, um feliz aniversário! Só você sabe me entender apenas com o olhar. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-49",
+            text: "Hoje é o dia da mulher que eu mais amo. Você é a luz que ilumina o meu caminhar. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-50",
+            text: "Parabéns para a mulher da minha vida. Sou grato todos os dias por ser o seu filho. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-51",
+            text: "Parabéns, mamãe querida! Tudo o que sou devo aos seus ensinamentos. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-52",
+            text: "Celebro hoje a vida da melhor mãe. Não há ninguém no mundo que tenha o seu coração. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-53",
+            text: "Parabéns para a mulher da minha vida. Você é meu refúgio e minha inspiração plena. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-54",
+            text: "Parabéns, dona do abraço mais quentinho! A sua sabedoria transborda e me conforta. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-55",
+            text: "Parabéns, mamãe querida! Tudo o que sou devo aos seus ensinamentos. Receba meus melhores votos de paz!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-56",
+            text: "Feliz aniversário, minha mãe! Você é a luz que ilumina o meu caminhar. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-57",
+            text: "Feliz aniversário, minha mãe! Seu exemplo de mulher guerreira é o meu guia. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-58",
+            text: "Parabéns, mamãe querida! Seu exemplo de mulher guerreira é o meu guia. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-59",
+            text: "Parabéns para a mulher da minha vida. Seu abraço cura qualquer ferida e seu amor não tem fim. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-60",
+            text: "Parabéns, mamãe querida! A sua sabedoria transborda e me conforta. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-61",
+            text: "Celebro hoje a vida da melhor mãe. Tudo o que sou devo aos seus ensinamentos. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-62",
+            text: "Parabéns, dona do abraço mais quentinho! Seu exemplo de mulher guerreira é o meu guia. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-63",
+            text: "Hoje é o dia da mulher que eu mais amo. Sou grato todos os dias por ser o seu filho. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-64",
+            text: "Parabéns, dona do abraço mais quentinho! Não há ninguém no mundo que tenha o seu coração. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-65",
+            text: "Parabéns, dona do abraço mais quentinho! Não há ninguém no mundo que tenha o seu coração. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-66",
+            text: "Parabéns para a mulher da minha vida. Não há ninguém no mundo que tenha o seu coração. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-67",
+            text: "Feliz aniversário, minha mãe! Você é a luz que ilumina o meu caminhar. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-68",
+            text: "Parabéns para a mulher da minha vida. A sua sabedoria transborda e me conforta. Que o dia transborde de sorrisos e afeto.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-69",
+            text: "Feliz aniversário, minha mãe! Você é a luz que ilumina o meu caminhar. Aproveite demais o seu dia especial!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-70",
+            text: "Hoje é o dia da mulher que eu mais amo. Seu abraço cura qualquer ferida e seu amor não tem fim. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-71",
+            text: "Parabéns para a mulher da minha vida. Você é a luz que ilumina o meu caminhar. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-72",
+            text: "Parabéns, dona do abraço mais quentinho! A sua sabedoria transborda e me conforta. Receba meus melhores votos de paz!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-73",
+            text: "Parabéns, mamãe querida! Nunca vi mulher tão forte e dedicada quanto você. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-74",
+            text: "Parabéns para a mulher da minha vida. A sua sabedoria transborda e me conforta. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-75",
+            text: "Parabéns, dona do abraço mais quentinho! Você é meu refúgio e minha inspiração plena. Receba meus melhores votos de paz!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-76",
+            text: "Parabéns, mamãe querida! Você é meu refúgio e minha inspiração plena. Que a vida seja sempre generosa com você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-77",
+            text: "Mãe amada, hoje o dia é todo seu. Tudo o que sou devo aos seus ensinamentos. Que Deus te proteja todos os dias.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-78",
+            text: "Hoje é o dia da mulher que eu mais amo. Seu exemplo de mulher guerreira é o meu guia. Muita felicidade, saúde e amor para você!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-79",
+            text: "À rainha da casa, um feliz aniversário! Seu abraço cura qualquer ferida e seu amor não tem fim. Que os próximos anos sejam abençoados.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-mae-80",
+            text: "Feliz aniversário, minha mãe! A sua sabedoria transborda e me conforta. Desejo muita luz e realizações.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      },
+      {
+        id: "aniversario-irmao",
+        name: "Para Irmão",
+        color: "#2196F3",
+        phrases: [
+          {
+            id: "aniversario-irmao-1",
+            text: "Parabéns pra você, irmãozaço. Sua amizade é leal, sincera e insubstituível. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-2",
+            text: "Parabéns, irmão! Sua amizade é leal, sincera e insubstituível. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-3",
+            text: "Um grande dia para um grande irmão. A jornada da vida é melhor com você ao lado. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-4",
+            text: "Um grande dia para um grande irmão. Nossas piadas e histórias nunca terão fim. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-5",
+            text: "Irmão, hoje é seu dia especial. Sua amizade é leal, sincera e insubstituível. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-6",
+            text: "Um grande dia para um grande irmão. Tenho orgulho do homem que você se tornou. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-7",
+            text: "Ao meu companheiro, parabéns! Sua amizade é leal, sincera e insubstituível. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-8",
+            text: "Irmão, hoje é seu dia especial. A jornada da vida é melhor com você ao lado. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-9",
+            text: "Um grande dia para um grande irmão. Tenho orgulho do homem que você se tornou. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-10",
+            text: "Parabéns, irmão! Crescer ao seu lado foi o melhor presente. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-11",
+            text: "Irmão, hoje é seu dia especial. Sua amizade é leal, sincera e insubstituível. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-12",
+            text: "Parabéns pra você, irmãozaço. Nossas piadas e histórias nunca terão fim. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-13",
+            text: "Parabéns, irmão! Crescer ao seu lado foi o melhor presente. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-14",
+            text: "Parabéns pra você, irmãozaço. Crescer ao seu lado foi o melhor presente. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-15",
+            text: "Um grande dia para um grande irmão. Sua amizade é leal, sincera e insubstituível. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-16",
+            text: "Parabéns, irmão! Crescer ao seu lado foi o melhor presente. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-17",
+            text: "Um grande dia para um grande irmão. Compartilhamos momentos que guardo no peito. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-18",
+            text: "Ao meu companheiro, parabéns! Mesmo com as brigas, você é a pessoa em quem mais confio. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-19",
+            text: "Irmão, hoje é seu dia especial. Nossas piadas e histórias nunca terão fim. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-20",
+            text: "Irmão, hoje é seu dia especial. Nossas piadas e histórias nunca terão fim. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-21",
+            text: "Parabéns, irmão! Sua amizade é leal, sincera e insubstituível. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-22",
+            text: "Feliz aniversário para o cara mais chato! Adoro a nossa irmandade de sempre. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-23",
+            text: "Parabéns, irmão! Obrigado por sempre me defender e apoiar. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-24",
+            text: "Irmão, hoje é seu dia especial. Nossas piadas e histórias nunca terão fim. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-25",
+            text: "Parabéns, irmão! Você sabe sempre como me arrancar um sorriso. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-26",
+            text: "Irmão, hoje é seu dia especial. Mesmo com as brigas, você é a pessoa em quem mais confio. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-27",
+            text: "Um grande dia para um grande irmão. Adoro a nossa irmandade de sempre. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-28",
+            text: "Irmão, hoje é seu dia especial. Nossas piadas e histórias nunca terão fim. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-29",
+            text: "Ao meu companheiro, parabéns! A jornada da vida é melhor com você ao lado. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-30",
+            text: "Ao meu companheiro, parabéns! Tenho orgulho do homem que você se tornou. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-31",
+            text: "Parabéns, irmão! Mesmo com as brigas, você é a pessoa em quem mais confio. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-32",
+            text: "Irmão, hoje é seu dia especial. Nossas piadas e histórias nunca terão fim. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-33",
+            text: "Parabéns, irmão! Obrigado por sempre me defender e apoiar. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-34",
+            text: "Feliz aniversário para o cara mais chato! A jornada da vida é melhor com você ao lado. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-35",
+            text: "Feliz aniversário, maninho! A jornada da vida é melhor com você ao lado. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-36",
+            text: "Irmão, hoje é seu dia especial. Obrigado por sempre me defender e apoiar. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-37",
+            text: "Feliz aniversário para o cara mais chato! Compartilhamos momentos que guardo no peito. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-38",
+            text: "Parabéns, irmão! Crescer ao seu lado foi o melhor presente. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-39",
+            text: "Parabéns, irmão! Compartilhamos momentos que guardo no peito. Que seja um novo ano fantástico!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-40",
+            text: "Parabéns, irmão! Você sabe sempre como me arrancar um sorriso. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-41",
+            text: "Dia de festa para o melhor irmão. Tenho orgulho do homem que você se tornou. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-42",
+            text: "Ao meu companheiro, parabéns! Sua amizade é leal, sincera e insubstituível. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-43",
+            text: "Um grande dia para um grande irmão. Compartilhamos momentos que guardo no peito. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-44",
+            text: "Um grande dia para um grande irmão. Obrigado por sempre me defender e apoiar. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-45",
+            text: "Ao meu companheiro, parabéns! Sua amizade é leal, sincera e insubstituível. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-46",
+            text: "Feliz aniversário para o cara mais chato! Você sabe sempre como me arrancar um sorriso. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-47",
+            text: "Dia de festa para o melhor irmão. Sua amizade é leal, sincera e insubstituível. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-48",
+            text: "Parabéns, irmão! Nossas piadas e histórias nunca terão fim. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-49",
+            text: "Parabéns pra você, irmãozaço. Compartilhamos momentos que guardo no peito. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-50",
+            text: "Parabéns pra você, irmãozaço. Mesmo com as brigas, você é a pessoa em quem mais confio. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-51",
+            text: "Feliz aniversário para o cara mais chato! A jornada da vida é melhor com você ao lado. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-52",
+            text: "Ao meu companheiro, parabéns! Obrigado por sempre me defender e apoiar. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-53",
+            text: "Um grande dia para um grande irmão. A jornada da vida é melhor com você ao lado. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-54",
+            text: "Dia de festa para o melhor irmão. Crescer ao seu lado foi o melhor presente. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-55",
+            text: "Feliz aniversário, maninho! Nossas piadas e histórias nunca terão fim. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-56",
+            text: "Parabéns pra você, irmãozaço. Nossas piadas e histórias nunca terão fim. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-57",
+            text: "Ao meu companheiro, parabéns! Mesmo com as brigas, você é a pessoa em quem mais confio. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-58",
+            text: "Um grande dia para um grande irmão. Obrigado por sempre me defender e apoiar. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-59",
+            text: "Um grande dia para um grande irmão. A jornada da vida é melhor com você ao lado. Nunca perca essa sua essência incrível.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-60",
+            text: "Parabéns pra você, irmãozaço. A jornada da vida é melhor com você ao lado. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-61",
+            text: "Parabéns pra você, irmãozaço. Compartilhamos momentos que guardo no peito. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-62",
+            text: "Feliz aniversário para o cara mais chato! Sua amizade é leal, sincera e insubstituível. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-63",
+            text: "Um grande dia para um grande irmão. Você sabe sempre como me arrancar um sorriso. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-64",
+            text: "Ao meu companheiro, parabéns! Tenho orgulho do homem que você se tornou. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-65",
+            text: "Irmão, hoje é seu dia especial. A jornada da vida é melhor com você ao lado. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-66",
+            text: "Feliz aniversário para o cara mais chato! Obrigado por sempre me defender e apoiar. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-67",
+            text: "Parabéns pra você, irmãozaço. Adoro a nossa irmandade de sempre. Que a vida te dê o dobro das coisas boas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-68",
+            text: "Feliz aniversário, maninho! A jornada da vida é melhor com você ao lado. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-69",
+            text: "Parabéns, irmão! Mesmo com as brigas, você é a pessoa em quem mais confio. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-70",
+            text: "Irmão, hoje é seu dia especial. A jornada da vida é melhor com você ao lado. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-71",
+            text: "Dia de festa para o melhor irmão. Obrigado por sempre me defender e apoiar. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-72",
+            text: "Irmão, hoje é seu dia especial. A jornada da vida é melhor com você ao lado. Que venha muita curtição e alegria hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-73",
+            text: "Um grande dia para um grande irmão. Crescer ao seu lado foi o melhor presente. Que essa nova fase traga realizações enormes!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-74",
+            text: "Um grande dia para um grande irmão. Compartilhamos momentos que guardo no peito. Desejo que seus maiores sonhos se concretizem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-75",
+            text: "Feliz aniversário, maninho! Tenho orgulho do homem que você se tornou. Muito sucesso, saúde, paz e dinheiro no bolso!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-76",
+            text: "Um grande dia para um grande irmão. Adoro a nossa irmandade de sempre. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-77",
+            text: "Parabéns pra você, irmãozaço. A jornada da vida é melhor com você ao lado. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-78",
+            text: "Feliz aniversário para o cara mais chato! Compartilhamos momentos que guardo no peito. Faça a festa e curta cada momento.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-79",
+            text: "Ao meu companheiro, parabéns! Nossas piadas e histórias nunca terão fim. Aproveite seu dia ao máximo, você merece.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irmao-80",
+            text: "Irmão, hoje é seu dia especial. Você sabe sempre como me arrancar um sorriso. Hoje e sempre, estarei aqui torcendo por você.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      },
+      {
+        id: "aniversario-irma",
+        name: "Para Irmã",
+        color: "#9C27B0",
+        phrases: [
+          {
+            id: "aniversario-irma-1",
+            text: "Hoje a festa é sua, irmã querida. Você é a minha melhor amiga. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-2",
+            text: "Parabéns para a melhor irmã do universo! Obrigada por cuidar de mim com tanto amor. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-3",
+            text: "Irmã, que o seu dia seja maravilhoso. Você é a minha melhor amiga. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-4",
+            text: "Parabéns para a melhor irmã do universo! Ter uma irmã igual a você é pura sorte. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-5",
+            text: "Feliz aniversário, gata! Me inspiro na mulher brilhante que você é. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-6",
+            text: "Parabéns para a melhor irmã do universo! Nossas memórias são os meus maiores tesouros. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-7",
+            text: "À minha parceira, feliz dia! Seu alto astral ilumina qualquer ambiente. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-8",
+            text: "Parabéns, maninha! Só a gente sabe as loucuras que vivemos juntas. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-9",
+            text: "Feliz aniversário, gata! Sua companhia é essencial para a minha alegria. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-10",
+            text: "Parabéns, maninha! Ter uma irmã igual a você é pura sorte. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-11",
+            text: "Irmã, que o seu dia seja maravilhoso. Seu alto astral ilumina qualquer ambiente. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-12",
+            text: "Feliz aniversário, minha irmã! Nossa conexão vai além de qualquer coisa. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-13",
+            text: "Hoje a festa é sua, irmã querida. Nossa conexão vai além de qualquer coisa. Que Deus te encha de graças hoje e sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-14",
+            text: "Parabéns para a melhor irmã do universo! Você é a minha melhor amiga. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-15",
+            text: "Hoje a festa é sua, irmã querida. Você é a minha melhor amiga. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-16",
+            text: "Irmã, que o seu dia seja maravilhoso. Me inspiro na mulher brilhante que você é. Saúde, paz e um mar de realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-17",
+            text: "Parabéns, maninha! Ter uma irmã igual a você é pura sorte. Que Deus te encha de graças hoje e sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-18",
+            text: "À minha parceira, feliz dia! Seu alto astral ilumina qualquer ambiente. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-19",
+            text: "Hoje a festa é sua, irmã querida. Me inspiro na mulher brilhante que você é. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-20",
+            text: "Parabéns para a melhor irmã do universo! Me inspiro na mulher brilhante que você é. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-21",
+            text: "Feliz aniversário, minha irmã! Seu alto astral ilumina qualquer ambiente. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-22",
+            text: "À minha parceira, feliz dia! Nossas memórias são os meus maiores tesouros. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-23",
+            text: "Parabéns, maninha! Admiro a sua força de correr atrás dos seus ideais. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-24",
+            text: "Hoje a festa é sua, irmã querida. Seu alto astral ilumina qualquer ambiente. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-25",
+            text: "Parabéns para a melhor irmã do universo! Obrigada por cuidar de mim com tanto amor. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-26",
+            text: "Feliz aniversário, gata! Nossa conexão vai além de qualquer coisa. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-27",
+            text: "À minha parceira, feliz dia! Só a gente sabe as loucuras que vivemos juntas. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-28",
+            text: "Hoje a festa é sua, irmã querida. Sua companhia é essencial para a minha alegria. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-29",
+            text: "Parabéns para a melhor irmã do universo! Sua companhia é essencial para a minha alegria. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-30",
+            text: "Feliz aniversário, minha irmã! Nossas memórias são os meus maiores tesouros. Saúde, paz e um mar de realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-31",
+            text: "Parabéns para a melhor irmã do universo! Ter uma irmã igual a você é pura sorte. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-32",
+            text: "Hoje a festa é sua, irmã querida. Obrigada por cuidar de mim com tanto amor. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-33",
+            text: "Irmã, que o seu dia seja maravilhoso. Me inspiro na mulher brilhante que você é. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-34",
+            text: "Feliz aniversário, minha irmã! Só a gente sabe as loucuras que vivemos juntas. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-35",
+            text: "Para a irmã mais linda, parabéns! Admiro a sua força de correr atrás dos seus ideais. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-36",
+            text: "À minha parceira, feliz dia! Admiro a sua força de correr atrás dos seus ideais. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-37",
+            text: "À minha parceira, feliz dia! Ter uma irmã igual a você é pura sorte. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-38",
+            text: "Feliz aniversário, minha irmã! Sua companhia é essencial para a minha alegria. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-39",
+            text: "Irmã, que o seu dia seja maravilhoso. Só a gente sabe as loucuras que vivemos juntas. Que Deus te encha de graças hoje e sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-40",
+            text: "Feliz aniversário, minha irmã! Me inspiro na mulher brilhante que você é. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-41",
+            text: "Para a irmã mais linda, parabéns! Nossas memórias são os meus maiores tesouros. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-42",
+            text: "Irmã, que o seu dia seja maravilhoso. Sua companhia é essencial para a minha alegria. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-43",
+            text: "Parabéns para a melhor irmã do universo! Só a gente sabe as loucuras que vivemos juntas. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-44",
+            text: "À minha parceira, feliz dia! Sua companhia é essencial para a minha alegria. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-45",
+            text: "Irmã, que o seu dia seja maravilhoso. Nossas memórias são os meus maiores tesouros. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-46",
+            text: "Parabéns para a melhor irmã do universo! Nossas memórias são os meus maiores tesouros. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-47",
+            text: "Parabéns, maninha! Ter uma irmã igual a você é pura sorte. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-48",
+            text: "Parabéns para a melhor irmã do universo! Só a gente sabe as loucuras que vivemos juntas. Que Deus te encha de graças hoje e sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-49",
+            text: "Parabéns para a melhor irmã do universo! Nossa conexão vai além de qualquer coisa. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-50",
+            text: "Para a irmã mais linda, parabéns! Você é a minha melhor amiga. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-51",
+            text: "Hoje a festa é sua, irmã querida. Nossa conexão vai além de qualquer coisa. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-52",
+            text: "Feliz aniversário, minha irmã! Obrigada por cuidar de mim com tanto amor. Que Deus te encha de graças hoje e sempre.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-53",
+            text: "Hoje a festa é sua, irmã querida. Só a gente sabe as loucuras que vivemos juntas. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-54",
+            text: "Parabéns, maninha! Admiro a sua força de correr atrás dos seus ideais. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-55",
+            text: "Parabéns para a melhor irmã do universo! Obrigada por cuidar de mim com tanto amor. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-56",
+            text: "Parabéns, maninha! Sua companhia é essencial para a minha alegria. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-57",
+            text: "Irmã, que o seu dia seja maravilhoso. Ter uma irmã igual a você é pura sorte. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-58",
+            text: "Hoje a festa é sua, irmã querida. Ter uma irmã igual a você é pura sorte. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-59",
+            text: "Feliz aniversário, gata! Você é a minha melhor amiga. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-60",
+            text: "À minha parceira, feliz dia! Seu alto astral ilumina qualquer ambiente. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-61",
+            text: "Parabéns para a melhor irmã do universo! Sua companhia é essencial para a minha alegria. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-62",
+            text: "Parabéns, maninha! Seu alto astral ilumina qualquer ambiente. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-63",
+            text: "À minha parceira, feliz dia! Só a gente sabe as loucuras que vivemos juntas. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-64",
+            text: "Parabéns, maninha! Seu alto astral ilumina qualquer ambiente. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-65",
+            text: "Parabéns, maninha! Seu alto astral ilumina qualquer ambiente. Conte sempre comigo para tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-66",
+            text: "Parabéns para a melhor irmã do universo! Me inspiro na mulher brilhante que você é. Que todo o universo conspire a seu favor!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-67",
+            text: "Feliz aniversário, gata! Me inspiro na mulher brilhante que você é. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-68",
+            text: "À minha parceira, feliz dia! Nossas memórias são os meus maiores tesouros. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-69",
+            text: "Parabéns para a melhor irmã do universo! Nossa conexão vai além de qualquer coisa. Desejo muita sorte, felicidade plena.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-70",
+            text: "Feliz aniversário, minha irmã! Seu alto astral ilumina qualquer ambiente. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-71",
+            text: "Parabéns, maninha! Me inspiro na mulher brilhante que você é. Que seja o melhor ano da sua vida!",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-72",
+            text: "Para a irmã mais linda, parabéns! Obrigada por cuidar de mim com tanto amor. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-73",
+            text: "Irmã, que o seu dia seja maravilhoso. Só a gente sabe as loucuras que vivemos juntas. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-74",
+            text: "À minha parceira, feliz dia! Admiro a sua força de correr atrás dos seus ideais. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-75",
+            text: "Irmã, que o seu dia seja maravilhoso. Sua companhia é essencial para a minha alegria. Saúde, paz e um mar de realizações.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-76",
+            text: "Parabéns para a melhor irmã do universo! Obrigada por cuidar de mim com tanto amor. Brilhe muito nesse ano que começa hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-77",
+            text: "Parabéns, maninha! Só a gente sabe as loucuras que vivemos juntas. Que a alegria invada sua rotina continuamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-78",
+            text: "Feliz aniversário, gata! Seu alto astral ilumina qualquer ambiente. Seus sonhos estão muito perto de se realizar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-79",
+            text: "Feliz aniversário, gata! Ter uma irmã igual a você é pura sorte. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "aniversario-irma-80",
+            text: "Feliz aniversário, gata! Só a gente sabe as loucuras que vivemos juntas. Aproveita o seu dia, curta bastante.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "saudacoes",
+    name: "Saudações",
+    color: "#4CAF50",
+    description: "Bom dia, boa tarde e boa noite.",
+    subcategories: [
+      {
+        id: "saudacoes-bomdia",
+        name: "Bom Dia",
+        color: "#FFEB3B",
+        phrases: [
+          {
+            id: "saudacoes-bomdia-1",
+            text: "Bom dia, mundo! Vá em frente e brilhe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-2",
+            text: "Bom dia! Que hoje seja melhor que ontem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-3",
+            text: "Lindo dia! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-4",
+            text: "Que dia lindo! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-5",
+            text: "Que dia lindo! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-6",
+            text: "Lindo dia! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-7",
+            text: "Bom dia! Que a alegria invada seu coração hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-8",
+            text: "Manhã de luz! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-9",
+            text: "Bom dia! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-10",
+            text: "Bom dia, com alegria! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-11",
+            text: "Que dia lindo! Levante e conquiste seus sonhos.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-12",
+            text: "Manhã maravilhosa! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-13",
+            text: "Que dia lindo! Que hoje seja melhor que ontem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-14",
+            text: "Bom dia, mundo! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-15",
+            text: "Manhã de luz! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-16",
+            text: "Um dia abençoado! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-17",
+            text: "Bom dia! Que Deus te proteja em mais essa jornada.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-18",
+            text: "Manhã maravilhosa! Que Deus te proteja em mais essa jornada.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-19",
+            text: "Lindo dia! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-20",
+            text: "Acorda e brilha! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-21",
+            text: "Manhã de luz! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-22",
+            text: "Ótimo dia! Que hoje seja melhor que ontem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-23",
+            text: "Um dia abençoado! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-24",
+            text: "Ótimo dia! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-25",
+            text: "Que dia lindo! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-26",
+            text: "Bom dia, com alegria! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-27",
+            text: "Manhã de luz! Agradeça pelo dom da vida.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-28",
+            text: "Bom dia! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-29",
+            text: "Bom dia! Foque no lado bom da vida hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-30",
+            text: "Manhã maravilhosa! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-31",
+            text: "Bom dia, mundo! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-32",
+            text: "Bom dia, mundo! Agradeça pelo dom da vida.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-33",
+            text: "Manhã de luz! Foque no lado bom da vida hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-34",
+            text: "Um dia abençoado! Comece com um sorriso grande.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-35",
+            text: "Um dia abençoado! Levante e conquiste seus sonhos.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-36",
+            text: "Acorda e brilha! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-37",
+            text: "Manhã maravilhosa! Agradeça pelo dom da vida.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-38",
+            text: "Manhã maravilhosa! Que hoje seja melhor que ontem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-39",
+            text: "Bom dia, mundo! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-40",
+            text: "Lindo dia! Comece com um sorriso grande.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-41",
+            text: "Bom dia! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-42",
+            text: "Um dia abençoado! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-43",
+            text: "Que dia lindo! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-44",
+            text: "Que dia lindo! Que Deus te proteja em mais essa jornada.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-45",
+            text: "Manhã de luz! Levante e conquiste seus sonhos.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-46",
+            text: "Ótimo dia! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-47",
+            text: "Lindo dia! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-48",
+            text: "Manhã maravilhosa! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-49",
+            text: "Bom dia, mundo! Comece com um sorriso grande.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-50",
+            text: "Lindo dia! Que hoje seja melhor que ontem.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-51",
+            text: "Lindo dia! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-52",
+            text: "Bom dia! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-53",
+            text: "Que dia lindo! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-54",
+            text: "Bom dia, com alegria! Comece com um sorriso grande.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-55",
+            text: "Um dia abençoado! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-56",
+            text: "Bom dia, mundo! Foque no lado bom da vida hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-57",
+            text: "Ótimo dia! Vá em frente e brilhe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-58",
+            text: "Bom dia, mundo! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-59",
+            text: "Acorda e brilha! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-60",
+            text: "Bom dia, com alegria! Que as bênçãos se multipliquem em seu dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-61",
+            text: "Ótimo dia! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-62",
+            text: "Lindo dia! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-63",
+            text: "Bom dia! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-64",
+            text: "Manhã de luz! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-65",
+            text: "Que dia lindo! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-66",
+            text: "Acorda e brilha! Foque no lado bom da vida hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-67",
+            text: "Ótimo dia! Que o dia te surpreenda maravilhosamente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-68",
+            text: "Um dia abençoado! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-69",
+            text: "Manhã maravilhosa! Levante e conquiste seus sonhos.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-70",
+            text: "Que dia lindo! Agradeça pelo dom da vida.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-71",
+            text: "Ótimo dia! Levante e conquiste seus sonhos.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-72",
+            text: "Bom dia, mundo! Aproveite cada segundo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-73",
+            text: "Bom dia, com alegria! Que Deus te proteja em mais essa jornada.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-74",
+            text: "Manhã de luz! Vá em frente e brilhe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-75",
+            text: "Bom dia, com alegria! Muita paz e energia positiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-76",
+            text: "Manhã maravilhosa! Deixe a luz do sol iluminar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-77",
+            text: "Um dia abençoado! Vá em frente e brilhe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-78",
+            text: "Bom dia! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-79",
+            text: "Manhã maravilhosa! Mantenha o otimismo e a fé.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-bomdia-80",
+            text: "Um dia abençoado! Que o universo conspire ao seu favor.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      },
+      {
+        id: "saudacoes-boatarde",
+        name: "Boa Tarde",
+        color: "#FF9800",
+        phrases: [
+          {
+            id: "saudacoes-boatarde-1",
+            text: "Tarde de vitórias! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-2",
+            text: "Tarde maravilhosa! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-3",
+            text: "Pausa para a tarde! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-4",
+            text: "Tarde maravilhosa! Ainda há tempo para brilhar hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-5",
+            text: "Tarde de vitórias! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-6",
+            text: "Boa tarde! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-7",
+            text: "Tarde de vitórias! Sinta a paz desta tarde e relaxe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-8",
+            text: "Que sua tarde seja iluminada! Sinta a paz desta tarde e relaxe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-9",
+            text: "Passando para desejar boa tarde! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-10",
+            text: "Uma tarde linda! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-11",
+            text: "Aquela boa tarde especial! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-12",
+            text: "Que sua tarde seja iluminada! Ainda há tempo para brilhar hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-13",
+            text: "Tarde de vitórias! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-14",
+            text: "Tarde de vitórias! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-15",
+            text: "Uma tarde linda! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-16",
+            text: "Passando para desejar boa tarde! O fim do dia se aproxima, continue firme.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-17",
+            text: "Aquela boa tarde especial! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-18",
+            text: "Uma tarde linda! Ainda há tempo para brilhar hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-19",
+            text: "Boa tarde, com paz! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-20",
+            text: "Que sua tarde seja iluminada! Que cada instante desta tarde conte como alegria.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-21",
+            text: "Boa tarde! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-22",
+            text: "Passando para desejar boa tarde! Respira fundo e vai com tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-23",
+            text: "Passando para desejar boa tarde! Sinta a paz desta tarde e relaxe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-24",
+            text: "Excelente tarde! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-25",
+            text: "Boa tarde, com paz! Que as boas vibrações te acompanhem nesta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-26",
+            text: "Tarde de vitórias! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-27",
+            text: "Passando para desejar boa tarde! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-28",
+            text: "Que sua tarde seja iluminada! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-29",
+            text: "Boa tarde, com paz! Sinta a paz desta tarde e relaxe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-30",
+            text: "Boa tarde! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-31",
+            text: "Boa tarde! A tarde é um convite para desacelerar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-32",
+            text: "Aquela boa tarde especial! Ainda há tempo para brilhar hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-33",
+            text: "Que sua tarde seja iluminada! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-34",
+            text: "Pausa para a tarde! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-35",
+            text: "Uma tarde linda! O fim do dia se aproxima, continue firme.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-36",
+            text: "Boa tarde, com paz! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-37",
+            text: "Que sua tarde seja iluminada! Respira fundo e vai com tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-38",
+            text: "Boa tarde! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-39",
+            text: "Tarde de vitórias! Que o restante do seu dia seja tranquilo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-40",
+            text: "Uma tarde linda! Respira fundo e vai com tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-41",
+            text: "Boa tarde, com paz! Que o restante do seu dia seja tranquilo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-42",
+            text: "Passando para desejar boa tarde! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-43",
+            text: "Passando para desejar boa tarde! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-44",
+            text: "Passando para desejar boa tarde! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-45",
+            text: "Boa tarde, com paz! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-46",
+            text: "Uma tarde linda! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-47",
+            text: "Aquela boa tarde especial! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-48",
+            text: "Boa tarde, com paz! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-49",
+            text: "Boa tarde, com paz! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-50",
+            text: "Tarde maravilhosa! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-51",
+            text: "Que sua tarde seja iluminada! Que as boas vibrações te acompanhem nesta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-52",
+            text: "Uma tarde linda! Que cada instante desta tarde conte como alegria.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-53",
+            text: "Excelente tarde! Que o restante do seu dia seja tranquilo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-54",
+            text: "Excelente tarde! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-55",
+            text: "Uma tarde linda! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-56",
+            text: "Aquela boa tarde especial! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-57",
+            text: "Pausa para a tarde! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-58",
+            text: "Pausa para a tarde! Ainda há tempo para brilhar hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-59",
+            text: "Excelente tarde! Sinta a paz desta tarde e relaxe.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-60",
+            text: "Passando para desejar boa tarde! A tarde é um convite para desacelerar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-61",
+            text: "Aquela boa tarde especial! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-62",
+            text: "Tarde de vitórias! A tarde é um convite para desacelerar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-63",
+            text: "Tarde de vitórias! O fim do dia se aproxima, continue firme.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-64",
+            text: "Excelente tarde! Respira fundo e vai com tudo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-65",
+            text: "Aquela boa tarde especial! Que a alegria não falte no seu fim de tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-66",
+            text: "Aquela boa tarde especial! Que o restante do seu dia seja tranquilo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-67",
+            text: "Que sua tarde seja iluminada! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-68",
+            text: "Que sua tarde seja iluminada! Faça uma pausa e tome um café revigorante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-69",
+            text: "Uma tarde linda! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-70",
+            text: "Tarde de vitórias! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-71",
+            text: "Que sua tarde seja iluminada! O fim do dia se aproxima, continue firme.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-72",
+            text: "Pausa para a tarde! Que o restante do seu dia seja tranquilo.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-73",
+            text: "Excelente tarde! Mentalize coisas boas para esta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-74",
+            text: "Boa tarde! Renove suas energias e siga em frente.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-75",
+            text: "Que sua tarde seja iluminada! Metade do caminho foi, e o resto será sucesso.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-76",
+            text: "Passando para desejar boa tarde! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-77",
+            text: "Que sua tarde seja iluminada! Tenha uma tarde imensamente produtiva.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-78",
+            text: "Uma tarde linda! Que as boas vibrações te acompanhem nesta tarde.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-79",
+            text: "Excelente tarde! A tarde é um convite para desacelerar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boatarde-80",
+            text: "Excelente tarde! Deixe os problemas para depois, foque no agora.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      },
+      {
+        id: "saudacoes-boanoite",
+        name: "Boa Noite",
+        color: "#3F51B5",
+        phrases: [
+          {
+            id: "saudacoes-boanoite-1",
+            text: "Boa noite! Agradeça pelo dia vivido e repouse em paz.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-2",
+            text: "Uma noite de paz! Desejo que acorde amanhã com esperanças renovadas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-3",
+            text: "Linda noite para você! Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-4",
+            text: "Durma bem! Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-5",
+            text: "Que os anjos acompanhem sua noite. Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-6",
+            text: "Momento de repouso! Nada de ansiedade, apenas descanse hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-7",
+            text: "Bons sonhos! Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-8",
+            text: "Noite de descanso. Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-9",
+            text: "Durma bem! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-10",
+            text: "Ótimo descanso! Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-11",
+            text: "Durma bem! Desejo que acorde amanhã com esperanças renovadas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-12",
+            text: "Ótimo descanso! Que as estrelas guiem seus sonhos esta noite.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-13",
+            text: "Que os anjos acompanhem sua noite. Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-14",
+            text: "Uma excelente noite. Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-15",
+            text: "Ótimo descanso! Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-16",
+            text: "Que os anjos acompanhem sua noite. Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-17",
+            text: "Noite de descanso. Amanhã é um novo dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-18",
+            text: "Uma noite de paz! Desligue a mente e prepare-se para sonhar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-19",
+            text: "Que os anjos acompanhem sua noite. Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-20",
+            text: "Momento de repouso! Desejo que acorde amanhã com esperanças renovadas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-21",
+            text: "Que os anjos acompanhem sua noite. Agradeça pelo dia vivido e repouse em paz.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-22",
+            text: "Que os anjos acompanhem sua noite. Nada de ansiedade, apenas descanse hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-23",
+            text: "Que os anjos acompanhem sua noite. Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-24",
+            text: "Uma noite de paz! Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-25",
+            text: "Linda noite para você! Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-26",
+            text: "Bons sonhos! Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-27",
+            text: "Uma noite de paz! Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-28",
+            text: "Uma excelente noite. O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-29",
+            text: "Momento de repouso! Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-30",
+            text: "Linda noite para você! Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-31",
+            text: "Bons sonhos! Nada de ansiedade, apenas descanse hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-32",
+            text: "Que os anjos acompanhem sua noite. Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-33",
+            text: "Uma excelente noite. Desejo que acorde amanhã com esperanças renovadas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-34",
+            text: "Boa noite! Desligue a mente e prepare-se para sonhar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-35",
+            text: "Momento de repouso! Desligue a mente e prepare-se para sonhar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-36",
+            text: "Noite de descanso. Nada de ansiedade, apenas descanse hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-37",
+            text: "Noite de descanso. Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-38",
+            text: "Que os anjos acompanhem sua noite. O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-39",
+            text: "Uma excelente noite. Agradeça pelo dia vivido e repouse em paz.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-40",
+            text: "Bons sonhos! O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-41",
+            text: "Linda noite para você! Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-42",
+            text: "Momento de repouso! O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-43",
+            text: "Bons sonhos! Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-44",
+            text: "Ótimo descanso! Agradeça pelo dia vivido e repouse em paz.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-45",
+            text: "Bons sonhos! Amanhã é um novo dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-46",
+            text: "Noite de descanso. Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-47",
+            text: "Momento de repouso! Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-48",
+            text: "Linda noite para você! Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-49",
+            text: "Momento de repouso! Que as estrelas guiem seus sonhos esta noite.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-50",
+            text: "Ótimo descanso! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-51",
+            text: "Ótimo descanso! Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-52",
+            text: "Boa noite! Que o repouso absoluto seja o seu prêmio de hoje.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-53",
+            text: "Uma noite de paz! O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-54",
+            text: "Bons sonhos! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-55",
+            text: "Noite de descanso. O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-56",
+            text: "Uma noite de paz! Amanhã é um novo dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-57",
+            text: "Uma excelente noite. Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-58",
+            text: "Boa noite! Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-59",
+            text: "Durma bem! Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-60",
+            text: "Uma excelente noite. Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-61",
+            text: "Durma bem! Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-62",
+            text: "Noite de descanso. Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-63",
+            text: "Uma excelente noite. Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-64",
+            text: "Boa noite! Renove as forças e espere pelas maravilhas do amanhã.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-65",
+            text: "Que os anjos acompanhem sua noite. Desligue a mente e prepare-se para sonhar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-66",
+            text: "Boa noite! Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-67",
+            text: "Que os anjos acompanhem sua noite. Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-68",
+            text: "Ótimo descanso! Que o seu sono seja profundo e revitalizante.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-69",
+            text: "Uma noite de paz! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-70",
+            text: "Momento de repouso! Feche os olhos e entregue seus sonhos a Deus.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-71",
+            text: "Bons sonhos! Sinta a brisa da noite acalmar sua alma.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-72",
+            text: "Boa noite! Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-73",
+            text: "Linda noite para você! O silêncio da noite traz a calma que você precisa.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-74",
+            text: "Bons sonhos! Desligue a mente e prepare-se para sonhar.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-75",
+            text: "Durma bem! Durma sereno, sabendo que deu o seu melhor.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-76",
+            text: "Boa noite! Amanhã é um novo dia.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-77",
+            text: "Momento de repouso! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-78",
+            text: "Linda noite para você! Que sua noite de sono seja restauradora.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-79",
+            text: "Bons sonhos! Desejo que acorde amanhã com esperanças renovadas.",
+            author: "Autor Desconhecido"
+          },
+          {
+            id: "saudacoes-boanoite-80",
+            text: "Ótimo descanso! Que a tranquilidade reine sob sua coberta.",
+            author: "Autor Desconhecido"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "biblicas",
+    name: "Bíblicas",
+    color: "#9E9E9E",
+    description: "Passagens, salmos e versículos da Bíblia.",
+    phrases: [
+      {
+        id: "biblia-15955",
+        text: "Reserve água para o tempo do cerco! Reforce as suas fortalezas! Entre no barro, pise a argamassa, prepare a forma para os tijolos!",
+        author: "Naum 3:14"
+      },
+      {
+        id: "biblia-16205",
+        text: "Asa gerou Josafá; Josafá gerou Jorão; Jorão gerou Uzias;",
+        author: "Mateus 1:8"
+      },
+      {
+        id: "biblia-6907",
+        text: "o quarto Natanael, o quinto Radai,",
+        author: "1 Crônicas 2:14"
+      },
+      {
+        id: "biblia-22244",
+        text: "No entanto, eu lhes escrevo um mandamento novo, o qual é verdadeiro nele e em vocês, pois as trevas estão se dissipando e já brilha a verdadeira luz.",
+        author: "1 João 2:8"
+      },
+      {
+        id: "biblia-4726",
+        text: "Depois Gideão, filho de Joás, voltou da batalha pela subida de Heres.",
+        author: "Juízes 8:13"
+      },
+      {
+        id: "biblia-1764",
+        text: "e você o sacrificará na presença do Senhor, defronte da Tenda do Encontro.",
+        author: "Êxodo 29:11"
+      },
+      {
+        id: "biblia-14839",
+        text: "Adornei-a com jóias; pus braceletes em seus braços e uma gargantilha em torno de seu pescoço;",
+        author: "Ezequiel 16:11"
+      },
+      {
+        id: "biblia-2674",
+        text: "O número dos da tribo de Gade foi 45. 650.",
+        author: "Números 1:25"
+      },
+      {
+        id: "biblia-21973",
+        text: "Por amor de Cristo, considerou a desonra riqueza maior do que os tesouros do Egito, porque contemplava a sua recompensa.",
+        author: "Hebreus 11:26"
+      },
+      {
+        id: "biblia-19204",
+        text: "Respondeu Jesus: \"Você não compreende agora o que estou lhe fazendo; mais tarde, porém, entenderá\".",
+        author: "João 13:7"
+      },
+      {
+        id: "biblia-12631",
+        text: "Quem está satisfeito despreza o mel, mas para quem tem fome até o amargo é doce.",
+        author: "Provérbios 27:7"
+      },
+      {
+        id: "biblia-10902",
+        text: "Os teus mandamentos permanecem firmes e fiéis; a santidade, Senhor, é o ornamento perpétuo da tua casa.",
+        author: "Salmos 93:5"
+      },
+      {
+        id: "biblia-12943",
+        text: "O meu amado é para mim como uma pequenina bolsa de mirra que passa a noite entre os meus seios.",
+        author: "Cânticos 1:13"
+      },
+      {
+        id: "biblia-4206",
+        text: "E disseram a Josué: \"Sem dúvida o Senhor entregou a terra toda em nossas mãos; todos estão apavorados por nossa causa\".",
+        author: "Josué 2:24"
+      },
+      {
+        id: "biblia-5658",
+        text: "Então Mefibosete foi morar em Jerusalém, pois passou a comer sempre à mesa do rei. E era aleijado dos pés.",
+        author: "2 Samuel 9:13"
+      },
+      {
+        id: "biblia-18175",
+        text: "Então lhes contou esta parábola: \"A terra de certo homem rico produziu muito bem.",
+        author: "Lucas 12:16"
+      },
+      {
+        id: "biblia-60",
+        text: "Adão teve relações com Eva, sua mulher, e ela engravidou e deu à luz Caim. Disse ela: \"Com o auxílio do Senhor tive um filho homem\".",
+        author: "Gênesis 4:1"
+      },
+      {
+        id: "biblia-384",
+        text: "Então o Senhor, o próprio Senhor, fez chover do céu fogo e enxofre sobre Sodoma e Gomorra.",
+        author: "Gênesis 19:24"
+      },
+      {
+        id: "biblia-16092",
+        text: "Olhei novamente, e vi diante de mim quatro carruagens que vinham saindo do meio de duas montanhas de bronze.",
+        author: "Zacarias 6:1"
+      },
+      {
+        id: "biblia-12945",
+        text: "Como você é linda, minha querida! Ah, como é linda! Seus olhos são pombas.",
+        author: "Cânticos 1:15"
+      },
+      {
+        id: "biblia-15604",
+        text: "\"Que posso fazer com você, Efraim? Que posso fazer com você, Judá? Seu amor é como a neblina da manhã, como o primeiro orvalho que logo evapora.",
+        author: "Oséias 6:4"
+      },
+      {
+        id: "biblia-17751",
+        text: "Todos os vizinhos ficaram cheios de temor, e por toda a região montanhosa da Judéia se falava sobre essas coisas.",
+        author: "Lucas 1:65"
+      },
+      {
+        id: "biblia-21321",
+        text: "Paz seja com os irmãos, e amor com fé da parte de Deus Pai e do Senhor Jesus Cristo.",
+        author: "Efésios 6:23"
+      },
+      {
+        id: "biblia-12332",
+        text: "Melhor é um pedaço de pão seco com paz e tranqüilidade do que uma casa onde há banquetes, e muitas brigas.",
+        author: "Provérbios 17:1"
+      },
+      {
+        id: "biblia-2367",
+        text: "Quem tocar em alguma dessas coisas ficará impuro; lavará as suas roupas e se banhará com água, e ficará impuro até à tarde.",
+        author: "Levítico 15:27"
+      },
+      {
+        id: "biblia-19864",
+        text: "Uma vez despedidos, os homens desceram para Antioquia, onde reuniram a igreja e entregaram a carta.",
+        author: "Atos 15:30"
+      },
+      {
+        id: "biblia-10935",
+        text: "Durante quarenta anos fiquei irado contra aquela geração e disse: \"Eles são um povo de coração ingrato; não reconheceram os meus caminhos\".",
+        author: "Salmos 95:10"
+      },
+      {
+        id: "biblia-18222",
+        text: "Tendo dito isso, todos os seus oponentes ficaram envergonhados, mas o povo se alegrava com todas as maravilhas que ele estava fazendo.",
+        author: "Lucas 13:17"
+      },
+      {
+        id: "biblia-6219",
+        text: "Os demais acontecimentos do reinado de Salomão, tudo o que fez e a sabedoria que teve, estão todos escritos nos registros históricos de Salomão.",
+        author: "1 Reis 11:41"
+      },
+      {
+        id: "biblia-14362",
+        text: "Ismael também matou todos os judeus que estavam com Gedalias em Mispá, bem como os soldados babilônios que ali estavam.",
+        author: "Jeremias 41:3"
+      },
+      {
+        id: "biblia-14816",
+        text: "os profetas de Israel que profetizaram sobre Jerusalém e tiveram visões de paz para ela quando não havia paz, palavra do Soberano Senhor. ’",
+        author: "Ezequiel 13:16"
+      },
+      {
+        id: "biblia-1529",
+        text: "e o som da trombeta era cada vez mais forte. Então Moisés falou, e a voz de Deus lhe respondeu.",
+        author: "Êxodo 19:19"
+      },
+      {
+        id: "biblia-3451",
+        text: "das quais o tributo para o Senhor foram 675;",
+        author: "Números 31:37"
+      },
+      {
+        id: "biblia-8683",
+        text: "O que vocês sabem, eu também sei; não sou inferior a vocês.",
+        author: "Jó 13:2"
+      },
+      {
+        id: "biblia-304",
+        text: "Nisso, aves de rapina começaram a descer sobre os cadáveres, mas Abrão as enxotava.",
+        author: "Gênesis 15:11"
+      },
+      {
+        id: "biblia-5419",
+        text: "Portanto, jure-me pelo Senhor que você não eliminará meus descendentes nem fará meu nome desaparecer da família de meu pai\".",
+        author: "1 Samuel 24:21"
+      },
+      {
+        id: "biblia-11011",
+        text: "\"Do seu santuário nas alturas o Senhor olhou; dos céus observou a terra,",
+        author: "Salmos 102:19"
+      },
+      {
+        id: "biblia-1044",
+        text: "O administrador começou então a busca, desde a bagagem do mais velho até a do mais novo. E a taça foi encontrada na bagagem de Benjamim.",
+        author: "Gênesis 44:12"
+      },
+      {
+        id: "biblia-15237",
+        text: "Não mais esconderei deles o rosto, pois derramarei o meu Espírito sobre a nação de Israel, palavra do Soberano Senhor\".",
+        author: "Ezequiel 39:29"
+      },
+      {
+        id: "biblia-18442",
+        text: "Enviou ainda um terceiro, e eles o feriram e o expulsaram da vinha.",
+        author: "Lucas 20:12"
+      },
+      {
+        id: "biblia-22518",
+        text: "Então os três espíritos os reuniram no lugar que, em hebraico, é chamado Armagedom.",
+        author: "Apocalipse 16:16"
+      },
+      {
+        id: "biblia-2480",
+        text: "\"Se a filha de um sacerdote se corromper, tornando-se prostituta, desonra seu pai; será queimada com fogo.",
+        author: "Levítico 21:9"
+      },
+      {
+        id: "biblia-21439",
+        text: "Todas essas coisas estão destinadas a perecer pelo uso, pois se baseiam em mandamentos e ensinos humanos.",
+        author: "Colossenses 2:22"
+      },
+      {
+        id: "biblia-1050",
+        text: "E nós respondemos a meu senhor que o jovem não poderia deixar seu pai, pois, caso o fizesse, seu pai morreria.",
+        author: "Gênesis 44:22"
+      },
+      {
+        id: "biblia-14385",
+        text: "Ele despedaçará as colunas no templo do sol, no Egito, e incendiará os templos dos deuses do Egito’ \".",
+        author: "Jeremias 43:13"
+      },
+      {
+        id: "biblia-1700",
+        text: "Pendure-o com ganchos de ouro em quatro colunas de madeira de acácia revestidas de ouro e fincadas em quatro bases de prata.",
+        author: "Êxodo 26:32"
+      },
+      {
+        id: "biblia-9906",
+        text: "protege todos os seus ossos; nenhum deles será quebrado.",
+        author: "Salmos 34:20"
+      },
+      {
+        id: "biblia-21353",
+        text: "que, embora sendo Deus, não considerou que o ser igual a Deus era algo a que devia apegar-se;",
+        author: "Filipenses 2:6"
+      },
+      {
+        id: "biblia-16070",
+        text: "Depois disso ele me mostrou o sumo sacerdote Josué diante do anjo do Senhor, e Satanás, à sua direita, para acusá-lo.",
+        author: "Zacarias 3:1"
+      },
+      {
+        id: "biblia-1075",
+        text: "\"Mande-os também levar carruagens do Egito para trazerem as suas mulheres, os seus filhos e seu pai.",
+        author: "Gênesis 45:19"
+      },
+      {
+        id: "biblia-7013",
+        text: "A leste ocuparam a terra que vai até o deserto que se estende na direção do rio Eufrates, pois os seus rebanhos tinham aumentado muito em Gileade.",
+        author: "1 Crônicas 5:9"
+      },
+      {
+        id: "biblia-17522",
+        text: "O segundo é este: ‘Ame o seu próximo como a si mesmo’. Não existe mandamento maior do que estes\".",
+        author: "Marcos 12:31"
+      },
+      {
+        id: "biblia-16039",
+        text: "\"Tanto a prata quanto o ouro me pertencem\", declara o Senhor dos Exércitos.",
+        author: "Ageu 2:8"
+      },
+      {
+        id: "biblia-21551",
+        text: "E agora vocês sabem o que o está detendo, para que ele seja revelado no seu devido tempo.",
+        author: "2 Tessalonicenses 2:6"
+      },
+      {
+        id: "biblia-11877",
+        text: "Assim como é inútil estender a rede se as aves o observam,",
+        author: "Provérbios 1:17"
+      },
+      {
+        id: "biblia-3533",
+        text: "Partiram de Cades e acamparam no monte Hor, na fronteira de Edom.",
+        author: "Números 33:37"
+      },
+      {
+        id: "biblia-10619",
+        text: "Por isso ele encerrou os dias deles como um sopro e os anos deles em repentino pavor.",
+        author: "Salmos 78:33"
+      },
+      {
+        id: "biblia-1819",
+        text: "e faça um incenso de mistura aromática, obra de perfumista. Levará sal, será puro e santo.",
+        author: "Êxodo 30:35"
+      },
+      {
+        id: "biblia-21556",
+        text: "Por essa razão Deus lhes envia um poder sedutor, a fim de que creiam na mentira,",
+        author: "2 Tessalonicenses 2:11"
+      },
+      {
+        id: "biblia-4248",
+        text: "Na sétima vez, quando os sacerdotes deram o toque de trombeta, Josué ordenou ao povo: \"Gritem! O Senhor lhes entregou a cidade!",
+        author: "Josué 6:16"
+      },
+      {
+        id: "biblia-15945",
+        text: "Onde está agora a toca dos leões? Onde o lugar em que alimentavam seus filhotes, para onde iam o leão, a leoa e os leõezinhos, sem nada temer?",
+        author: "Naum 2:11"
+      },
+      {
+        id: "biblia-415",
+        text: "O menino cresceu e foi desmamado. No dia em que Isaque foi desmamado, Abraão deu uma grande festa.",
+        author: "Gênesis 21:8"
+      },
+      {
+        id: "biblia-21841",
+        text: "Quem foram os que ouviram e se rebelaram? Não foram todos os que Moisés tirou do Egito?",
+        author: "Hebreus 3:16"
+      },
+      {
+        id: "biblia-966",
+        text: "\"É exatamente como eu disse ao faraó: Deus mostrou ao faraó aquilo que ele vai fazer.",
+        author: "Gênesis 41:28"
+      },
+      {
+        id: "biblia-13636",
+        text: "Eu formo a luz e crio as trevas, promovo a paz e causo a desgraça; eu, o Senhor, faço todas essas coisas. \"",
+        author: "Isaías 45:7"
+      },
+      {
+        id: "biblia-718",
+        text: "Jacó ficou irado e queixou-se a Labão: \"Qual foi meu crime? Que pecado cometi para que você me persiga furiosamente?",
+        author: "Gênesis 31:36"
+      },
+      {
+        id: "biblia-16992",
+        text: "Isto é o meu sangue da aliança, que é derramado em favor de muitos, para perdão de pecados.",
+        author: "Mateus 26:28"
+      },
+      {
+        id: "biblia-12846",
+        text: "Vi ainda outro mal debaixo do sol, que pesa bastante sobre a humanidade:",
+        author: "Eclesiastes 6:1"
+      },
+      {
+        id: "biblia-9625",
+        text: "Clamo ao Senhor, que é digno de louvor, e estou salvo dos meus inimigos.",
+        author: "Salmos 18:3"
+      },
+      {
+        id: "biblia-13414",
+        text: "Por isso o Senhor, que redimiu Abraão, diz à descendência de Jacó: \"Jacó não será mais humilhado; e o seu rosto não tornará a empalidecer.",
+        author: "Isaías 29:22"
+      },
+      {
+        id: "biblia-10197",
+        text: "Você prefere o mal ao bem, a falsidade, em lugar da verdade. Pausa",
+        author: "Salmos 52:3"
+      },
+      {
+        id: "biblia-5856",
+        text: "Joabe comandava todo o exército de Israel; Benaia, filho de Joiada, comandava os queretitas e os peletitas;",
+        author: "2 Samuel 20:23"
+      },
+      {
+        id: "biblia-8732",
+        text: "\"Responderia o sábio com idéias vãs, ou encheria o estômago com o vento?",
+        author: "Jó 15:2"
+      },
+      {
+        id: "biblia-7086",
+        text: "Siquém, cidade de refúgio, nos montes de Efraim, e Gezer,",
+        author: "1 Crônicas 6:67"
+      },
+      {
+        id: "biblia-14076",
+        text: "\"Vá à casa do oleiro, e ali você ouvirá a minha mensagem\".",
+        author: "Jeremias 18:2"
+      },
+      {
+        id: "biblia-13762",
+        text: "Desde o poente os homens temerão o nome do Senhor, e desde o nascente, a sua glória. Pois ele virá como uma inundação impelida pelo sopro do Senhor.",
+        author: "Isaías 59:19"
+      },
+      {
+        id: "biblia-13196",
+        text: "Naquele dia as nações buscarão a Raiz de Jessé, que será como uma bandeira para os povos, e o seu lugar de descanso será glorioso.",
+        author: "Isaías 11:10"
+      },
+      {
+        id: "biblia-985",
+        text: "Ao primeiro, José deu o nome de Manassés, dizendo: \"Deus me fez esquecer todo o meu sofrimento e toda a casa de meu pai\".",
+        author: "Gênesis 41:51"
+      },
+      {
+        id: "biblia-6492",
+        text: "Mas, como Eliseu lhe dissera, a mulher engravidou e, no ano seguinte, por volta daquela mesma época, deu à luz um filho.",
+        author: "2 Reis 4:17"
+      },
+      {
+        id: "biblia-14251",
+        text: "Ao contrário, cada um morrerá por causa do seu próprio pecado. Os dentes de todo aquele que comer uvas verdes se mancharam.",
+        author: "Jeremias 31:30"
+      },
+      {
+        id: "biblia-7192",
+        text: "Alguns levitas estavam encarregados dos utensílios utilizados no culto no templo; eles os contavam quando eram retirados e quando eram devolvidos.",
+        author: "1 Crônicas 9:28"
+      },
+      {
+        id: "biblia-17863",
+        text: "Ensinava nas sinagogas, e todos o elogiavam.",
+        author: "Lucas 4:15"
+      },
+      {
+        id: "biblia-2033",
+        text: "o altar de bronze com a sua grelha, as suas varas e todos os seus utensílios, a bacia e a sua base,",
+        author: "Êxodo 39:39"
+      },
+      {
+        id: "biblia-13626",
+        text: "Do restante ele faz um deus, seu ídolo; inclina-se diante dele e o adora. Ora a ele e diz: \"Salva-me; tu és meu deus\".",
+        author: "Isaías 44:17"
+      },
+      {
+        id: "biblia-10526",
+        text: "Teus adversários gritaram triunfantes bem no local onde te encontravas conosco, e hastearam suas bandeiras em sinal de vitória.",
+        author: "Salmos 74:4"
+      },
+      {
+        id: "biblia-15614",
+        text: "Todos eles se esquentam como um forno, e devoram os seus governantes. Todos os seus reis caem, e ninguém clama a mim.",
+        author: "Oséias 7:7"
+      },
+      {
+        id: "biblia-8314",
+        text: "Os cantores foram trazidos dos arredores de Jerusalém, dos povoados dos netofatitas,",
+        author: "Neemias 12:28"
+      },
+      {
+        id: "biblia-22424",
+        text: "Da tribo de Judá foram selados doze mil, da tribo de Rúben, doze mil, da tribo de Gade, doze mil,",
+        author: "Apocalipse 7:5"
+      },
+      {
+        id: "biblia-8374",
+        text: "Disse o rei: \"Tragam Hamã imediatamente, para que ele atenda ao pedido de Ester\". Então o rei e Hamã foram ao banquete que Ester havia preparado.",
+        author: "Ester 5:5"
+      },
+      {
+        id: "biblia-17779",
+        text: "De repente, uma grande multidão do exército celestial apareceu com o anjo, louvando a Deus e dizendo:",
+        author: "Lucas 2:13"
+      },
+      {
+        id: "biblia-2725",
+        text: "O Senhor disse a Moisés:",
+        author: "Números 3:5"
+      },
+      {
+        id: "biblia-1552",
+        text: "\"São estas as leis que você proclamará ao povo:",
+        author: "Êxodo 21:1"
+      },
+      {
+        id: "biblia-12572",
+        text: "Quando se retira a escória da prata, nesta se tem material para o ourives;",
+        author: "Provérbios 25:4"
+      },
+      {
+        id: "biblia-2487",
+        text: "Nenhum homem que tenha algum defeito poderá aproximar-se: ninguém que seja cego ou aleijado, que tenha o rosto defeituoso ou o corpo deformado;",
+        author: "Levítico 21:18"
+      },
+      {
+        id: "biblia-16122",
+        text: "Mais uma vez veio a mim a palavra do Senhor dos Exércitos.",
+        author: "Zacarias 8:18"
+      },
+      {
+        id: "biblia-22397",
+        text: "Aquele que tem ouvidos ouça o que o Espírito diz às igrejas.",
+        author: "Apocalipse 3:22"
+      },
+      {
+        id: "biblia-19860",
+        text: "Assim, concordamos todos em escolher alguns homens e enviá-los a vocês com nossos amados irmãos Paulo e Barnabé,",
+        author: "Atos 15:25"
+      },
+      {
+        id: "biblia-1037",
+        text: "Assim que despontou a manhã, despediram os homens com os seus jumentos.",
+        author: "Gênesis 44:3"
+      },
+      {
+        id: "biblia-4670",
+        text: "Quando escolheram novos deuses, a guerra chegou às portas, e não se via um só escudo ou lança entre quarenta mil de Israel.",
+        author: "Juízes 5:8"
+      },
+      {
+        id: "biblia-10328",
+        text: "A minha alma apega-se a ti; a tua mão direita me sustém.",
+        author: "Salmos 63:8"
+      },
+      {
+        id: "biblia-8272",
+        text: "Dentre os levitas: Semaías, filho de Hassube, neto de Azricão, bisneto de Hasabias, tataraneto de Buni;",
+        author: "Neemias 11:15"
+      },
+      {
+        id: "biblia-11412",
+        text: "Andarei em verdadeira liberdade, pois tenho buscado os teus preceitos.",
+        author: "Salmos 119:45"
+      },
+      {
+        id: "biblia-10609",
+        text: "Contudo, ele deu ordens às nuvens e abriu as portas dos céus;",
+        author: "Salmos 78:23"
+      },
+      {
+        id: "biblia-5148",
+        text: "Eles o cumprimentarão e lhe oferecerão dois pães, que você deve aceitar.",
+        author: "1 Samuel 10:4"
+      },
+      {
+        id: "biblia-7550",
+        text: "Estes foram os líderes das tribos de Israel: de Rúben: Eliézer, filho de Zicri; de Simeão: Sefatias, filho de Maaca;",
+        author: "1 Crônicas 27:16"
+      },
+      {
+        id: "biblia-3797",
+        text: "Prestem atenção! Hoje estou pondo diante de vocês a bênção e a maldição.",
+        author: "Deuteronômio 11:26"
+      },
+      {
+        id: "biblia-14937",
+        text: "Então todos saberão que eu, o Senhor, da bainha tirei a espada e não tornarei a guardá-la’.",
+        author: "Ezequiel 21:5"
+      },
+      {
+        id: "biblia-18443",
+        text: "\"Então o proprietário da vinha disse: ‘Que farei? Mandarei meu filho amado; quem sabe o respeitarão’.",
+        author: "Lucas 20:13"
+      },
+      {
+        id: "biblia-17039",
+        text: "Então decidiram usar aquele dinheiro para comprar o campo do Oleiro, para cemitério de estrangeiros.",
+        author: "Mateus 27:7"
+      },
+      {
+        id: "biblia-12699",
+        text: "Se alguém mima seu escravo desde jovem, no fim terá tristezas.",
+        author: "Provérbios 29:21"
+      },
+      {
+        id: "biblia-17962",
+        text: "Por isso, nem me considerei digno de ir ao teu encontro. Mas dize uma palavra, e o meu servo será curado.",
+        author: "Lucas 7:7"
+      },
+      {
+        id: "biblia-4925",
+        text: "Todo o povo se levantou como se fosse um só homem, dizendo: \"Nenhum de nós irá para casa. Nenhum de nós voltará para o seu lar.",
+        author: "Juízes 20:8"
+      },
+      {
+        id: "biblia-13381",
+        text: "Pelo desterro e pelo exílio o julga, com seu sopro violento ele o expulsa, como num dia de rajadas do vento oriental.",
+        author: "Isaías 27:8"
+      },
+      {
+        id: "biblia-11779",
+        text: "Então, na juventude, os nossos filhos serão como plantas viçosas, e as nossas filhas, como colunas esculpidas para ornar um palácio.",
+        author: "Salmos 144:12"
+      },
+      {
+        id: "biblia-3467",
+        text: "Moisés respondeu aos homens de Gade e de Rúben: \"E os seus compatriotas irão à guerra enquanto vocês ficam aqui?",
+        author: "Números 32:6"
+      },
+      {
+        id: "biblia-3978",
+        text: "Deixem-no viver no meio de vocês pelo tempo que ele desejar e em qualquer cidade que ele escolher. Não o oprimam.",
+        author: "Deuteronômio 23:16"
+      },
+      {
+        id: "biblia-19015",
+        text: "Por que a minha linguagem não é clara para vocês? Porque são incapazes de ouvir o que eu digo.",
+        author: "João 8:43"
+      },
+      {
+        id: "biblia-19966",
+        text: "Um ourives chamado Demétrio, que fazia miniaturas de prata do templo de Ártemis e que dava muito lucro aos artífices,",
+        author: "Atos 19:24"
+      },
+      {
+        id: "biblia-9037",
+        text: "Eles vasculham as nascentes dos rios e trazem à luz coisas ocultas.",
+        author: "Jó 28:11"
+      },
+      {
+        id: "biblia-13880",
+        text: "Ergam o sinal indicando Sião. Fujam sem demora em busca de abrigo! Porque do Norte eu estou trazendo desgraça, uma grande destruição\".",
+        author: "Jeremias 4:6"
+      },
+      {
+        id: "biblia-9959",
+        text: "Mas as suas espadas lhes atravessará o coração, e os seus arcos serão quebrados.",
+        author: "Salmos 37:15"
+      },
+      {
+        id: "biblia-11220",
+        text: "Gileade me pertence, e Manassés também; Efraim é o meu capacete, Judá é o meu cetro.",
+        author: "Salmos 108:8"
+      },
+      {
+        id: "biblia-10672",
+        text: "Escuta-nos, Pastor de Israel, tu, que conduzes a José como a um rebanho; tu, que tens o teu trono sobre os querubins, manifesta o teu esplendor",
+        author: "Salmos 80:1"
+      },
+      {
+        id: "biblia-263",
+        text: "A seguir o faraó deu ordens para que providenciassem o necessário para que Abrão partisse, com sua mulher e com tudo o que possuía.",
+        author: "Gênesis 12:20"
+      },
+      {
+        id: "biblia-8232",
+        text: "\"Deste-lhes reinos e nações, cuja terra repartiste entre eles. Eles conquistaram a terra de Seom, rei de Hesbom, e a terra de Ogue, rei de Basã.",
+        author: "Neemias 9:22"
+      },
+      {
+        id: "biblia-8698",
+        text: "Escutem atentamente as minhas palavras; que os seus ouvidos acolham o que eu digo.",
+        author: "Jó 13:17"
+      },
+      {
+        id: "biblia-16755",
+        text: "\"Mas ele respondeu a um deles: ‘Amigo, não estou sendo injusto com você. Você não concordou em trabalhar por um denário?",
+        author: "Mateus 20:13"
+      },
+      {
+        id: "biblia-6494",
+        text: "De repente, ele começou a chamar o pai, gritando: \"Ai, minha cabeça! Ai, minha cabeça! \" Então o pai disse a um servo: \"Leve-o para a mãe dele\".",
+        author: "2 Reis 4:19"
+      },
+      {
+        id: "biblia-15091",
+        text: "Pois o dia está próximo, o dia do Senhor está próximo; será dia de nuvens, uma época de condenação para as nações.",
+        author: "Ezequiel 30:3"
+      },
+      {
+        id: "biblia-4669",
+        text: "Já tinham desistido os camponeses de Israel, já tinham desistido, até que eu, Débora, me levantei; levantou-se uma mãe em Israel.",
+        author: "Juízes 5:7"
+      },
+      {
+        id: "biblia-2405",
+        text: "Pratiquem as minhas ordenanças, obedeçam aos meus decretos e sigam-nos. Eu sou o Senhor, o Deus de vocês.",
+        author: "Levítico 18:4"
+      },
+      {
+        id: "biblia-83",
+        text: "Este é o registro da descendência de Adão: Quando Deus criou o homem, à semelhança de Deus o fez;",
+        author: "Gênesis 5:1"
+      },
+      {
+        id: "biblia-15994",
+        text: "ainda assim eu exultarei no Senhor e me alegrarei no Deus da minha salvação.",
+        author: "Habacuque 3:18"
+      },
+      {
+        id: "biblia-16405",
+        text: "Vão aprender o que significa isto: ‘Desejo misericórdia, não sacrifícios’. Pois eu não vim chamar justos, mas pecadores\".",
+        author: "Mateus 9:13"
+      },
+      {
+        id: "biblia-2723",
+        text: "Os nomes dos filhos de Arão são Nadabe, o mais velho, Abiú, Eleazar e Itamar.",
+        author: "Números 3:2"
+      },
+      {
+        id: "biblia-7782",
+        text: "O Senhor firmou o reino de Josafá, e todo o Judá lhe trazia presentes, de maneira que teve grande riqueza e honra.",
+        author: "2 Crônicas 17:5"
+      },
+      {
+        id: "biblia-18324",
+        text: "Assim também vocês, quando tiverem feito tudo o que lhes for ordenado, devem dizer: ‘Somos servos inúteis; apenas cumprimos o nosso dever’ \".",
+        author: "Lucas 17:10"
+      },
+      {
+        id: "biblia-19735",
+        text: "Todos os profetas dão testemunho dele, de que todo aquele que nele crê recebe o perdão dos pecados mediante o seu nome\".",
+        author: "Atos 10:43"
+      },
+      {
+        id: "biblia-10204",
+        text: "Diz o tolo em seu coração: \"Deus não existe! \" Corromperam-se e cometeram injustiças detestáveis; não há ninguém que faça o bem.",
+        author: "Salmos 53:1"
+      },
+      {
+        id: "biblia-19492",
+        text: "Pedro e João olharam bem para ele e, então, Pedro disse: \"Olhe para nós! \"",
+        author: "Atos 3:4"
+      },
+      {
+        id: "biblia-19082",
+        text: "Diante dessas palavras, os judeus ficaram outra vez divididos.",
+        author: "João 10:19"
+      },
+      {
+        id: "biblia-12491",
+        text: "Para que você confie no Senhor, a você hoje ensinarei.",
+        author: "Provérbios 22:19"
+      },
+      {
+        id: "biblia-646",
+        text: "Lia tinha olhos meigos, mas Raquel era bonita e atraente.",
+        author: "Gênesis 29:17"
+      },
+      {
+        id: "biblia-15762",
+        text: "\"Ouçam isto e testemunhem contra a descendência de Jacó\", declara o SENHOR Soberano, o Deus dos Exércitos.",
+        author: "Amós 3:13"
+      },
+      {
+        id: "biblia-9918",
+        text: "Testemunhas maldosas enfrentam-me e questionam-me sobre coisas de que nada sei.",
+        author: "Salmos 35:11"
+      },
+      {
+        id: "biblia-8124",
+        text: "Matanias, Matenai e Jaasai.",
+        author: "Esdras 10:37"
+      },
+      {
+        id: "biblia-46",
+        text: "Disse a serpente à mulher: \"Certamente não morrerão!",
+        author: "Gênesis 3:4"
+      },
+      {
+        id: "biblia-10651",
+        text: "Então o Senhor despertou como que de um sono, como um guerreiro exaltado pelo vinho.",
+        author: "Salmos 78:65"
+      },
+      {
+        id: "biblia-14069",
+        text: "Há os que vivem me dizendo: \"Onde está a palavra do Senhor? Que ela se cumpra! \"",
+        author: "Jeremias 17:15"
+      },
+      {
+        id: "biblia-11752",
+        text: "Quando o meu espírito se desanima, és tu quem conhece o caminho que devo seguir. Na vereda por onde ando esconderam uma armadilha contra mim.",
+        author: "Salmos 142:3"
+      },
+      {
+        id: "biblia-4027",
+        text: "E as tribos que estarão no monte Ebal para declararem maldições serão: Rúben, Gade, Aser, Zebulom, Dã e Naftali.",
+        author: "Deuteronômio 27:13"
+      },
+      {
+        id: "biblia-19078",
+        text: "\"Eu sou o bom pastor; conheço as minhas ovelhas; e elas me conhecem;",
+        author: "João 10:14"
+      },
+      {
+        id: "biblia-9427",
+        text: "Quando ele se ergue, os poderosos se apavoram; fogem com medo dos seus golpes.",
+        author: "Jó 41:25"
+      },
+      {
+        id: "biblia-14022",
+        text: "Então fui a Perate, desenterrei o cinto e o tirei do lugar em que o havia escondido. O cinto estava podre e se tornara completamente inútil.",
+        author: "Jeremias 13:7"
+      },
+      {
+        id: "biblia-3923",
+        text: "É assim que vocês tratarão todas as cidades distantes que não pertencem às nações vizinhas de vocês.",
+        author: "Deuteronômio 20:15"
+      },
+      {
+        id: "biblia-6130",
+        text: "o tanque e os doze touros debaixo dele;",
+        author: "1 Reis 7:44"
+      },
+      {
+        id: "biblia-1052",
+        text: "Quando voltamos a teu servo, a meu pai, contamos-lhe o que o meu senhor tinha dito.",
+        author: "Gênesis 44:24"
+      },
+      {
+        id: "biblia-15486",
+        text: "De um deles saiu um outro chifre, que começou pequeno, mas cresceu em poder na direção do sul, do leste e da Terra Magnífica.",
+        author: "Daniel 8:9"
+      },
+      {
+        id: "biblia-10705",
+        text: "Os que odeiam o Senhor se renderiam diante dele, e receberiam um castigo perpétuo.",
+        author: "Salmos 81:15"
+      },
+      {
+        id: "biblia-1266",
+        text: "Aumentem a carga de trabalho dessa gente para que cumpram suas tarefas e não dêem atenção a mentiras\".",
+        author: "Êxodo 5:9"
+      },
+      {
+        id: "biblia-20098",
+        text: "Então Félix, que tinha bom conhecimento do Caminho, adiou a causa e disse: \"Quando chegar o comandante Lísias, decidirei o caso de vocês\".",
+        author: "Atos 24:22"
+      },
+      {
+        id: "biblia-18059",
+        text: "Pois que adianta ao homem ganhar o mundo inteiro, e perder-se ou destruir a si mesmo?",
+        author: "Lucas 9:25"
+      },
+      {
+        id: "biblia-766",
+        text: "Disse, porém, Esaú: \"Eu já tenho muito, meu irmão. Guarde para você o que é seu\".",
+        author: "Gênesis 33:9"
+      },
+      {
+        id: "biblia-18277",
+        text: "O mais novo disse ao seu pai: ‘Pai, quero a minha parte da herança’. Assim, ele repartiu sua propriedade entre eles.",
+        author: "Lucas 15:12"
+      },
+      {
+        id: "biblia-16573",
+        text: "Então perguntou Jesus: \"Vocês entenderam todas essas coisas? \" \"Sim\", responderam eles.",
+        author: "Mateus 13:51"
+      },
+      {
+        id: "biblia-7611",
+        text: "O pórtico da entrada do templo tinha nove metros de largura e nove metros de altura. Ele revestiu de ouro puro o seu interior.",
+        author: "2 Crônicas 3:4"
+      },
+      {
+        id: "biblia-8016",
+        text: "Hagabe, Sanlai, Hanã,",
+        author: "Esdras 2:46"
+      },
+      {
+        id: "biblia-10114",
+        text: "e escolheu para nós a nossa herança, o orgulho de Jacó, a quem amou. Pausa",
+        author: "Salmos 47:4"
+      },
+      {
+        id: "biblia-12145",
+        text: "A boca do justo produz sabedoria, mas a língua perversa será extirpada.",
+        author: "Provérbios 10:31"
+      },
+      {
+        id: "biblia-10300",
+        text: "Dá-nos ajuda contra os adversários, pois inútil é o socorro do homem.",
+        author: "Salmos 60:11"
+      },
+      {
+        id: "biblia-6962",
+        text: "Malquirão, Pedaías, Senazar, Jecamias, Hosama e Nedabias.",
+        author: "1 Crônicas 3:18"
+      },
+      {
+        id: "biblia-8351",
+        text: "Ora, na cidadela de Susã havia um judeu chamado Mardoqueu, da tribo de Benjamim, filho de Jair, neto de Simei e bisneto de Quis,",
+        author: "Ester 2:5"
+      },
+      {
+        id: "biblia-16629",
+        text: "Pois do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos e as calúnias.",
+        author: "Mateus 15:19"
+      },
+      {
+        id: "biblia-2664",
+        text: "de Benjamim, Abidã, filho de Gideoni;",
+        author: "Números 1:11"
+      },
+      {
+        id: "biblia-15779",
+        text: "Haverá lamentos em todas as vinhas, pois passarei no meio de vocês\", diz o SENHOR.",
+        author: "Amós 5:17"
+      },
+      {
+        id: "biblia-15661",
+        text: "No ventre da mãe segurou o calcanhar de seu irmão; como homem lutou com Deus.",
+        author: "Oséias 12:3"
+      },
+      {
+        id: "biblia-12578",
+        text: "caso contrário, quem o ouvir poderá recriminá-lo e você jamais perderá sua má reputação.",
+        author: "Provérbios 25:10"
+      },
+      {
+        id: "biblia-15039",
+        text: "Levarei você a um fim terrível e você já não existirá. Você será procurada, e jamais será achada, palavra do Soberano Senhor\".",
+        author: "Ezequiel 26:21"
+      },
+      {
+        id: "biblia-5300",
+        text: "Davi pegou a cabeça do filisteu, levou-a para Jerusalém e guardou as armas do filisteu em sua própria tenda.",
+        author: "1 Samuel 17:54"
+      },
+      {
+        id: "biblia-5415",
+        text: "\"Você é mais justo do que eu\", disse ele a Davi. \"Você me tratou bem, mas eu o tratei mal. \"",
+        author: "1 Samuel 24:17"
+      },
+      {
+        id: "biblia-22113",
+        text: "lembrem-se disso: Quem converte um pecador do erro do seu caminho, salvará a vida dessa pessoa e fará que muitíssimos pecados sejam perdoados.",
+        author: "Tiago 5:20"
+      },
+      {
+        id: "biblia-10373",
+        text: "mas Deus me ouviu, deu atenção à oração que lhe dirigi.",
+        author: "Salmos 66:19"
+      },
+      {
+        id: "biblia-2831",
+        text: "O Senhor disse a Moisés:",
+        author: "Números 7:4"
+      },
+      {
+        id: "biblia-12775",
+        text: "O que foi tornará a ser, o que foi feito se fará novamente; não há nada novo debaixo do sol.",
+        author: "Eclesiastes 1:9"
+      },
+      {
+        id: "biblia-15509",
+        text: "Ele me instruiu e me disse: \"Daniel, agora vim para dar-lhe percepção e entendimento.",
+        author: "Daniel 9:22"
+      },
+      {
+        id: "biblia-15246",
+        text: "A distância desde a entrada da porta até a extremidade do seu pórtico era de vinte e cinco metros.",
+        author: "Ezequiel 40:15"
+      },
+      {
+        id: "biblia-6373",
+        text: "Depois se deitou debaixo da árvore e dormiu. De repente um anjo tocou nele e disse: \"Levante-se e coma\".",
+        author: "1 Reis 19:5"
+      },
+      {
+        id: "biblia-2679",
+        text: "O número dos da tribo de Manassés foi 32. 200.",
+        author: "Números 1:35"
+      },
+      {
+        id: "biblia-15075",
+        text: "\"Filho do homem, vire o rosto contra Sidom; profetize contra ela",
+        author: "Ezequiel 28:21"
+      },
+      {
+        id: "biblia-13408",
+        text: "Ou, se vocês derem o livro a alguém que não saiba ler e lhe disserem: \"Leia, por favor\", ele responderá: \"Não sei ler\".",
+        author: "Isaías 29:12"
+      },
+      {
+        id: "biblia-19235",
+        text: "Vocês conhecem o caminho para onde vou\".",
+        author: "João 14:4"
+      },
+      {
+        id: "biblia-11848",
+        text: "Louvem eles o seu nome com danças; ofereçam-lhe música com tamborim e harpa.",
+        author: "Salmos 149:3"
+      },
+      {
+        id: "biblia-2491",
+        text: "Foi isso que Moisés falou a Arão e a seus filhos e a todos os israelitas.",
+        author: "Levítico 21:24"
+      },
+      {
+        id: "biblia-22447",
+        text: "Os cabelos deles eram como os de mulheres e os dentes como os de leão.",
+        author: "Apocalipse 9:8"
+      },
+      {
+        id: "biblia-2127",
+        text: "Quando o conscientizarem do seu pecado, trará como oferta um bode sem defeito.",
+        author: "Levítico 4:23"
+      },
+      {
+        id: "biblia-10322",
+        text: "Quero contemplar-te no santuário e avistar o teu poder e a tua glória.",
+        author: "Salmos 63:2"
+      },
+      {
+        id: "biblia-9325",
+        text: "As portas da morte lhe foram mostradas? Você viu as portas das densas trevas?",
+        author: "Jó 38:17"
+      },
+      {
+        id: "biblia-1630",
+        text: "e viram o Deus de Israel, sob cujos pés havia algo semelhante a um pavimento de safira, como o céu em seu esplendor.",
+        author: "Êxodo 24:10"
+      },
+      {
+        id: "biblia-12364",
+        text: "Não é bom favorecer os ímpios para privar da justiça o justo.",
+        author: "Provérbios 18:5"
+      },
+      {
+        id: "biblia-20872",
+        text: "Estejam vigilantes, mantenham-se firmes na fé, sejam homens de coragem, sejam fortes.",
+        author: "1 Coríntios 16:13"
+      },
+      {
+        id: "biblia-4149",
+        text: "Ergo a minha mão para os céus e declaro: Juro pelo meu nome que,",
+        author: "Deuteronômio 32:40"
+      },
+      {
+        id: "biblia-7284",
+        text: "Ficaram com Davi três dias, comendo e bebendo, pois as suas famílias haviam fornecido provisões para eles.",
+        author: "1 Crônicas 12:39"
+      },
+      {
+        id: "biblia-8013",
+        text: "Os porteiros do templo: os descendentes de Salum, Ater, Talmom, Acube, Hatita e Sobai 139",
+        author: "Esdras 2:42"
+      },
+      {
+        id: "biblia-19714",
+        text: "Enquanto Pedro estava refletindo no significado da visão, os homens enviados por Cornélio descobriram onde era a casa de Simão e chegaram à porta.",
+        author: "Atos 10:17"
+      },
+      {
+        id: "biblia-19498",
+        text: "Apegando-se o mendigo a Pedro e João, todo o povo ficou maravilhado e correu até eles, ao lugar chamado Pórtico de Salomão.",
+        author: "Atos 3:11"
+      },
+      {
+        id: "biblia-4466",
+        text: "Zela, Elefe, Jebus, que é Jerusalém, Gibeá e Quiriate. Eram catorze cidades com os seus povoados. Essa foi a herança dos clãs de Benjamim.",
+        author: "Josué 18:28"
+      },
+      {
+        id: "biblia-6594",
+        text: "Levaram a coluna sagrada para fora do templo de Baal e a queimaram.",
+        author: "2 Reis 10:26"
+      },
+      {
+        id: "biblia-22091",
+        text: "Aproximem-se de Deus, e ele se aproximará de vocês! Pecadores, limpem as mãos, e vocês, que têm a mente dividida, purifiquem o coração.",
+        author: "Tiago 4:8"
+      },
+      {
+        id: "biblia-15901",
+        text: "Acabarei com a sua feitiçaria, e vocês não farão mais adivinhações.",
+        author: "Miquéias 5:12"
+      },
+      {
+        id: "biblia-3588",
+        text: "\"Se um homem ferir alguém com um objeto de ferro de modo que esta pessoa morra, ele é assassino; o assassino terá que ser executado.",
+        author: "Números 35:16"
+      },
+      {
+        id: "biblia-7910",
+        text: "Mesmo nessa época em que passou por tantas dificuldades, o rei Acaz tornou-se ainda mais infiel ao Senhor.",
+        author: "2 Crônicas 28:22"
+      },
+      {
+        id: "biblia-19652",
+        text: "Um anjo do Senhor disse a Filipe: \"Vá para o sul, para a estrada deserta que desce de Jerusalém a Gaza\".",
+        author: "Atos 8:26"
+      },
+      {
+        id: "biblia-3799",
+        text: "tenham o cuidado de obedecer a todos os decretos e ordenanças que hoje estou dando a vocês.",
+        author: "Deuteronômio 11:32"
+      },
+      {
+        id: "biblia-17411",
+        text: "Depois de Jesus ter entrado em casa, seus discípulos lhe perguntaram em particular: \"Por que não conseguimos expulsá-lo? \"",
+        author: "Marcos 9:28"
+      },
+      {
+        id: "biblia-4065",
+        text: "Os seus filhos e filhas não ficarão com vocês, porque serão levados para o cativeiro.",
+        author: "Deuteronômio 28:41"
+      },
+      {
+        id: "biblia-1345",
+        text: "Mas o Senhor endureceu o coração do faraó, e ele se recusou a atender Moisés e Arão, conforme o Senhor tinha dito a Moisés.",
+        author: "Êxodo 9:12"
+      },
+      {
+        id: "biblia-4500",
+        text: "Irom, Migdal-El, Horém, Bete-Anate e Bete-Semes. Eram dezenove cidades com os seus povoados.",
+        author: "Josué 19:38"
+      },
+      {
+        id: "biblia-7423",
+        text: "Naquela época, o tabernáculo do Senhor que Moisés fizera no deserto, e o altar de holocaustos, estavam em Gibeom.",
+        author: "1 Crônicas 21:29"
+      },
+      {
+        id: "biblia-14297",
+        text: "Então o Senhor dirigiu a palavra a Jeremias, dizendo:",
+        author: "Jeremias 34:12"
+      },
+      {
+        id: "biblia-8745",
+        text: "Pois se nem nos seus Deus confia, e se nem os céus são puros aos seus olhos,",
+        author: "Jó 15:15"
+      },
+      {
+        id: "biblia-13005",
+        text: "Como são lindos os seus pés calçados com sandálias, ó filha do príncipe! As curvas das suas coxas são como jóias, obra das mãos de um artífice.",
+        author: "Cânticos 7:1"
+      },
+      {
+        id: "biblia-7834",
+        text: "Josafá descansou com seus antepassados e foi sepultado junto deles na cidade de Davi, e seu filho Jeorão foi o seu sucessor.",
+        author: "2 Crônicas 21:1"
+      },
+      {
+        id: "biblia-9602",
+        text: "Quanto aos fiéis que há na terra, eles é que são os notáveis em quem está todo o meu prazer.",
+        author: "Salmos 16:3"
+      },
+      {
+        id: "biblia-9898",
+        text: "Quem de vocês quer amar a vida e deseja ver dias felizes?",
+        author: "Salmos 34:12"
+      },
+      {
+        id: "biblia-15186",
+        text: "\" ‘Pois eu os tirarei das nações, os ajuntarei do meio de todas as terras e os trarei de volta para a sua própria terra.",
+        author: "Ezequiel 36:24"
+      },
+      {
+        id: "biblia-14973",
+        text: "A mais velha chamava-se Oolá, e sua irmã, Oolibá. Elas eram minhas e deram à luz filhos e filhas. Oolá é Samaria, e Oolibá é Jerusalém.",
+        author: "Ezequiel 23:4"
+      },
+      {
+        id: "biblia-5355",
+        text: "Saul não disse nada naquele dia, pois pensou: \"Algo deve ter acontecido a Davi, deixando-o cerimonialmente impuro. Com certeza ele está impuro\".",
+        author: "1 Samuel 20:26"
+      },
+      {
+        id: "biblia-17045",
+        text: "Então Pilatos lhe perguntou: \"Você não ouve a acusação que eles estão fazendo contra você? \"",
+        author: "Mateus 27:13"
+      },
+      {
+        id: "biblia-9620",
+        text: "Eles me seguem os passos, e já me cercam; seus olhos estão atentos, prontos para derrubar-me.",
+        author: "Salmos 17:11"
+      },
+      {
+        id: "biblia-17069",
+        text: "e dizendo: \"Você que destrói o templo e o reedifica em três dias, salve-se! Desça da cruz, se é Filho de Deus! \"",
+        author: "Mateus 27:40"
+      },
+      {
+        id: "biblia-15395",
+        text: "Imediatamente Arioque levou Daniel ao rei e disse: \"Encontrei um homem entre os exilados de Judá que pode dizer ao rei o significado do sonho\".",
+        author: "Daniel 2:25"
+      },
+      {
+        id: "biblia-16854",
+        text: "\"Tudo o que fazem é para serem vistos pelos homens. Eles fazem seus filactérios bem largos e as franjas de suas vestes bem longas;",
+        author: "Mateus 23:5"
+      },
+      {
+        id: "biblia-21489",
+        text: "Quisemos visitá-los. Eu mesmo, Paulo o quis, e não apenas uma vez, mas duas; Satanás, porém, nos impediu.",
+        author: "1 Tessalonicenses 2:18"
+      },
+      {
+        id: "biblia-5226",
+        text: "Samuel disse a Saul: \"Eu sou aquele a quem o Senhor enviou para ungi-lo como rei de Israel, o povo dele; por isso escute agora a mensagem do Senhor.",
+        author: "1 Samuel 15:1"
+      },
+      {
+        id: "biblia-13245",
+        text: "Lamente, ó porta! Clame, ó cidade! Derretam-se todos vocês, filisteus! Do norte vem um exército, e ninguém desertou de suas fileiras.",
+        author: "Isaías 14:31"
+      },
+      {
+        id: "biblia-2724",
+        text: "São esses os nomes dos filhos de Arão, que foram ungidos para o sacerdócio e que foram ordenados sacerdotes.",
+        author: "Números 3:3"
+      },
+      {
+        id: "biblia-4331",
+        text: "Contudo, Israel não incendiou nenhuma das cidades construídas nas colinas, com exceção de Hazor, que Josué incendiou.",
+        author: "Josué 11:13"
+      },
+      {
+        id: "biblia-10044",
+        text: "Por causa da minha integridade me susténs e me pões na tua presença para sempre.",
+        author: "Salmos 41:12"
+      },
+      {
+        id: "biblia-7769",
+        text: "Todo aquele que não buscasse o Senhor, o Deus de Israel, deveria ser morto, gente simples ou importante, homem ou mulher.",
+        author: "2 Crônicas 15:13"
+      },
+      {
+        id: "biblia-5977",
+        text: "Seria isto algo que o rei, meu senhor, fez sem deixar que os seus conselheiros soubessem quem sucederia ao rei, meu senhor, no trono? \"",
+        author: "1 Reis 1:27"
+      },
+      {
+        id: "biblia-7616",
+        text: "No Lugar Santíssimo esculpiu e revestiu de ouro dois querubins,",
+        author: "2 Crônicas 3:10"
+      },
+      {
+        id: "biblia-17211",
+        text: "Mas quando saiu o sol, as plantas se queimaram e secaram, porque não tinham raiz.",
+        author: "Marcos 4:6"
+      },
+      {
+        id: "biblia-8915",
+        text: "\"Pode alguém ser útil a Deus? Mesmo um sábio, pode ser-lhe de algum proveito?",
+        author: "Jó 22:2"
+      },
+      {
+        id: "biblia-4643",
+        text: "Então Eúde saiu para o pórtico, depois de fechar e trancar as portas da sala atrás de si.",
+        author: "Juízes 3:23"
+      },
+      {
+        id: "biblia-20718",
+        text: "Tornem-se meus imitadores, como eu o sou de Cristo.",
+        author: "1 Coríntios 11:1"
+      },
+      {
+        id: "biblia-1720",
+        text: "Todos os utensílios para o serviço do tabernáculo, inclusive todas as estacas da tenda e as do pátio, serão feitos de bronze.",
+        author: "Êxodo 27:19"
+      },
+      {
+        id: "biblia-14560",
+        text: "Ele me impeliu e me fez andar na escuridão, e não na luz;",
+        author: "Lamentações de Jeremias 3:2"
+      },
+      {
+        id: "biblia-18101",
+        text: "Mas no juízo haverá menor rigor para Tiro e Sidom do que para vocês.",
+        author: "Lucas 10:14"
+      },
+      {
+        id: "biblia-21825",
+        text: "e libertasse aqueles que durante toda a vida estiveram escravizados pelo medo da morte.",
+        author: "Hebreus 2:15"
+      },
+      {
+        id: "biblia-19683",
+        text: "Decorridos muitos dias, os judeus decidiram de comum acordo matá-lo,",
+        author: "Atos 9:23"
+      },
+      {
+        id: "biblia-4888",
+        text: "Eles responderam: \"Vamos atacá-los! Vimos que a terra é muito boa. Vocês vão ficar aí sem fazer nada? Não hesitem em ir apossar-se dela.",
+        author: "Juízes 18:9"
+      },
+      {
+        id: "biblia-12557",
+        text: "Aqui vão outros ditados dos sábios: Agir com parcialidade nos julgamentos não é nada bom.",
+        author: "Provérbios 24:23"
+      },
+      {
+        id: "biblia-8343",
+        text: "Quando, porém, os oficiais transmitiram a ordem do rei à rainha Vasti, esta se recusou a ir, de modo que o rei ficou furioso e indignado.",
+        author: "Ester 1:12"
+      },
+      {
+        id: "biblia-1961",
+        text: "Os querubins tinham as asas estendidas para cima, cobrindo com elas a tampa. Estavam de frente um para o outro, com o rosto voltado para a tampa.",
+        author: "Êxodo 37:9"
+      },
+      {
+        id: "biblia-6957",
+        text: "o filho de Jotão, Acaz; o filho de Acaz, Ezequias; o filho de Ezequias, Manassés;",
+        author: "1 Crônicas 3:13"
+      },
+      {
+        id: "biblia-2900",
+        text: "Todo primogênito em Israel, entre os homens ou entre os rebanhos, é meu. Eu os separei para mim quando feri todos os primogênitos no Egito",
+        author: "Números 8:17"
+      },
+      {
+        id: "biblia-467",
+        text: "Efrom respondeu a Abraão:",
+        author: "Gênesis 23:14"
+      },
+      {
+        id: "biblia-13271",
+        text: "\"Incitarei egípcio contra egípcio; cada um lutará contra seu irmão, vizinho lutará contra vizinho, cidade contra cidade, reino contra reino.",
+        author: "Isaías 19:2"
+      },
+      {
+        id: "biblia-21682",
+        text: "Você sabe que todos os da província da Ásia me abandonaram, inclusive Fígelo e Hermógenes.",
+        author: "2 Timóteo 1:15"
+      },
+      {
+        id: "biblia-9185",
+        text: "Em sonho ou em visão durante a noite, quando o sono profundo cai sobre os homens e eles dormem em suas camas,",
+        author: "Jó 33:15"
+      },
+      {
+        id: "biblia-15738",
+        text: "porei fogo nos muros de Gaza, que consumirá as suas fortalezas.",
+        author: "Amós 1:7"
+      },
+      {
+        id: "biblia-13550",
+        text: "A quem vocês compararão Deus? Como poderão representá-lo?",
+        author: "Isaías 40:18"
+      },
+      {
+        id: "biblia-20554",
+        text: "Porque a loucura de Deus é mais sábia que a sabedoria humana, e a fraqueza de Deus é mais forte que a força do homem.",
+        author: "1 Coríntios 1:25"
+      },
+      {
+        id: "biblia-17403",
+        text: "Um homem, no meio da multidão, respondeu: \"Mestre, eu te trouxe o meu filho, que está com um espírito que o impede de falar.",
+        author: "Marcos 9:17"
+      },
+      {
+        id: "biblia-4756",
+        text: "quando Deus enviou um espírito maligno entre Abimeleque e os cidadãos de Siquém, e estes agiram traiçoeiramente contra Abimeleque.",
+        author: "Juízes 9:23"
+      },
+      {
+        id: "biblia-16065",
+        text: "\"Atenção! Atenção! Fujam da terra do norte\", declara o Senhor, \"porque eu os espalhei aos quatro ventos da terra\", diz o Senhor.",
+        author: "Zacarias 2:6"
+      },
+      {
+        id: "biblia-7222",
+        text: "E Davi foi se tornando cada vez mais poderoso, pois o Senhor dos Exércitos estava com ele.",
+        author: "1 Crônicas 11:9"
+      },
+      {
+        id: "biblia-2084",
+        text: "O sacerdote trará a ave ao altar, destroncará o pescoço dela e a queimará, e deixará escorrer o sangue da ave na parede do altar.",
+        author: "Levítico 1:15"
+      },
+      {
+        id: "biblia-14921",
+        text: "porque não obedeceram às minhas leis, mas rejeitaram os meus decretos e profanaram os meus sábados, e os seus olhos cobiçaram os ídolos de seus país.",
+        author: "Ezequiel 20:24"
+      },
+      {
+        id: "biblia-14419",
+        text: "Fujam! Corram para salvar suas vidas; tornem-se como um arbusto no deserto.",
+        author: "Jeremias 48:6"
+      },
+      {
+        id: "biblia-21121",
+        text: "Assim, você já não é mais escravo, mas filho; e, por ser filho, Deus também o tornou herdeiro.",
+        author: "Gálatas 4:7"
+      },
+      {
+        id: "biblia-15507",
+        text: "Ouve, nosso Deus, as orações e as súplicas do teu servo. Por amor de ti, Senhor, olha com bondade para o teu santuário abandonado.",
+        author: "Daniel 9:17"
+      },
+      {
+        id: "biblia-13900",
+        text: "Não devo eu castigá-los por isso? \", pergunta o Senhor. \"Não devo eu vingar-me de uma nação como esta?",
+        author: "Jeremias 5:9"
+      },
+      {
+        id: "biblia-4777",
+        text: "uma mulher jogou-lhe uma pedra de moinho na cabeça, que lhe rachou o crânio.",
+        author: "Juízes 9:53"
+      },
+      {
+        id: "biblia-14402",
+        text: "\"Quem é aquele que se levanta como o Nilo, como rios de águas agitadas?",
+        author: "Jeremias 46:7"
+      },
+      {
+        id: "biblia-21988",
+        text: "Suportem as dificuldades, recebendo-as como disciplina; Deus os trata como filhos. Pois, qual o filho que não é disciplinado por seu pai?",
+        author: "Hebreus 12:7"
+      },
+      {
+        id: "biblia-7347",
+        text: "\"A vocês darei a terra de Canaã, a herança que possuirão\".",
+        author: "1 Crônicas 16:18"
+      },
+      {
+        id: "biblia-22318",
+        text: "Ao encontrar alguns dos seus filhos, muito me alegrei, pois eles estão andando na verdade, conforme o mandamento que recebemos do Pai.",
+        author: "2 João 1:4"
+      },
+      {
+        id: "biblia-3827",
+        text: "Vocês são os filhos do Senhor, do seu Deus. Não façam cortes no corpo nem rapem a frente da cabeça por causa dos mortos,",
+        author: "Deuteronômio 14:1"
+      },
+      {
+        id: "biblia-21926",
+        text: "Contudo, esses sacrifícios são uma recordação anual dos pecados,",
+        author: "Hebreus 10:3"
+      },
+      {
+        id: "biblia-1185",
+        text: "e viu a terceira geração dos filhos de Efraim. Além disso, recebeu como seus os filhos de Maquir, filho de Manassés.",
+        author: "Gênesis 50:23"
+      },
+      {
+        id: "biblia-3229",
+        text: "Então ele o levou para o campo de Zofim, no topo do Pisga, e ali construiu sete altares e ofereceu um novilho e um carneiro em cada altar.",
+        author: "Números 23:14"
+      },
+      {
+        id: "biblia-1549",
+        text: "não façam ídolos de prata nem de ouro para me representarem.",
+        author: "Êxodo 20:23"
+      },
+      {
+        id: "biblia-2043",
+        text: "Arme ao seu redor o pátio e coloque a cortina na entrada do pátio.",
+        author: "Êxodo 40:8"
+      },
+      {
+        id: "biblia-2037",
+        text: "\"Arme o tabernáculo, a Tenda do Encontro, no primeiro dia do primeiro mês.",
+        author: "Êxodo 40:2"
+      },
+      {
+        id: "biblia-12948",
+        text: "Sou uma flor de Sarom, um lírio dos vales.",
+        author: "Cânticos 2:1"
+      },
+      {
+        id: "biblia-16130",
+        text: "Quanto a você, por causa do sangue da minha aliança com você, libertarei os seus prisioneiros de um poço sem água.",
+        author: "Zacarias 9:11"
+      },
+      {
+        id: "biblia-3331",
+        text: "Estes foram os levitas contados segundo os seus clãs: de Gérson, o clã gersonita; de Coate, o clã coatita; de Merari, o clã merarita.",
+        author: "Números 26:57"
+      },
+      {
+        id: "biblia-13786",
+        text: "Por que tuas roupas estão vermelhas, como as de quem pisa uvas no lagar?",
+        author: "Isaías 63:2"
+      },
+      {
+        id: "biblia-1813",
+        text: "Você os consagrará e serão santíssimos, e tudo o que neles tocar se tornará santo.",
+        author: "Êxodo 30:29"
+      },
+      {
+        id: "biblia-17586",
+        text: "Em seguida tomou o cálice, deu graças, ofereceu-o aos discípulos, e todos beberam.",
+        author: "Marcos 14:23"
+      },
+      {
+        id: "biblia-2298",
+        text: "o sacerdote examinará as manchas; se forem brancas e sem brilho, é um eczema que se alastrou; essa pessoa está pura.",
+        author: "Levítico 13:39"
+      },
+      {
+        id: "biblia-12691",
+        text: "O pobre e o opressor têm algo em comum: O Senhor dá vista a ambos.",
+        author: "Provérbios 29:13"
+      },
+      {
+        id: "biblia-11357",
+        text: "Abram as portas da justiça para mim, pois quero entrar para dar graças ao Senhor.",
+        author: "Salmos 118:19"
+      },
+      {
+        id: "biblia-10623",
+        text: "o coração deles não era sincero; não foram fiéis à sua aliança.",
+        author: "Salmos 78:37"
+      },
+      {
+        id: "biblia-11059",
+        text: "nelas os pássaros fazem ninho, e nos pinheiros a cegonha tem o seu lar.",
+        author: "Salmos 104:17"
+      },
+      {
+        id: "biblia-11614",
+        text: "Ele próprio redimirá Israel de todas as suas culpas.",
+        author: "Salmos 130:8"
+      },
+      {
+        id: "biblia-6415",
+        text: "Durante três anos não houve guerra entre a Síria e Israel.",
+        author: "1 Reis 22:1"
+      },
+      {
+        id: "biblia-5805",
+        text: "mel e coalhada, ovelhas e queijo de leite de vaca; pois sabiam que o exército estava cansado, com fome e com sede no deserto.",
+        author: "2 Samuel 17:29"
+      },
+      {
+        id: "biblia-19066",
+        text: "\"Eu lhes asseguro que aquele que não entra no aprisco das ovelhas pela porta, mas sobe por outro lugar, é ladrão e assaltante.",
+        author: "João 10:1"
+      },
+      {
+        id: "biblia-8358",
+        text: "Mardoqueu, porém, descobriu o plano e contou-o à rainha Ester, que, por sua vez, passou a informação ao rei, em nome de Mardoqueu.",
+        author: "Ester 2:22"
+      },
+      {
+        id: "biblia-13917",
+        text: "para onde os pastores vêm com os seus rebanhos; armam as suas tendas ao redor dela e apascentam, cada um no seu lugar.",
+        author: "Jeremias 6:3"
+      },
+      {
+        id: "biblia-8148",
+        text: "Ao seu lado, Jedaías, filho de Harumafe, fez os reparos em frente da sua casa, e Hatus, filho de Hasabnéias, fez os reparos ao lado dele.",
+        author: "Neemias 3:10"
+      },
+      {
+        id: "biblia-17982",
+        text: "\"A que posso, pois, comparar os homens desta geração? \", prosseguiu Jesus. \"Com que se parecem?",
+        author: "Lucas 7:31"
+      },
+      {
+        id: "biblia-16896",
+        text: "Orem para que a fuga de vocês não aconteça no inverno nem no sábado.",
+        author: "Mateus 24:20"
+      },
+      {
+        id: "biblia-5502",
+        text: "Ele enviou esse presente às autoridades de Betel, de Ramote do Neguebe, de Jatir,",
+        author: "1 Samuel 30:27"
+      },
+      {
+        id: "biblia-22525",
+        text: "São também sete reis. Cinco já caíram, um ainda existe, e o outro ainda não surgiu; mas, quando surgir, deverá permanecer durante pouco tempo.",
+        author: "Apocalipse 17:10"
+      },
+      {
+        id: "biblia-7880",
+        text: "Amazias, filho de Joás, rei de Judá, viveu ainda mais quinze anos depois da morte de Jeoás, filho de Jeoacaz, rei de Israel.",
+        author: "2 Crônicas 25:25"
+      },
+      {
+        id: "biblia-7563",
+        text: "O hagareno Jaziz estava encarregado das ovelhas. Todos esses eram encarregados de cuidar dos bens do rei Davi.",
+        author: "1 Crônicas 27:31"
+      },
+      {
+        id: "biblia-5589",
+        text: "Davi tinha trinta anos de idade quando começou a reinar, e reinou durante quarenta anos.",
+        author: "2 Samuel 5:4"
+      },
+      {
+        id: "biblia-6338",
+        text: "\"Dê-me o seu filho\", respondeu Elias. Ele o apanhou dos braços dela, levou-o para o quarto de cima onde estava hospedado, e o pôs em cima da cama.",
+        author: "1 Reis 17:19"
+      },
+      {
+        id: "biblia-11179",
+        text: "Assentaram-se nas trevas e na sombra mortal, aflitos, acorrentados,",
+        author: "Salmos 107:10"
+      },
+      {
+        id: "biblia-21785",
+        text: "Seu amor me tem dado grande alegria e consolação, porque você, irmão, tem reanimado o coração dos santos.",
+        author: "Filemom 1:7"
+      },
+      {
+        id: "biblia-11658",
+        text: "têm ouvidos, mas não podem escutar, nem há respiração em sua boca.",
+        author: "Salmos 135:17"
+      },
+      {
+        id: "biblia-6330",
+        text: "Algum tempo depois, o riacho secou-se por falta de chuva.",
+        author: "1 Reis 17:7"
+      },
+      {
+        id: "biblia-13199",
+        text: "Haverá uma estrada para o remanescente do seu povo que for deixado na Assíria, como houve para Israel quando saiu do Egito.",
+        author: "Isaías 11:16"
+      },
+      {
+        id: "biblia-21492",
+        text: "Por isso, quando não pudemos mais suportar, achamos por bem permanecer sozinhos em Atenas",
+        author: "1 Tessalonicenses 3:1"
+      },
+      {
+        id: "biblia-9758",
+        text: "Mostra-me, Senhor, os teus caminhos, ensina-me as tuas veredas;",
+        author: "Salmos 25:4"
+      },
+      {
+        id: "biblia-4734",
+        text: "Jerubaal, filho de Joás, retirou-se e foi para casa, onde ficou morando.",
+        author: "Juízes 8:29"
+      },
+      {
+        id: "biblia-3582",
+        text: "Ao todo, vocês darão aos levitas quarenta e oito cidades, juntamente com as suas pastagens.",
+        author: "Números 35:7"
+      },
+      {
+        id: "biblia-888",
+        text: "Tornou a engravidar, teve um filho e deu-lhe o nome de Onã.",
+        author: "Gênesis 38:4"
+      },
+      {
+        id: "biblia-3482",
+        text: "Então os homens de Gade e de Rúben disseram a Moisés: \"Nós, seus servos, faremos como o meu senhor ordena.",
+        author: "Números 32:25"
+      },
+      {
+        id: "biblia-14081",
+        text: "e se essa nação que eu adverti converter-se da sua perversidade, então eu me arrependerei e não trarei sobre ela a desgraça que eu tinha planejado.",
+        author: "Jeremias 18:8"
+      },
+      {
+        id: "biblia-12832",
+        text: "Percebi que, ainda assim, o povo que vivia debaixo do sol seguia o jovem, o sucessor do rei.",
+        author: "Eclesiastes 4:15"
+      },
+      {
+        id: "biblia-17084",
+        text: "Ao cair da tarde chegou um homem rico, de Arimatéia, chamado José, que se tornara discípulo de Jesus.",
+        author: "Mateus 27:57"
+      },
+      {
+        id: "biblia-3080",
+        text: "É contra o Senhor que você e todos os seus seguidores se ajuntaram! Quem é Arão, para que se queixem contra ele? \"",
+        author: "Números 16:11"
+      },
+      {
+        id: "biblia-10019",
+        text: "Ele me tirou de um poço de destruição, de um atoleiro de lama; pôs os meus pés sobre uma rocha e firmou-me num local seguro.",
+        author: "Salmos 40:2"
+      },
+      {
+        id: "biblia-14706",
+        text: "mas o Espírito entrou em mim e me pôs de pé. Ele me disse: \"Vá para casa, e tranque-se.",
+        author: "Ezequiel 3:24"
+      },
+      {
+        id: "biblia-18382",
+        text: "Disseram-lhe: \"Jesus de Nazaré está passando\".",
+        author: "Lucas 18:37"
+      },
+      {
+        id: "biblia-8775",
+        text: "Deus fez-me cair nas mãos dos ímpios, e atirou-me nas garras dos maus.",
+        author: "Jó 16:11"
+      },
+      {
+        id: "biblia-12071",
+        text: "pois a sabedoria é mais preciosa do que rubis; nada do que vocês possam desejar compara-se a ela.",
+        author: "Provérbios 8:11"
+      },
+      {
+        id: "biblia-2892",
+        text: "\"Separe os levitas do meio dos israelitas e os purifique.",
+        author: "Números 8:6"
+      },
+      {
+        id: "biblia-20260",
+        text: "Sabemos que tudo o que a lei diz, o diz àqueles que estão debaixo dela, para que toda boca se cale e todo o mundo esteja sob o juízo de Deus.",
+        author: "Romanos 3:19"
+      },
+      {
+        id: "biblia-18250",
+        text: "Ao ouvir isso, um dos que estavam à mesa com Jesus, disse-lhe: \"Feliz será aquele que comer no banquete do Reino de Deus\".",
+        author: "Lucas 14:15"
+      },
+      {
+        id: "biblia-17317",
+        text: "Tendo-a despedido, subiu a um monte para orar.",
+        author: "Marcos 6:46"
+      },
+      {
+        id: "biblia-9791",
+        text: "Ainda que um exército se acampe contra mim, meu coração não temerá; ainda que se declare guerra contra mim, mesmo assim estarei confiante.",
+        author: "Salmos 27:3"
+      },
+      {
+        id: "biblia-6491",
+        text: "Então Eliseu mandou chamá-la de novo. Geazi a chamou, e ela veio até a porta.",
+        author: "2 Reis 4:15"
+      },
+      {
+        id: "biblia-8878",
+        text: "Os céus porão à mostra a sua culpa; a terra se levantará contra ele.",
+        author: "Jó 20:27"
+      },
+      {
+        id: "biblia-15963",
+        text: "É uma nação apavorante e temível, que cria a sua própria justiça e promove a sua própria honra.",
+        author: "Habacuque 1:7"
+      },
+      {
+        id: "biblia-14978",
+        text: "\"Sua irmã Oolibá viu isso. No entanto, em sua cobiça e prostituição, ela foi mais depravada do que a irmã.",
+        author: "Ezequiel 23:11"
+      },
+      {
+        id: "biblia-19326",
+        text: "eu neles e tu em mim. Que eles sejam levados à plena unidade, para que o mundo saiba que tu me enviaste, e os amaste como igualmente me amaste.",
+        author: "João 17:23"
+      },
+      {
+        id: "biblia-18844",
+        text: "Pois, da mesma forma como o Pai tem vida em si mesmo, ele concedeu ao Filho ter vida em si mesmo.",
+        author: "João 5:26"
+      },
+      {
+        id: "biblia-7329",
+        text: "Como Deus havia poupado os levitas que carregavam a arca da aliança do Senhor, sete novilhos e sete carneiros foram sacrificados.",
+        author: "1 Crônicas 15:26"
+      },
+      {
+        id: "biblia-7021",
+        text: "Tomaram dos hagarenos o rebanho de cinqüenta mil camelos, duzentas e cinqüenta mil ovelhas e dois mil jumentos. Também fizeram cem mil prisioneiros.",
+        author: "1 Crônicas 5:21"
+      },
+      {
+        id: "biblia-7216",
+        text: "em vez de consultar o Senhor. Por isso o Senhor o entregou à morte e deu o reino a Davi, filho de Jessé.",
+        author: "1 Crônicas 10:14"
+      },
+      {
+        id: "biblia-2242",
+        text: "Por isso, não poderão comer sua carne e considerarão impuros os seus cadáveres.",
+        author: "Levítico 11:11"
+      },
+      {
+        id: "biblia-10928",
+        text: "Pois o Senhor é o grande Deus, o grande Rei acima de todos os deuses.",
+        author: "Salmos 95:3"
+      },
+      {
+        id: "biblia-4877",
+        text: "Um jovem levita de Belém de Judá, procedente do clã de Judá,",
+        author: "Juízes 17:7"
+      },
+      {
+        id: "biblia-18266",
+        text: "Não serve nem para o solo nem para adubo; é jogado fora. \"Aquele que tem ouvidos para ouvir, ouça\".",
+        author: "Lucas 14:35"
+      },
+      {
+        id: "biblia-5023",
+        text: "Aminadabe gerou Naassom; Naassom gerou Salmom;",
+        author: "Rute 4:20"
+      },
+      {
+        id: "biblia-7377",
+        text: "\"O que mais Davi poderá dizer-te por honrares o teu servo? Tu conheces o teu servo,",
+        author: "1 Crônicas 17:18"
+      },
+      {
+        id: "biblia-5483",
+        text: "A mulher matou depressa um bezerro gordo que tinha em casa; apanhou um pouco de farinha, amassou-a e assou pão sem fermento.",
+        author: "1 Samuel 28:24"
+      },
+      {
+        id: "biblia-22583",
+        text: "Então o anjo me mostrou o rio da água da vida que, claro como cristal, fluía do trono de Deus e do Cordeiro,",
+        author: "Apocalipse 22:1"
+      },
+      {
+        id: "biblia-12054",
+        text: "Com a sedução das palavras o persuadiu, e o atraiu com o dulçor dos lábios.",
+        author: "Provérbios 7:21"
+      },
+      {
+        id: "biblia-4432",
+        text: "desciam para o oeste, até o território dos jafletitas, chegando à região de Bete-Horom Baixa, e prosseguiam até Gezer, terminando no mar.",
+        author: "Josué 16:3"
+      },
+      {
+        id: "biblia-4557",
+        text: "Com ele enviaram dez líderes, um de cada tribo de Israel, sendo cada um deles chefe de suas respectivas famílias dentre os clãs israelitas.",
+        author: "Josué 22:14"
+      },
+      {
+        id: "biblia-7405",
+        text: "Esses eram descendentes de Rafa, em Gate, e foram mortos por Davi e seus soldados.",
+        author: "1 Crônicas 20:8"
+      },
+      {
+        id: "biblia-20373",
+        text: "Nem por serem descendentes de Abraão passaram todos a ser filhos de Abraão. Pelo contrário: \"Por meio de Isaque a sua descendência será considerada\".",
+        author: "Romanos 9:7"
+      },
+      {
+        id: "biblia-20607",
+        text: "E vocês estão orgulhosos! Não deviam, porém, estar cheios de tristeza e expulsar da comunhão aquele que fez isso?",
+        author: "1 Coríntios 5:2"
+      },
+      {
+        id: "biblia-9817",
+        text: "A voz do Senhor retorce os carvalhos e despe as florestas. E no seu templo todos clamam: \"Glória! \"",
+        author: "Salmos 29:9"
+      },
+      {
+        id: "biblia-21303",
+        text: "\"para que tudo te corra bem e tenhas longa vida sobre a terra\".",
+        author: "Efésios 6:3"
+      },
+      {
+        id: "biblia-19323",
+        text: "\"Minha oração não é apenas por eles. Rogo também por aqueles que crerão em mim, por meio da mensagem deles,",
+        author: "João 17:20"
+      },
+      {
+        id: "biblia-18007",
+        text: "\"Este é o significado da parábola: A semente é a palavra de Deus.",
+        author: "Lucas 8:11"
+      },
+      {
+        id: "biblia-16542",
+        text: "Ele respondeu: \"A vocês foi dado o conhecimento dos mistérios do Reino dos céus, mas a eles não.",
+        author: "Mateus 13:11"
+      },
+      {
+        id: "biblia-21252",
+        text: "até que todos alcancemos a unidade da fé e do conhecimento do Filho de Deus, e cheguemos à maturidade, atingindo a medida da plenitude de Cristo.",
+        author: "Efésios 4:13"
+      },
+      {
+        id: "biblia-19560",
+        text: "Então, indo para lá com os guardas, o capitão trouxe os apóstolos, mas sem o uso de força, pois temiam que o povo os apedrejasse.",
+        author: "Atos 5:26"
+      },
+      {
+        id: "biblia-2342",
+        text: "Essa é a regulamentação acerca de qualquer tipo de lepra, de sarna,",
+        author: "Levítico 14:54"
+      },
+      {
+        id: "biblia-11150",
+        text: "provocaram a ira do Senhor com os seus atos, e uma praga irrompeu no meio deles.",
+        author: "Salmos 106:29"
+      },
+      {
+        id: "biblia-6547",
+        text: "Então, para salvar suas vidas, fugiram ao anoitecer, abandonando tendas, cavalos e jumentos, deixando o acampamento como estava.",
+        author: "2 Reis 7:7"
+      },
+      {
+        id: "biblia-20925",
+        text: "O deus desta era cegou o entendimento dos descrentes, para que não vejam a luz do evangelho da glória de Cristo, que é a imagem de Deus.",
+        author: "2 Coríntios 4:4"
+      },
+      {
+        id: "biblia-7442",
+        text: "Estes foram os filhos de Ladã: Jeiel, o primeiro, Zetã e Joel, três ao todo.",
+        author: "1 Crônicas 23:8"
+      },
+      {
+        id: "biblia-16346",
+        text: "\"Qual de vocês, se seu filho pedir pão, lhe dará uma pedra?",
+        author: "Mateus 7:9"
+      },
+      {
+        id: "biblia-21082",
+        text: "Não nos submetemos a eles nem por um instante, para que a verdade do evangelho permanecesse com vocês.",
+        author: "Gálatas 2:5"
+      },
+      {
+        id: "biblia-14239",
+        text: "De novo você plantará videiras nas colinas de Samaria; videiras que os lavradores que as tinham plantado antes profanaram.",
+        author: "Jeremias 31:5"
+      },
+      {
+        id: "biblia-21727",
+        text: "Eles se recusarão a dar ouvidos à verdade, voltando-se para os mitos.",
+        author: "2 Timóteo 4:4"
+      },
+      {
+        id: "biblia-4102",
+        text: "Vocês obedecerão de novo ao Senhor e seguirão todos os seus mandamentos que lhes dou hoje.",
+        author: "Deuteronômio 30:8"
+      },
+      {
+        id: "biblia-15293",
+        text: "A fornalha do altar é quadrada, com seis metros de comprimento e seis metros de largura.",
+        author: "Ezequiel 43:16"
+      },
+      {
+        id: "biblia-18347",
+        text: "Eu lhes digo: naquela noite duas pessoas estarão numa cama; uma será tirada e a outra deixada.",
+        author: "Lucas 17:34"
+      },
+      {
+        id: "biblia-201",
+        text: "os patrusitas, os casluítas, dos quais se originaram os filisteus, e os caftoritas.",
+        author: "Gênesis 10:14"
+      },
+      {
+        id: "biblia-3447",
+        text: "Os despojos que restaram das presas tomadas pelos soldados foram 675. 000 ovelhas,",
+        author: "Números 31:32"
+      },
+      {
+        id: "biblia-10723",
+        text: "Trata-os como trataste Midiã, como trataste Sísera e Jabim no rio Quisom,",
+        author: "Salmos 83:9"
+      },
+      {
+        id: "biblia-20170",
+        text: "Mas o navio encalhou num banco de areia, onde tocou o fundo. A proa encravou-se e ficou imóvel, e a popa foi quebrada pela violência das ondas.",
+        author: "Atos 27:41"
+      },
+      {
+        id: "biblia-6399",
+        text: "Aborrecido e irritado, o rei de Israel voltou para o seu palácio em Samaria.",
+        author: "1 Reis 20:43"
+      },
+      {
+        id: "biblia-17890",
+        text: "Entrou num dos barcos, o que pertencia a Simão, e pediu-lhe que o afastasse um pouco da praia. Então sentou-se, e do barco ensinava o povo.",
+        author: "Lucas 5:3"
+      },
+      {
+        id: "biblia-14061",
+        text: "\"O pecado de Judá está escrito com estilete de ferro, gravado com ponta de diamante, nas tábuas dos seus corações e nas pontas dos seus altares.",
+        author: "Jeremias 17:1"
+      },
+      {
+        id: "biblia-5049",
+        text: "\"O Senhor mata e preserva a vida; ele faz descer à sepultura e dela resgata.",
+        author: "1 Samuel 2:6"
+      },
+      {
+        id: "biblia-13565",
+        text: "eu os tirei dos confins da terra, de seus recantos mais distantes eu os chamei. Eu disse: \"Você é meu servo\"; eu o escolhi e não o rejeitei.",
+        author: "Isaías 41:9"
+      },
+      {
+        id: "biblia-15899",
+        text: "\"Naquele dia\", declara o Senhor, \"matarei os seus cavalos e destruirei os seus carros de guerra.",
+        author: "Miquéias 5:10"
+      },
+      {
+        id: "biblia-20555",
+        text: "Mas Deus escolheu as coisas loucas do mundo para envergonhar os sábios, e escolheu as coisas fracas do mundo para envergonhar as fortes.",
+        author: "1 Coríntios 1:27"
+      },
+      {
+        id: "biblia-6039",
+        text: "E estes foram os seus principais assessores: Azarias, filho de Zadoque: o sacerdote;",
+        author: "1 Reis 4:2"
+      },
+      {
+        id: "biblia-17776",
+        text: "Mas o anjo lhes disse: \"Não tenham medo. Estou lhes trazendo boas novas de grande alegria, que são para todo o povo:",
+        author: "Lucas 2:10"
+      },
+      {
+        id: "biblia-20191",
+        text: "Por dois anos inteiros Paulo permaneceu na casa que havia alugado, e recebia a todos os que iam vê-lo.",
+        author: "Atos 28:30"
+      },
+      {
+        id: "biblia-5938",
+        text: "Abi-Albom, de Arbate; Azmavete, de Baurim;",
+        author: "2 Samuel 23:31"
+      },
+      {
+        id: "biblia-2506",
+        text: "Disse ainda o Senhor a Moisés:",
+        author: "Levítico 22:26"
+      },
+      {
+        id: "biblia-1876",
+        text: "Ninguém poderá ir com você nem ficar em lugar algum do monte; nem mesmo ovelhas e bois deverão pastar diante do monte\".",
+        author: "Êxodo 34:3"
+      },
+      {
+        id: "biblia-9181",
+        text: "Ele acorrenta os meus pés; vigia de perto todos os meus caminhos. ’",
+        author: "Jó 33:11"
+      },
+      {
+        id: "biblia-21888",
+        text: "pois, quando Melquisedeque se encontrou com Abraão, Levi ainda estava no corpo do seu antepassado.",
+        author: "Hebreus 7:10"
+      },
+      {
+        id: "biblia-20463",
+        text: "Amados, nunca procurem vingar-se, mas deixem com Deus a ira, pois está escrito: \"Minha é a vingança; eu retribuirei\", diz o Senhor.",
+        author: "Romanos 12:19"
+      },
+      {
+        id: "biblia-2067",
+        text: "Finalmente, Moisés armou o pátio ao redor do tabernáculo e colocou a cortina à entrada do pátio. Assim, Moisés terminou a obra.",
+        author: "Êxodo 40:33"
+      },
+      {
+        id: "biblia-20636",
+        text: "Digo, porém, aos solteiros e às viúvas: é bom que permaneçam como eu.",
+        author: "1 Coríntios 7:8"
+      }
+    ]
+  }
 ];

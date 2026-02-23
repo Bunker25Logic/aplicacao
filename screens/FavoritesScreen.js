@@ -16,14 +16,29 @@ import { BUNKER } from "../theme/bunker25logic";
 function getAllPhrasesWithCategory(categories) {
   const result = [];
   categories.forEach((cat) => {
-    cat.phrases.forEach((p) => {
-      result.push({
-        ...p,
-        categoryId: cat.id,
-        categoryName: cat.name,
-        categoryColor: cat.color,
+    if (cat.phrases) {
+      cat.phrases.forEach((p) => {
+        result.push({
+          ...p,
+          categoryId: cat.id,
+          categoryName: cat.name,
+          categoryColor: cat.color,
+        });
       });
-    });
+    } else if (cat.subcategories) {
+      cat.subcategories.forEach((sub) => {
+        if (sub.phrases) {
+          sub.phrases.forEach((p) => {
+            result.push({
+              ...p,
+              categoryId: sub.id,
+              categoryName: sub.name,
+              categoryColor: sub.color || cat.color,
+            });
+          });
+        }
+      });
+    }
   });
   return result;
 }

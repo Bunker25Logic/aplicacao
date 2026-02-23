@@ -60,8 +60,16 @@ export default function CategoryMenuItem({ category, onPress }) {
       Animated.delay(Math.random() * 2000 + 1000),
     ]);
 
-    Animated.loop(glitchAnimX).start();
-    Animated.loop(glitchAnimY).start();
+    const loopX = Animated.loop(glitchAnimX);
+    const loopY = Animated.loop(glitchAnimY);
+
+    loopX.start();
+    loopY.start();
+
+    return () => {
+      loopX.stop();
+      loopY.stop();
+    };
   }, [shakeValueX, shakeValueY]);
 
   const handlePressIn = () => {
@@ -95,12 +103,17 @@ export default function CategoryMenuItem({ category, onPress }) {
     ]).start();
   };
 
-  const animatedStyle = {
+  const transformStyle = {
     transform: [
       { scale: scaleValue },
       { translateX: shakeValueX },
       { translateY: shakeValueY },
     ],
+    marginHorizontal: 20,
+    marginBottom: 10,
+  };
+
+  const colorStyle = {
     borderColor: glowValue.interpolate({
       inputRange: [0, 1],
       outputRange: [
@@ -127,17 +140,22 @@ export default function CategoryMenuItem({ category, onPress }) {
       onPressOut={handlePressOut}
       onPress={onPress}
     >
-      <Animated.View style={[styles.card, animatedStyle]}>
-        <Text
-          style={[styles.name, { color: category.color || BUNKER.colors.text }]}
-        >
-          {category.name}
-        </Text>
-        <MaterialCommunityIcons
-          name="chevron-right"
-          size={22}
-          color={BUNKER.colors.muted}
-        />
+      <Animated.View style={transformStyle}>
+        <Animated.View style={[styles.card, colorStyle]}>
+          <Text
+            style={[
+              styles.name,
+              { color: category.color || BUNKER.colors.text },
+            ]}
+          >
+            {category.name}
+          </Text>
+          <MaterialCommunityIcons
+            name="chevron-right"
+            size={22}
+            color={BUNKER.colors.muted}
+          />
+        </Animated.View>
       </Animated.View>
     </TouchableWithoutFeedback>
   );
@@ -151,8 +169,6 @@ const styles = StyleSheet.create({
     backgroundColor: BUNKER.colors.surface2,
     paddingVertical: 16,
     paddingHorizontal: 20,
-    marginHorizontal: 20,
-    marginBottom: 10,
     borderRadius: BUNKER.radius.md,
     borderWidth: 1,
   },

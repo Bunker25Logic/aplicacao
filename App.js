@@ -19,6 +19,10 @@ import ExitModal from "./components/ExitModal";
 import { FavoritesProvider, useFavorites } from "./context/FavoritesContext";
 import { CATEGORIES } from "./data/phrases";
 import * as Font from "expo-font";
+import {
+  registerForPushNotificationsAsync,
+  scheduleDailyNotifications,
+} from "./services/notifications";
 import { Orbitron_700Bold } from "@expo-google-fonts/orbitron";
 import {
   Oxanium_400Regular,
@@ -140,19 +144,28 @@ export default function App() {
       document.head.appendChild(style);
     }
 
-    const loadFonts = async () => {
+    const loadFontsAndServices = async () => {
       try {
         await Font.loadAsync({
           Orbitron_700Bold,
           Oxanium_400Regular,
           Oxanium_600SemiBold,
         });
-      } catch {
+
+        // Register for push notifications and schedule daily phrases
+        if (Platform.OS !== "web") {
+          const hasPermission = await registerForPushNotificationsAsync();
+          if (hasPermission) {
+            await scheduleDailyNotifications();
+          }
+        }
+      } catch (e) {
+        console.warn("Error loading fonts or notifications:", e);
       } finally {
         setFontsReady(true);
       }
     };
-    loadFonts();
+    loadFontsAndServices();
   }, []);
 
   return (

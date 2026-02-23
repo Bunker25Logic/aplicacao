@@ -2131,4 +2131,312 @@ export const CATEGORIES = [
       },
     ],
   },
+  {
+    id: "musicas",
+    name: "Músicas",
+    color: "#E040FB",
+    description: "Trechos icônicos e poéticos de músicas inesquecíveis.",
+    phrases: [
+      {
+        id: "musicas-1",
+        text: "Viver e não ter a vergonha de ser feliz.",
+        author: "Gonzaguinha",
+      },
+      {
+        id: "musicas-2",
+        text: "Você é assim, um sonho pra mim.",
+        author: "Tribalistas",
+      },
+      {
+        id: "musicas-3",
+        text: "É preciso amar as pessoas como se não houvesse amanhã.",
+        author: "Legião Urbana",
+      },
+      {
+        id: "musicas-4",
+        text: "O meu sangue ferve por você.",
+        author: "Sidney Magal",
+      },
+      {
+        id: "musicas-5",
+        text: "Quem sabe faz a hora, não espera acontecer.",
+        author: "Geraldo Vandré",
+      },
+      {
+        id: "musicas-6",
+        text: "Se a lenda dessa paixão faz sorrir ou faz chorar, o coração é quem sabe.",
+        author: "Sandy & Junior",
+      },
+      {
+        id: "musicas-7",
+        text: "E a gente vai à luta e conhece a dor. Consideramos justa toda forma de amor.",
+        author: "Lulu Santos",
+      },
+      {
+        id: "musicas-8",
+        text: "Eu sei que vou te amar, por toda a minha vida eu vou te amar.",
+        author: "Tom Jobim / Vinicius de Moraes",
+      },
+      {
+        id: "musicas-9",
+        text: "Paciência, o mundo vai girando cada vez mais veloz.",
+        author: "Lenine",
+      },
+      {
+        id: "musicas-10",
+        text: "Você não soube me amar.",
+        author: "Blitz",
+      },
+      {
+        id: "musicas-11",
+        text: "Vamos viver tudo que há pra viver, vamos nos permitir.",
+        author: "Lulu Santos",
+      },
+      {
+        id: "musicas-12",
+        text: "Só o que é bom dura tempo bastante pra se tornar inesquecível.",
+        author: "Charlie Brown Jr.",
+      },
+      {
+        id: "musicas-13",
+        text: "Qualquer maneira de amor vale a pena, qualquer maneira de amor vale amar.",
+        author: "Milton Nascimento",
+      },
+      {
+        id: "musicas-14",
+        text: "Se chorei ou se sorri, o importante é que emoções eu vivi.",
+        author: "Roberto Carlos",
+      },
+      {
+        id: "musicas-15",
+        text: "Eu quero ter um milhão de amigos e bem mais forte poder cantar.",
+        author: "Roberto Carlos",
+      },
+      {
+        id: "musicas-16",
+        text: "Aonde quer que eu vá, serei luz. Em cada caminho que passar, vão saber.",
+        author: "Natiruts",
+      },
+      {
+        id: "musicas-17",
+        text: "Nada do que foi será de novo do jeito que já foi um dia.",
+        author: "Lulu Santos",
+      },
+      {
+        id: "musicas-18",
+        text: "Não adianta fugir, nem mentir pra si mesmo.",
+        author: "Tim Maia",
+      },
+      {
+        id: "musicas-19",
+        text: "Você é luz, é raio estrela e luar.",
+        author: "Wando",
+      },
+      {
+        id: "musicas-20",
+        text: "O tempo não para.",
+        author: "Cazuza",
+      },
+      {
+        id: "musicas-21",
+        text: "Eu prefiro ser essa metamorfose ambulante.",
+        author: "Raul Seixas",
+      },
+      {
+        id: "musicas-22",
+        text: "Será que eu já posso enlouquecer, ou devo apenas sorrir?",
+        author: "Pitty",
+      },
+      {
+        id: "musicas-23",
+        text: "Tudo o que nós temos é o agora.",
+        author: "Fresno",
+      },
+      {
+        id: "musicas-24",
+        text: "Os seus problemas você deve esquecer. Isso é viver, é aprender: Hakuna Matata!",
+        author: "O Rei Leão",
+      },
+      {
+        id: "musicas-25",
+        text: "Imagine all the people living life in peace.",
+        author: "John Lennon",
+      },
+      {
+        id: "musicas-26",
+        text: "We are the champions, my friends, and we'll keep on fighting till the end.",
+        author: "Queen",
+      },
+      {
+        id: "musicas-27",
+        text: "Here comes the sun, and I say, it's all right.",
+        author: "The Beatles",
+      },
+      {
+        id: "musicas-28",
+        text: "Don't stop believin', hold on to that feelin'.",
+        author: "Journey",
+      },
+      {
+        id: "musicas-29",
+        text: "All you need is love.",
+        author: "The Beatles",
+      },
+      {
+        id: "musicas-30",
+        text: "I will survive! Oh, as long as I know how to love, I know I'll stay alive.",
+        author: "Gloria Gaynor",
+      },
+      {
+        id: "musicas-31",
+        text: "No woman, no cry.",
+        author: "Bob Marley",
+      },
+      {
+        id: "musicas-32",
+        text: "Yesterday, all my troubles seemed so far away.",
+        author: "The Beatles",
+      },
+      {
+        id: "musicas-33",
+        text: "Like a rolling stone.",
+        author: "Bob Dylan",
+      },
+      {
+        id: "musicas-34",
+        text: "I threw a wish in the well, don't ask me, I'll never tell.",
+        author: "Carly Rae Jepsen",
+      },
+      {
+        id: "musicas-35",
+        text: "Sweet dreams are made of this.",
+        author: "Eurythmics",
+      },
+      {
+        id: "musicas-36",
+        text: "Just a small-town girl, living in a lonely world.",
+        author: "Journey",
+      },
+      {
+        id: "musicas-37",
+        text: "So wake me up when it's all over.",
+        author: "Avicii",
+      },
+      {
+        id: "musicas-38",
+        text: "Never mind, I'll find someone like you.",
+        author: "Adele",
+      },
+      {
+        id: "musicas-39",
+        text: "I wanna dance with somebody, I wanna feel the heat with somebody.",
+        author: "Whitney Houston",
+      },
+      {
+        id: "musicas-40",
+        text: "Every little thing is gonna be alright.",
+        author: "Bob Marley",
+      },
+      {
+        id: "musicas-41",
+        text: "I'm invincible, I win every single game.",
+        author: "Sia",
+      },
+      {
+        id: "musicas-42",
+        text: "Just keep breathin' and breathin' and breathin'.",
+        author: "Ariana Grande",
+      },
+      {
+        id: "musicas-43",
+        text: "It's a beautiful day, don't let it get away.",
+        author: "U2",
+      },
+      {
+        id: "musicas-44",
+        text: "Cause baby you're a firework, come on show 'em what you're worth.",
+        author: "Katy Perry",
+      },
+      {
+        id: "musicas-45",
+        text: "You can go your own way.",
+        author: "Fleetwood Mac",
+      },
+      {
+        id: "musicas-46",
+        text: "O impossível é só questão de opinião e disso os loucos sabem.",
+        author: "Charlie Brown Jr.",
+      },
+      {
+        id: "musicas-47",
+        text: "Todo dia é um novo começo, eu não tenho pressa e nem preço.",
+        author: "Tiago Iorc",
+      },
+      {
+        id: "musicas-48",
+        text: "Toda positividade eu desejo a você.",
+        author: "Melim",
+      },
+      {
+        id: "musicas-49",
+        text: "Brilha linda flor, teu poder venceu.",
+        author: "Enrolados (Disney)",
+      },
+      {
+        id: "musicas-50",
+        text: "Não precisa fingir, eu vi você sorrir.",
+        author: "Anavitória",
+      },
+      {
+        id: "musicas-51",
+        text: "Andar com fé eu vou, que a fé não costuma faiá.",
+        author: "Gilberto Gil",
+      },
+      {
+        id: "musicas-52",
+        text: "Você me ensinou a amar, você me ensinou a viver.",
+        author: "Os Paralamas do Sucesso",
+      },
+      {
+        id: "musicas-53",
+        text: "Um dia a gente toma juízo, mas esse dia não precisa ser hoje.",
+        author: "Projota",
+      },
+      {
+        id: "musicas-54",
+        text: "Na vida pode existir milhões, mas você só tem um coração.",
+        author: "Jorge & Mateus",
+      },
+      {
+        id: "musicas-55",
+        text: "Meu bem, você me dá água na boca.",
+        author: "Rita Lee",
+      },
+      {
+        id: "musicas-56",
+        text: "Pois você é o meu amor e eu sou e vou ser de você, onde for.",
+        author: "Os Tribalistas",
+      },
+      {
+        id: "musicas-57",
+        text: "Quando a luz dos olhos meus e a luz dos olhos teus resolvem se encontrar.",
+        author: "Tom Jobim",
+      },
+      {
+        id: "musicas-58",
+        text: "Sou pássaro de fogo, que canta ao teu ouvido.",
+        author: "Paula Fernandes",
+      },
+      {
+        id: "musicas-59",
+        text: "Vou deixar a vida me levar, vida leva eu.",
+        author: "Zeca Pagodinho",
+      },
+      {
+        id: "musicas-60",
+        text: "Deixa acontecer naturalmente.",
+        author: "Grupo Revelação",
+      },
+    ],
+  },
 ];

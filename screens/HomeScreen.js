@@ -98,8 +98,11 @@ export default function HomeScreen({ categories, onRequestExit }) {
   ]);
 
   const handleSelectCategory = (categoryId) => {
-    setSelectedCategoryId(categoryId);
-    setScreen("category");
+    // Slight delay so the unmount doesn't interrupt the tap animation (prevents Android crash)
+    setTimeout(() => {
+      setSelectedCategoryId(categoryId);
+      setScreen("category");
+    }, 150);
   };
 
   const handleBack = () => {

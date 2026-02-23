@@ -1,5 +1,19 @@
 # 📚 Aplicação – Biblioteca de Frases
 
+<div align="center">
+  <a href="https://bunker25logic.github.io/portfolio/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Dispon%C3%ADvel+na+BunkerStore!;Baixe+e+teste+agora+mesmo!" alt="Disponível na BunkerStore" />
+  </a>
+  <p>
+    <b>Visite meu portfólio na aba "Aplicativos", acesse a BunkerStore e faça o download da aplicação!</b><br><br>
+    <a href="https://bunker25logic.github.io/portfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/Acessar_BunkerStore-1A0B2E?style=for-the-badge&logo=android&logoColor=39FF14&labelColor=121212" alt="Download na BunkerStore"/>
+    </a>
+  </p>
+</div>
+
+<br>
+
 Uma biblioteca digital de frases famosas de animes, filmes, músicas e outras obras marcantes da cultura pop.
 
 O aplicativo permite explorar frases inspiradoras, salvar favoritas e receber notificações automáticas duas vezes ao dia com frases aleatórias da biblioteca.
@@ -10,7 +24,7 @@ O aplicativo permite explorar frases inspiradoras, salvar favoritas e receber no
 
 A **Aplicação** é um app mobile desenvolvido com **React Native (Expo)** que reúne frases icônicas em um só lugar.
 
-O projeto está funcional e pode ser considerado em sua versão final, estando preparado para futura disponibilização para download ou publicação na Play Store.
+O projeto está funcional e pode ser considerado em sua versão final, já estando **disponível para download na BunkerStore** através do meu portfólio, e preparado para futura publicação na Play Store.
 
 ---
 
@@ -90,6 +104,7 @@ aplicacao/
 ## 📦 Status do Projeto
 
 ✅ Funcional  
+📲 **Disponível para download na [BunkerStore](https://bunker25logic.github.io/portfolio/)** (acesse a aba _Aplicativos_)  
 🚀 Pronto para publicação futura
 
 ---

@@ -17,6 +17,7 @@ import TabBar from "./components/TabBar";
 import StorageConsent from "./components/StorageConsent";
 import ExitModal from "./components/ExitModal";
 import { FavoritesProvider, useFavorites } from "./context/FavoritesContext";
+import { ThemeProvider, useThemeContext } from "./context/ThemeContext";
 import { CATEGORIES } from "./data/phrases";
 import * as Font from "expo-font";
 import {
@@ -28,7 +29,7 @@ import {
   Oxanium_400Regular,
   Oxanium_600SemiBold,
 } from "@expo-google-fonts/oxanium";
-import { BUNKER } from "./theme/bunker25logic";
+import { BUNKER, getColors } from "./theme/bunker25logic";
 
 const STORAGE_CONSENT_KEY = "@frases_storage_consent";
 
@@ -37,16 +38,18 @@ function MainContent({ fontsReady }) {
   const [storageConsent, setStorageConsent] = useState(null);
   const [exitModalVisible, setExitModalVisible] = useState(false);
 
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const { favoriteIds } = useFavorites();
 
   useEffect(() => {
     const backAction = () => {
-      // Se não estiver na home principal da navegação inferior, voltar para ela
       if (activeTab !== "home") {
         setActiveTab("home");
-        return true; // prevent default behavior (exit)
+        return true;
       }
-      return false; // deixa o filho (HomeScreen) ou o default lidarem com o back
+      return false;
     };
 
     const backHandler = BackHandler.addEventListener(
@@ -73,21 +76,21 @@ function MainContent({ fontsReady }) {
     try {
       await AsyncStorage.setItem(STORAGE_CONSENT_KEY, "true");
       setStorageConsent(true);
-    } catch {}
+    } catch { }
   };
 
   if (!fontsReady) {
     return (
-      <View style={[styles.safe, styles.loading]}>
-        <ActivityIndicator size="large" color={BUNKER.colors.accent} />
-        <Text style={styles.loadingText}>Carregando...</Text>
+      <View style={[styles.safe, styles.loading, { backgroundColor: colors.base }]}>
+        <ActivityIndicator size="large" color={colors.accent} />
+        <Text style={[styles.loadingText, { color: colors.muted }]}>Carregando...</Text>
       </View>
     );
   }
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <StatusBar style="light" />
+    <SafeAreaView style={[styles.safe, { backgroundColor: colors.base }]}>
+      <StatusBar style={themeMode === 'dark' ? "light" : "dark"} />
 
       {storageConsent === false && (
         <StorageConsent
@@ -103,7 +106,7 @@ function MainContent({ fontsReady }) {
           onRequestExit={() => setExitModalVisible(true)}
         />
       ) : (
-        <FavoritesScreen categories={CATEGORIES} onMenuPress={() => {}} />
+        <FavoritesScreen categories={CATEGORIES} onMenuPress={() => { }} />
       )}
 
       <TabBar
@@ -131,14 +134,14 @@ export default function App() {
       style.textContent = `
         ::-webkit-scrollbar {
           width: 6px;
-          background-color: ${BUNKER.colors.base};
+          background-color: ${BUNKER.colors?.base || '#1A0B2E'};
         }
         ::-webkit-scrollbar-thumb {
-          background-color: ${BUNKER.colors.accent};
+          background-color: ${BUNKER.colors?.accent || '#39FF14'};
           border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb:hover {
-          background-color: ${BUNKER.colors.support};
+          background-color: ${BUNKER.colors?.support || '#2E5BFF'};
         }
       `;
       document.head.appendChild(style);
@@ -152,7 +155,6 @@ export default function App() {
           Oxanium_600SemiBold,
         });
 
-        // Register for push notifications and schedule daily phrases
         if (Platform.OS !== "web") {
           const hasPermission = await registerForPushNotificationsAsync();
           if (hasPermission) {
@@ -169,16 +171,17 @@ export default function App() {
   }, []);
 
   return (
-    <FavoritesProvider>
-      <MainContent fontsReady={fontsReady} />
-    </FavoritesProvider>
+    <ThemeProvider>
+      <FavoritesProvider>
+        <MainContent fontsReady={fontsReady} />
+      </FavoritesProvider>
+    </ThemeProvider>
   );
 }
 
 const styles = StyleSheet.create({
   safe: {
     flex: 1,
-    backgroundColor: BUNKER.colors.base,
     paddingTop: Platform.OS === "android" ? RNStatusBar.currentHeight : 0,
   },
   loading: {
@@ -186,7 +189,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   loadingText: {
-    color: BUNKER.colors.muted,
     marginTop: 12,
     fontSize: 16,
   },

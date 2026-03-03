@@ -8,35 +8,39 @@ import {
   Linking,
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
+import { useThemeContext } from '../context/ThemeContext';
 
 export default function AboutScreen({ onClose }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const openLink = (url) => {
-    Linking.openURL(url).catch(() => {});
+    Linking.openURL(url).catch(() => { });
   };
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
+    <View style={[styles.container, { backgroundColor: colors.base }]}>
+      <View style={[styles.header, { borderBottomColor: colors.border }]}>
         <TouchableOpacity onPress={onClose} style={styles.backBtn}>
-          <MaterialCommunityIcons name="arrow-left" size={24} color={BUNKER.colors.text} />
+          <MaterialCommunityIcons name="arrow-left" size={24} color={colors.text} />
         </TouchableOpacity>
-        <Text style={styles.title}>Sobre</Text>
+        <Text style={[styles.title, { color: colors.text }]}>Sobre</Text>
         <View style={styles.placeholder} />
       </View>
 
       <ScrollView style={styles.content}>
         <View style={styles.logoSection}>
-          <View style={styles.logoBox}>
-            <Text style={styles.logoText}>B25</Text>
+          <View style={[styles.logoBox, { backgroundColor: colors.accent }]}>
+            <Text style={[styles.logoText, { color: colors.base }]}>B25</Text>
           </View>
-          <Text style={styles.appName}>Frases Diárias</Text>
-          <Text style={styles.version}>Versão 1.0.0</Text>
+          <Text style={[styles.appName, { color: colors.text }]}>Frases Diárias</Text>
+          <Text style={[styles.version, { color: colors.muted }]}>Versão 1.0.3</Text>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Sobre o App</Text>
-          <Text style={styles.sectionText}>
+          <Text style={[styles.sectionTitle, { color: colors.text }]}>Sobre o App</Text>
+          <Text style={[styles.sectionText, { color: colors.muted }]}>
             Frases Diárias é um aplicativo desenvolvido com a identidade visual Bunker25Logic,
             oferecendo uma coleção de frases motivacionais, inspiradoras e reflexivas para
             enriquecer seu dia a dia.
@@ -44,55 +48,55 @@ export default function AboutScreen({ onClose }) {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Recursos</Text>
+          <Text style={[styles.sectionTitle, { color: colors.text }]}>Recursos</Text>
           <View style={styles.feature}>
-            <MaterialCommunityIcons name="check-circle" size={20} color={BUNKER.colors.accent} />
-            <Text style={styles.featureText}>Frases organizadas por categorias</Text>
+            <MaterialCommunityIcons name="check-circle" size={20} color={colors.accent} />
+            <Text style={[styles.featureText, { color: colors.text }]}>Frases organizadas por categorias</Text>
           </View>
           <View style={styles.feature}>
-            <MaterialCommunityIcons name="check-circle" size={20} color={BUNKER.colors.accent} />
-            <Text style={styles.featureText}>Sistema de favoritos</Text>
+            <MaterialCommunityIcons name="check-circle" size={20} color={colors.accent} />
+            <Text style={[styles.featureText, { color: colors.text }]}>Sistema de favoritos</Text>
           </View>
           <View style={styles.feature}>
-            <MaterialCommunityIcons name="check-circle" size={20} color={BUNKER.colors.accent} />
-            <Text style={styles.featureText}>Armazenamento offline</Text>
+            <MaterialCommunityIcons name="check-circle" size={20} color={colors.accent} />
+            <Text style={[styles.featureText, { color: colors.text }]}>Armazenamento offline</Text>
           </View>
           <View style={styles.feature}>
-            <MaterialCommunityIcons name="check-circle" size={20} color={BUNKER.colors.accent} />
-            <Text style={styles.featureText}>Notificações diárias</Text>
+            <MaterialCommunityIcons name="check-circle" size={20} color={colors.accent} />
+            <Text style={[styles.featureText, { color: colors.text }]}>Notificações diárias</Text>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Identidade Visual</Text>
-          <Text style={styles.sectionText}>
+          <Text style={[styles.sectionTitle, { color: colors.text }]}>Identidade Visual</Text>
+          <Text style={[styles.sectionText, { color: colors.muted }]}>
             Este aplicativo utiliza a identidade visual Bunker25Logic, caracterizada por:
           </Text>
           <View style={styles.brandItem}>
-            <View style={[styles.colorBox, { backgroundColor: BUNKER.colors.base }]} />
-            <Text style={styles.brandText}>Deep Purple Base</Text>
+            <View style={[styles.colorBox, { backgroundColor: colors.base, borderColor: colors.border }]} />
+            <Text style={[styles.brandText, { color: colors.text }]}>Base ({themeMode})</Text>
           </View>
           <View style={styles.brandItem}>
-            <View style={[styles.colorBox, { backgroundColor: BUNKER.colors.accent }]} />
-            <Text style={styles.brandText}>Neon Green Accent</Text>
+            <View style={[styles.colorBox, { backgroundColor: colors.accent, borderColor: colors.border }]} />
+            <Text style={[styles.brandText, { color: colors.text }]}>Accent</Text>
           </View>
           <View style={styles.brandItem}>
-            <View style={[styles.colorBox, { backgroundColor: BUNKER.colors.support }]} />
-            <Text style={styles.brandText}>Cobalt Blue Support</Text>
+            <View style={[styles.colorBox, { backgroundColor: colors.support, borderColor: colors.border }]} />
+            <Text style={[styles.brandText, { color: colors.text }]}>Support</Text>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Desenvolvimento</Text>
-          <Text style={styles.sectionText}>
+          <Text style={[styles.sectionTitle, { color: colors.text }]}>Desenvolvimento</Text>
+          <Text style={[styles.sectionText, { color: colors.muted }]}>
             Desenvolvido com React Native e Expo, utilizando as fontes Orbitron e Oxanium
             para uma experiência visual única e moderna.
           </Text>
         </View>
 
-        <View style={styles.footer}>
-          <Text style={styles.footerText}>© 2026 Bunker25Logic</Text>
-          <Text style={styles.footerText}>Todos os direitos reservados</Text>
+        <View style={[styles.footer, { borderTopColor: colors.border }]}>
+          <Text style={[styles.footerText, { color: colors.muted }]}>© 2026 Bunker25Logic</Text>
+          <Text style={[styles.footerText, { color: colors.muted }]}>Todos os direitos reservados</Text>
         </View>
       </ScrollView>
     </View>
@@ -102,7 +106,6 @@ export default function AboutScreen({ onClose }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: BUNKER.colors.base,
   },
   header: {
     flexDirection: 'row',
@@ -111,7 +114,6 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     paddingHorizontal: 20,
     borderBottomWidth: 1,
-    borderBottomColor: BUNKER.colors.border,
   },
   backBtn: {
     padding: 4,
@@ -119,7 +121,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontFamily: BUNKER.fonts.title,
-    color: BUNKER.colors.text,
   },
   placeholder: {
     width: 32,
@@ -137,7 +138,6 @@ const styles = StyleSheet.create({
     width: 80,
     height: 80,
     borderRadius: 20,
-    backgroundColor: BUNKER.colors.accent,
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 16,
@@ -145,18 +145,15 @@ const styles = StyleSheet.create({
   logoText: {
     fontSize: 32,
     fontFamily: BUNKER.fonts.title,
-    color: BUNKER.colors.base,
   },
   appName: {
     fontSize: 24,
     fontFamily: BUNKER.fonts.title,
-    color: BUNKER.colors.text,
     marginBottom: 8,
   },
   version: {
     fontSize: 14,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.muted,
   },
   section: {
     marginBottom: 32,
@@ -164,13 +161,11 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontFamily: BUNKER.fonts.bodyStrong,
-    color: BUNKER.colors.text,
     marginBottom: 12,
   },
   sectionText: {
     fontSize: 14,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.muted,
     lineHeight: 22,
   },
   feature: {
@@ -183,7 +178,6 @@ const styles = StyleSheet.create({
     marginLeft: 12,
     fontSize: 14,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.text,
   },
   brandItem: {
     flexDirection: 'row',
@@ -196,24 +190,20 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     marginRight: 12,
     borderWidth: 1,
-    borderColor: BUNKER.colors.border,
   },
   brandText: {
     fontSize: 14,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.text,
   },
   footer: {
     alignItems: 'center',
     paddingVertical: 20,
     marginTop: 20,
     borderTopWidth: 1,
-    borderTopColor: BUNKER.colors.border,
   },
   footerText: {
     fontSize: 12,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.muted,
     marginBottom: 4,
   },
 });

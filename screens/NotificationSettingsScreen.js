@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import {
   View,
   Text,
@@ -12,7 +13,7 @@ import {
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 const NOTIFICATION_KEY = '@frases_notifications';
 const NOTIFICATION_TIME_KEY = '@frases_notification_time';
@@ -26,6 +27,9 @@ Notifications.setNotificationHandler({
 });
 
 export default function NotificationSettingsScreen({ onClose }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const [enabled, setEnabled] = useState(false);
   const [time, setTime] = useState('09:00');
   const [hasPermission, setHasPermission] = useState(false);
@@ -119,7 +123,7 @@ export default function NotificationSettingsScreen({ onClose }) {
     <View style={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={onClose} style={styles.backBtn}>
-          <MaterialCommunityIcons name="arrow-left" size={24} color={BUNKER.colors.text} />
+          <MaterialCommunityIcons name="arrow-left" size={24} color={colors.text} />
         </TouchableOpacity>
         <Text style={styles.title}>Notificações</Text>
         <View style={styles.placeholder} />
@@ -137,8 +141,8 @@ export default function NotificationSettingsScreen({ onClose }) {
             <Switch
               value={enabled}
               onValueChange={toggleNotifications}
-              trackColor={{ false: BUNKER.colors.surface2, true: BUNKER.colors.accent }}
-              thumbColor={enabled ? BUNKER.colors.base : BUNKER.colors.muted}
+              trackColor={{ false: colors.surface2, true: colors.accent }}
+              thumbColor={enabled ? colors.base : colors.muted}
             />
           </View>
 
@@ -148,7 +152,7 @@ export default function NotificationSettingsScreen({ onClose }) {
                 <MaterialCommunityIcons
                   name="clock-outline"
                   size={24}
-                  color={BUNKER.colors.accent}
+                  color={colors.accent}
                 />
                 <Text style={styles.timeLabel}>Horário atual: {time}</Text>
               </View>
@@ -180,7 +184,7 @@ export default function NotificationSettingsScreen({ onClose }) {
 
         {!hasPermission && (
           <View style={styles.infoBox}>
-            <MaterialCommunityIcons name="alert-circle" size={20} color={BUNKER.colors.support} />
+            <MaterialCommunityIcons name="alert-circle" size={20} color={colors.support} />
             <Text style={styles.infoText}>
               Para ativar as notificações, você precisará permitir o acesso nas configurações do dispositivo.
             </Text>
@@ -188,7 +192,7 @@ export default function NotificationSettingsScreen({ onClose }) {
         )}
 
         <View style={styles.infoBox}>
-          <MaterialCommunityIcons name="information" size={20} color={BUNKER.colors.support} />
+          <MaterialCommunityIcons name="information" size={20} color={colors.support} />
           <Text style={styles.infoText}>
             As notificações são enviadas localmente pelo dispositivo. Não é necessária conexão com a internet.
           </Text>

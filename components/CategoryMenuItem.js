@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { useThemeContext } from "../context/ThemeContext";
 import {
   Animated,
   TouchableWithoutFeedback,
@@ -7,9 +8,12 @@ import {
   Easing,
 } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { BUNKER } from "../theme/bunker25logic";
+import { BUNKER, getColors } from "../theme/bunker25logic";
 
 export default function CategoryMenuItem({ category, onPress }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const scaleValue = useRef(new Animated.Value(1)).current;
   const glowValue = useRef(new Animated.Value(0)).current;
   const shakeValueX = useRef(new Animated.Value(0)).current;
@@ -117,11 +121,11 @@ export default function CategoryMenuItem({ category, onPress }) {
     borderColor: glowValue.interpolate({
       inputRange: [0, 1],
       outputRange: [
-        BUNKER.colors.border,
-        category.color || BUNKER.colors.accent,
+        colors.border,
+        category.color || colors.accent,
       ],
     }),
-    shadowColor: category.color || BUNKER.colors.accent,
+    shadowColor: category.color || colors.accent,
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: glowValue.interpolate({
       inputRange: [0, 1],
@@ -145,7 +149,7 @@ export default function CategoryMenuItem({ category, onPress }) {
           <Text
             style={[
               styles.name,
-              { color: category.color || BUNKER.colors.text },
+              { color: category.color || colors.text },
             ]}
           >
             {category.name}
@@ -153,7 +157,7 @@ export default function CategoryMenuItem({ category, onPress }) {
           <MaterialCommunityIcons
             name="chevron-right"
             size={22}
-            color={BUNKER.colors.muted}
+            color={colors.muted}
           />
         </Animated.View>
       </Animated.View>

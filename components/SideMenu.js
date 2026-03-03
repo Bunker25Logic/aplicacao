@@ -8,14 +8,22 @@ import {
   ScrollView,
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
+import { useThemeContext } from '../context/ThemeContext';
 
 export default function SideMenu({ visible, onClose, onSettingPress }) {
+  const { themeMode, toggleTheme } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const settings = [
-    { id: 'theme', label: 'Aparência', icon: 'palette-outline' },
+    {
+      id: 'theme',
+      label: themeMode === 'dark' ? 'Modo Claro' : 'Modo Escuro',
+      icon: themeMode === 'dark' ? 'weather-sunny' : 'weather-night'
+    },
     { id: 'notifications', label: 'Notificações', icon: 'bell-outline' },
     { id: 'about', label: 'Sobre', icon: 'information-outline' },
-    { id: 'version', label: 'Versão 1.0', icon: 'tag-outline' },
+    { id: 'version', label: 'Versão 1.0.3', icon: 'tag-outline' },
   ];
 
   return (
@@ -31,11 +39,11 @@ export default function SideMenu({ visible, onClose, onSettingPress }) {
           activeOpacity={1}
           onPress={onClose}
         />
-        <View style={styles.drawer}>
-          <View style={styles.header}>
-            <Text style={styles.headerTitle}>Menu</Text>
+        <View style={[styles.drawer, { backgroundColor: colors.surface, borderRightColor: colors.border }]}>
+          <View style={[styles.header, { borderBottomColor: colors.border }]}>
+            <Text style={[styles.headerTitle, { color: colors.text }]}>Menu</Text>
             <TouchableOpacity onPress={onClose} style={styles.closeBtn}>
-              <MaterialCommunityIcons name="close" size={24} color={BUNKER.colors.text} />
+              <MaterialCommunityIcons name="close" size={24} color={colors.text} />
             </TouchableOpacity>
           </View>
 
@@ -45,6 +53,10 @@ export default function SideMenu({ visible, onClose, onSettingPress }) {
                 key={item.id}
                 style={styles.item}
                 onPress={() => {
+                  if (item.id === 'theme') {
+                    toggleTheme();
+                    return;
+                  }
                   onSettingPress?.(item.id);
                   if (item.id !== 'version') onClose();
                 }}
@@ -54,15 +66,15 @@ export default function SideMenu({ visible, onClose, onSettingPress }) {
                 <MaterialCommunityIcons
                   name={item.icon}
                   size={22}
-                  color={BUNKER.colors.accent}
+                  color={colors.accent}
                   style={styles.itemIcon}
                 />
-                <Text style={styles.itemLabel}>{item.label}</Text>
-                {item.id !== 'version' && (
+                <Text style={[styles.itemLabel, { color: colors.text }]}>{item.label}</Text>
+                {item.id !== 'version' && item.id !== 'theme' && (
                   <MaterialCommunityIcons
                     name="chevron-right"
                     size={20}
-                    color={BUNKER.colors.muted}
+                    color={colors.muted}
                   />
                 )}
               </TouchableOpacity>
@@ -85,9 +97,7 @@ const styles = StyleSheet.create({
   },
   drawer: {
     width: 280,
-    backgroundColor: BUNKER.colors.surface,
     borderRightWidth: 1,
-    borderRightColor: BUNKER.colors.border,
   },
   header: {
     flexDirection: 'row',
@@ -96,12 +106,10 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 20,
     borderBottomWidth: 1,
-    borderBottomColor: BUNKER.colors.border,
   },
   headerTitle: {
     fontSize: 20,
     fontFamily: BUNKER.fonts.title,
-    color: BUNKER.colors.text,
   },
   closeBtn: {
     padding: 4,
@@ -126,6 +134,5 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     fontFamily: BUNKER.fonts.body,
-    color: BUNKER.colors.text,
   },
 });

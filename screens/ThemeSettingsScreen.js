@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import {
   View,
   Text,
@@ -9,11 +10,14 @@ import {
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 const THEME_KEY = '@frases_theme';
 
 export default function ThemeSettingsScreen({ onClose }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
@@ -38,7 +42,7 @@ export default function ThemeSettingsScreen({ onClose }) {
     <View style={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={onClose} style={styles.backBtn}>
-          <MaterialCommunityIcons name="arrow-left" size={24} color={BUNKER.colors.text} />
+          <MaterialCommunityIcons name="arrow-left" size={24} color={colors.text} />
         </TouchableOpacity>
         <Text style={styles.title}>Aparência</Text>
         <View style={styles.placeholder} />
@@ -59,7 +63,7 @@ export default function ThemeSettingsScreen({ onClose }) {
               <MaterialCommunityIcons
                 name="weather-night"
                 size={24}
-                color={theme === 'dark' ? BUNKER.colors.accent : BUNKER.colors.muted}
+                color={theme === 'dark' ? colors.accent : colors.muted}
               />
               <View style={styles.optionText}>
                 <Text style={[styles.optionLabel, theme === 'dark' && styles.optionLabelActive]}>
@@ -69,7 +73,7 @@ export default function ThemeSettingsScreen({ onClose }) {
               </View>
             </View>
             {theme === 'dark' && (
-              <MaterialCommunityIcons name="check" size={24} color={BUNKER.colors.accent} />
+              <MaterialCommunityIcons name="check" size={24} color={colors.accent} />
             )}
           </TouchableOpacity>
 
@@ -81,7 +85,7 @@ export default function ThemeSettingsScreen({ onClose }) {
               <MaterialCommunityIcons
                 name="weather-sunny"
                 size={24}
-                color={theme === 'light' ? BUNKER.colors.accent : BUNKER.colors.muted}
+                color={theme === 'light' ? colors.accent : colors.muted}
               />
               <View style={styles.optionText}>
                 <Text style={[styles.optionLabel, theme === 'light' && styles.optionLabelActive]}>
@@ -91,13 +95,13 @@ export default function ThemeSettingsScreen({ onClose }) {
               </View>
             </View>
             {theme === 'light' && (
-              <MaterialCommunityIcons name="check" size={24} color={BUNKER.colors.accent} />
+              <MaterialCommunityIcons name="check" size={24} color={colors.accent} />
             )}
           </TouchableOpacity>
         </View>
 
         <View style={styles.infoBox}>
-          <MaterialCommunityIcons name="information" size={20} color={BUNKER.colors.support} />
+          <MaterialCommunityIcons name="information" size={20} color={colors.support} />
           <Text style={styles.infoText}>
             O tema claro será implementado em uma atualização futura. Por enquanto, apenas o tema escuro está disponível.
           </Text>

@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { useThemeContext } from "../context/ThemeContext";
 import {
   View,
   StyleSheet,
@@ -11,7 +12,7 @@ import {
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import AppBar from "../components/AppBar";
 import { useFavorites } from "../context/FavoritesContext";
-import { BUNKER } from "../theme/bunker25logic";
+import { BUNKER, getColors } from "../theme/bunker25logic";
 
 function getAllPhrasesWithCategory(categories) {
   const result = [];
@@ -44,6 +45,9 @@ function getAllPhrasesWithCategory(categories) {
 }
 
 export default function FavoritesScreen({ categories, onMenuPress }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const { favoriteIds, toggleFavorite, isFavorite } = useFavorites();
   const [selectedPhrase, setSelectedPhrase] = React.useState(null);
 
@@ -98,7 +102,7 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
           <MaterialCommunityIcons
             name="heart-outline"
             size={64}
-            color={BUNKER.colors.muted}
+            color={colors.muted}
             style={styles.emptyIcon}
           />
           <Text style={styles.emptyTitle}>Nenhuma frase favoritada</Text>
@@ -129,7 +133,7 @@ export default function FavoritesScreen({ categories, onMenuPress }) {
           <View
             style={[
               styles.sectionHeader,
-              { borderLeftColor: section.color || BUNKER.colors.accent },
+              { borderLeftColor: section.color || colors.accent },
             ]}
           >
             <Text style={styles.sectionTitle}>{section.title}</Text>

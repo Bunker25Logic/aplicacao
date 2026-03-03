@@ -1,8 +1,12 @@
 import React from "react";
+import { useThemeContext } from "../context/ThemeContext";
 import { View, Text, StyleSheet, TouchableOpacity, Modal } from "react-native";
-import { BUNKER } from "../theme/bunker25logic";
+import { BUNKER, getColors } from "../theme/bunker25logic";
 
 export default function ExitModal({ visible, onCancel, onConfirm }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   return (
     <Modal
       visible={visible}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { useThemeContext } from "../context/ThemeContext";
 import {
   View,
   StyleSheet,
@@ -18,7 +19,7 @@ import SideMenu from "../components/SideMenu";
 import ThemeSettingsScreen from "./ThemeSettingsScreen";
 import NotificationSettingsScreen from "./NotificationSettingsScreen";
 import AboutScreen from "./AboutScreen";
-import { BUNKER } from "../theme/bunker25logic";
+import { BUNKER, getColors } from "../theme/bunker25logic";
 
 const FAVORITES_KEY = "@frases_favoritos";
 
@@ -53,6 +54,9 @@ function getAllPhrasesWithCategory(categories) {
 }
 
 export default function HomeScreen({ categories, onRequestExit }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const [screen, setScreen] = useState("home");
   const [selectedCategoryId, setSelectedCategoryId] = useState(null);
   const [selectedSubcategoryId, setSelectedSubcategoryId] = useState(null);
@@ -282,7 +286,7 @@ export default function HomeScreen({ categories, onRequestExit }) {
                 <MaterialCommunityIcons
                   name="share-variant"
                   size={24}
-                  color={BUNKER.colors.muted}
+                  color={colors.muted}
                 />
               </TouchableOpacity>
               <TouchableOpacity
@@ -301,7 +305,7 @@ export default function HomeScreen({ categories, onRequestExit }) {
                   color={
                     favoriteIds.includes(selectedPhrase?.id)
                       ? "#EC4899"
-                      : BUNKER.colors.muted
+                      : colors.muted
                   }
                 />
               </TouchableOpacity>

@@ -1,8 +1,9 @@
 import React from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 export default function AppBar({
   title,
@@ -12,6 +13,9 @@ export default function AppBar({
   showBack = false,
   favoritesCount = 0,
 }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   const content = (
     <View style={styles.row}>
       <TouchableOpacity
@@ -46,7 +50,7 @@ export default function AppBar({
 
   return (
     <LinearGradient
-      colors={[BUNKER.colors.base, BUNKER.colors.support]}
+      colors={[colors.base, colors.support]}
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 0 }}
       style={styles.container}

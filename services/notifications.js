@@ -47,14 +47,29 @@ export async function registerForPushNotificationsAsync() {
 function getRandomPhrase() {
   const allPhrases = [];
   CATEGORIES.forEach((category) => {
-    category.phrases.forEach((phrase) => {
-      allPhrases.push({
-        text: phrase.text,
-        author: phrase.author,
-        categoryName: category.name,
+    if (category.phrases) {
+      category.phrases.forEach((phrase) => {
+        allPhrases.push({
+          text: phrase.text,
+          author: phrase.author,
+          categoryName: category.name,
+        });
       });
-    });
+    }
+    if (category.subcategories) {
+      category.subcategories.forEach((sub) => {
+        sub.phrases.forEach((phrase) => {
+          allPhrases.push({
+            text: phrase.text,
+            author: phrase.author,
+            categoryName: `${category.name} - ${sub.name}`,
+          });
+        });
+      });
+    }
   });
+
+  if (allPhrases.length === 0) return { text: "Mantenha o foco!", author: "Bunker25", categoryName: "Geral" };
 
   const randomIndex = Math.floor(Math.random() * allPhrases.length);
   return allPhrases[randomIndex];

@@ -1,8 +1,12 @@
 import React from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import { View, Text, StyleSheet } from 'react-native';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 export default function Header({ title, subtitle }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>

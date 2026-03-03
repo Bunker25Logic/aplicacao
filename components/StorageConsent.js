@@ -1,4 +1,5 @@
 import React from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import {
   View,
   Text,
@@ -8,9 +9,12 @@ import {
   Image,
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 export default function StorageConsent({ visible, onAccept }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   return (
     <Modal
       visible={visible}
@@ -24,7 +28,7 @@ export default function StorageConsent({ visible, onAccept }) {
             <MaterialCommunityIcons
               name="cloud-download-outline"
               size={48}
-              color={BUNKER.colors.accent}
+              color={colors.accent}
             />
           </View>
           <Text style={styles.title}>Uso offline</Text>

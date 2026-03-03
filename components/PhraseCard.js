@@ -1,7 +1,8 @@
 import React from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 const MAX_LINES = 2;
 
@@ -12,6 +13,9 @@ export default function PhraseCard({
   onPress,
   onFavoritePress,
 }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   return (
     <TouchableOpacity
       style={[styles.card, color && { borderLeftColor: color }]}
@@ -32,7 +36,7 @@ export default function PhraseCard({
         <MaterialCommunityIcons
           name={isFavorite ? 'heart' : 'heart-outline'}
           size={22}
-          color={isFavorite ? '#EC4899' : BUNKER.colors.muted}
+          color={isFavorite ? '#EC4899' : colors.muted}
         />
       </TouchableOpacity>
     </TouchableOpacity>

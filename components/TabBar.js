@@ -1,9 +1,13 @@
 import React from 'react';
+import { useThemeContext } from "../context/ThemeContext";
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { BUNKER } from '../theme/bunker25logic';
+import { BUNKER, getColors } from '../theme/bunker25logic';
 
 export default function TabBar({ activeTab, onTabChange, favoritesCount }) {
+  const { themeMode } = useThemeContext();
+  const colors = getColors(themeMode);
+
   return (
     <View style={styles.container}>
       <TouchableOpacity
@@ -14,7 +18,7 @@ export default function TabBar({ activeTab, onTabChange, favoritesCount }) {
         <MaterialCommunityIcons
           name="home"
           size={24}
-          color={activeTab === 'home' ? BUNKER.colors.accent : BUNKER.colors.muted}
+          color={activeTab === 'home' ? colors.accent : colors.muted}
         />
         <Text
           style={[
@@ -35,7 +39,7 @@ export default function TabBar({ activeTab, onTabChange, favoritesCount }) {
           <MaterialCommunityIcons
             name={favoritesCount > 0 ? 'heart' : 'heart-outline'}
             size={24}
-            color={activeTab === 'favorites' ? BUNKER.colors.accent : BUNKER.colors.muted}
+            color={activeTab === 'favorites' ? colors.accent : colors.muted}
           />
           {favoritesCount > 0 && (
             <View style={styles.badge}>
